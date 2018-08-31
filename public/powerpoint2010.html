@@ -1,0 +1,540 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="misc/favicon.ico" type="image/x-icon" />
+
+    <title>Authoring Techniques for Accessible Office Documents: Microsoft PowerPoint 2010 | Accessible Digital Office Document (ADOD) Project</title>
+    <link type="text/css" rel="stylesheet" media="all" href="sites/adod.idrc.ocad.ca/files/css/css_f227edaa08468efc78f9ba2d884f9b5e.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/adod.idrc.ocad.ca/files/css/css_24d907fbbd309d49286f16c0b240a2d1.css" />
+        <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/themes/garland/fix-ie.css" />    <![endif]-->
+  </head>
+  <body>
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="index.html" title="Accessible Digital Office Document (ADOD) Project"><span>Accessible Digital Office Document (ADOD) Project</span></a></h1>        </div>
+
+                                                    
+      </div> <!-- /header -->
+
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="index.html">Home</a></div>                              <h2>Authoring Techniques for Accessible Office Documents: Microsoft PowerPoint 2010</h2>                                                  <div class="clear-block">
+            <div id="node-12" class="node">
+
+
+
+  
+  <div class="content clear-block">
+    <p>Date of Current Version: <strong>9 Apr 2013</strong><br />
+  Latest Version: <a href="http://inclusivedesign.ca/accessible-office-documents/powerpoint2010">http://inclusivedesign.ca/accessible-office-documents/powerpoint2010</a>
+  </p>
+<h2>Quick Reference</h2>
+<ul>
+<li><a href="powerpoint2010.html#_Toc284500787">Usage Notes</a> </li>
+<li><a href="powerpoint2010.html#_Toc284500788">Technique 1. Use Accessible Templates</a></li>
+<li><a href="powerpoint2010.html#_Toc284500789">Technique 2. Set Document Language</a></li>
+<li><a href="powerpoint2010.html#_Toc284500790">Technique 3. Use Built-In  Layout and Styling Features</a></li>
+<li><a href="powerpoint2010.html#_Toc284500791">Technique 4. Set a Logical  Tab Order</a></li>
+<li><a href="powerpoint2010.html#_Toc284500792">Technique 5. Use Slide Notes</a></li>
+<li><a href="powerpoint2010.html#_Toc284500793">Technique 6. Provide Text Alternatives for Images and Graphical Objects</a></li>
+<li><a href="powerpoint2010.html#_Toc284500794">Technique 7. Use Built-In  Structuring Features</a></li>
+<li><a href="powerpoint2010.html#_Toc284500795">Technique 8. Create Accessible Charts</a></li>
+<li><a href="powerpoint2010.html#_Toc284500796">Technique 9. Make Content Easier to See</a></li>
+<li><a href="powerpoint2010.html#_Toc284500797">Technique 10. Make Content  Easier to Understand</a></li>
+<li><a href="powerpoint2010.html#_Toc284500798">Technique 11. Check Accessibility</a></li>
+<li><a href="powerpoint2010.html#_Toc284500799">Technique 12. Use Accessibility Features when Saving/Exporting to Other Formats</a></li>
+<li><a href="powerpoint2010.html#_Toc284500800">Technique 13. Consider Using Accessibility Support Applications/Plugins</a></li>
+<li><a href="powerpoint2010.html#_Toc284500801">Accessibility Help</a></li>
+<li><a href="powerpoint2010.html#_Toc284500802">References and Resources</a></li>
+<li><a href="powerpoint2010.html#_Toc284500803">Acknowledgments</a></li>
+</ul>
+<h2><a name="_Toc284500787" id="_Toc284500787">Usage Notes</a></h2>
+<p>At the time of testing (September 30, 2010), PowerPoint  2010 provides a set of accessibility features that is sufficient to enable the  production of accessible digital office documents. In addition, PowerPoint 2010  includes an accessibility checking feature.</p>
+<h3>What&rsquo;s an &ldquo;Office Document&rdquo;?</h3>
+<p>You  should use these techniques when you are using PowerPoint 2010 to create documents  that are: </p>
+<ul>
+<li><strong>Intended  to be used by people</strong>(i.e., not computer code),</li>
+<li><strong>Text-based</strong> (i.e., not simply images,  although they may contain images),</li>
+<li><strong>Fully  printable</strong>(i.e.,  where dynamic features are limited to automatic page numbering, table of  contents, etc. and do not include audio, video, or embedded interactivity)<strong>,</strong></li>
+<li><strong>Self-contained</strong> (i.e., without hyperlinks to  other documents, unlike web content), and </li>
+<li><strong>Typical  of office-style workflows</strong>(Reports, letters, memos, budgets, presentations, etc.).</li>
+</ul>
+<p><strong>If you are creating  forms, web pages, applications, or other dynamic and/or interactive content,  these techniques will still be useful to you, but you should also consult the </strong><a href="http://www.w3.org/WAI/intro/wcag.php"><strong>W3C-WAI Web Content  Accessibility Guidelines (WCAG 2.0)</strong></a><strong> because these are specifically designed to provide guidance  for highly dynamic and/or interactive content.</strong></p>
+<h3><a name="_Toc275959752" id="_Toc275959752">File Formats</a> </h3>
+<p>The  default file format for PowerPoint 2010 is <strong>Office Open XML (PPTX)</strong>.<br />
+  In  addition, PowerPoint 2010 offers many other presentation processor and web  format saving options. Most of these have not been checked for accessibility,  but some information and/or instructions are available for the following  formats in Technique 12 (below): </p>
+<ul>
+<li>MS PowerPoint (PPT)</li>
+<li>PDF </li>
+<li>HTML</li>
+</ul>
+<h3>Document Conventions</h3>
+<p>We have tried to formulate  these techniques so that they are useful to all authors, regardless of whether  they use a mouse. However, for clarity there are several instances where  mouse-only language is used. Below are the mouse-only terms and their keyboard  alternatives:</p>
+<ul>
+<li><strong>*Right-click:</strong> To right-click with the keyboard, select the object using the  Shift+Arrow keys and then press either (1) the &ldquo;Right-Click&rdquo; key (some keyboard  have this to the right of the spacebar) or Shift+F10.</li>
+</ul>
+<h3>Disclaimer and Testing Details:</h3>
+<p><strong>Following these  techniques will increase the accessibility of your documents, but it does not  guarantee accessibility to any specific disability groups</strong>.&nbsp; In cases where more  certainty is required, it is recommended that you test the office documents  with end users with disabilities, including screen reader users. The  application-specific steps and screenshots in this document were created using Microsoft  PowerPoint 2010 (ver. 14.0.4760.1000, Windows XP, Sept. 2010) while creating a  PPTX document.&nbsp; Files are also easily  saved as other file formats (see Technique 12, below).</p>
+<h2><a name="_Toc284500788" id="_Toc284500788">Technique 1. Use  Accessible Templates</a> </h2>
+<p>All office documents start with a template,  which can be as simple as a blank standard-sized page or as complex as a nearly  complete document with text, graphics and other content. For example, a  &ldquo;Meeting Minutes&rdquo; template might include headings for information relevant to a  business meeting, such as &ldquo;Actions&rdquo; above a table with rows to denote time and  columns for actions of the meeting. Because templates provide the starting-point  for so many documents, accessibility is critical. If you are unsure whether a  template is accessible, you should check a sample document produced when the template  is used (see Technique 11, below). </p>
+<p>PowerPoint 2010&rsquo;s default template for new documents  is a blank presentation.&nbsp; If you are  connected to the internet, you can access a variety of blank business  presentation templates through Office.com.&nbsp;  These are all accessible by virtue of being blank. </p>
+<p>It is possible to create your own accessible  templates from scratch in PowerPoint 2010.&nbsp;  As well, you can edit and modify the existing prepackaged templates,  ensuring their accessibility as you do so and saving them as a new template.</p>
+<h4><a name="_Toc278368443" id="_Toc278368443">To create an  accessible template</a> </h4>
+<ol>
+<li>Create a new document</li>
+<li>Ensure that you follow  the techniques in this document</li>
+<li>When you are finished  you should also check the accessibility of the document (see Technique 11,  below)</li>
+<li>Go to menu item: <strong>File &gt; Save As</strong> </li>
+<li>In the <strong>Save as type</strong> list, select <strong>PowerPoint  Template</strong> </li>
+<li>In the <strong>File name</strong> box, type a name for the template.&nbsp; Using  a descriptive <strong>File  name</strong> (e.g., &ldquo;Accessible Sales  Template&rdquo;) will increase the prominence of the accessibility status.&nbsp; As well, filling in the text box labeled Tags with the term &ldquo;accessibility&rdquo; will  improve its searchability as an accessible file. </li>
+<li>Select <strong>Save<br />
+      <img src="sites/adod.idrc.ocad.ca/files/MSPowerPoint2010_1_0.png" alt="Image demonstrates location of File name, Save as type, and Tags options in Save As dialog." width="515" height="405" /><br />
+  </strong> </li>
+</ol>
+<h4><a name="_Toc278368444" id="_Toc278368444">To select an  accessible template</a> </h4>
+<p>Only use these steps if you have an accessible template available (e.g.  that you previously saved). Otherwise, simply open a new (blank) document.</p>
+<ol>
+<li>Go to menu item: <strong>File &gt; New</strong> </li>
+<li>Under <strong>Available Templates</strong>,  select <strong>My  Templates</strong><br />
+    <img src="sites/adod.idrc.ocad.ca/files/MSPowerPoint2010_2.png" alt="Image demonstrates location of New option and My templates icon in File menu." width="532" height="213" /></li>
+<li>In the <strong>New</strong> document dialog, select your accessible template from the list</li>
+<li>Select <strong>OK<br />
+      <img src="sites/adod.idrc.ocad.ca/files/MSPowerPoint2010_3_0.png" alt="Image demonstrates location of template icons in Personal Templates section of New Presentation dialog." width="433" height="252" /><br />
+  </strong> </li>
+<li>A new document based on the template will be displayed. If you have chosen  an accessible template, the document will be accessible at this point. <strong>As you add your content (e.g., text,  images, etc.), ensure that you consult the sections that follow to preserve  accessibility.</strong> </li>
+</ol>
+<h2><a name="_Toc284500789" id="_Toc284500789">Technique 2. Set  Document Language</a> </h2>
+<p>In order for assistive technologies (e.g., screen readers) to be able  to present your document accurately, it is important to indicate the natural  language of the document.&nbsp; If a different  natural language is used for a paragraph or selected text, this also needs to  be clearly indicated.</p>
+<h4><a name="_Toc278368446" id="_Toc278368446">To change the  default language</a> </h4>
+<ol>
+<li>Go to menu item: <strong>File</strong> </li>
+<li>Select <strong>Options</strong> from the list in the left window pane</li>
+<li>Select <strong>Language</strong> from the list in the left of the <strong>Options</strong> dialog</li>
+<li>Under <strong>Chose  Editing Languages</strong>, select the editing language  you want to use<br />
+  <em>Note:</em> to add an editing language, select the language from the drop down list  labeled <strong>[Add additional  editing languages]</strong> </li>
+<li>Select <strong>Set  as Default</strong> </li>
+<li>Close all Office 2010 programs and open them again for the changes to  take effect<br />
+      <img src="sites/adod.idrc.ocad.ca/files/MSPowerPoint2010_4_0.png" alt="Image demonstrates location of Language option, Editing Languages list, Set as default button, and Add additional editing languages option in Options dialog." width="694" height="525" />
+  </li>
+</ol>
+<h4><a name="_Toc278368447" id="_Toc278368447">To apply a  language directly to selected text</a> </h4>
+<ol>
+<li>Select  the text</li>
+<li>Go to menu item: <strong>Review</strong> </li>
+<li>In the <strong>Language</strong> section, select the <strong>Language</strong> button </li>
+<li>Select <strong>Set Proofing Language</strong> </li>
+<li>In the <strong>Mark selected text as </strong>box, select  the language from the list</li>
+<li>Select <strong>OK<br />
+      <img src="sites/adod.idrc.ocad.ca/files/MSPowerPoint2010_5_0.png" alt="Image demonstrates location of language list in Language dialog." width="374" height="226" /><br />
+  </strong> </li>
+</ol>
+<h2><a name="_Toc278368448" id="_Toc278368448"></a><a name="_Toc284500790" id="_Toc284500790">Technique 3. Use Built-In Layout and Styling Features</a> </h2>
+<p>PowerPoint 2010 does not provide "True Headings" or "Named Styles" as does Word 2010.</p>
+<h3>3.1 Use Built-In Slide Layouts</h3>
+<p>Instead of creating each slide in your  presentation by starting from a blank slide, check whether there is a suitable  built-in layout.</p>
+<p> <em>Note:</em> The built-in layouts can be  more accessible to users of assistive technologies because these technologies  sometimes read the floating items on the slide in the order that they were  placed on the slide. The built-in layouts have usually taken this into account  (e.g., &ldquo;Title&rdquo; first followed by other items, left to right and from top to  bottom). If you create slide layouts from scratch, it is sometimes difficult to  keep track of the order in which elements were placed. </p>
+<h4><a name="_Toc278368459" id="_Toc278368459">To apply  &ldquo;true layout&rdquo; to a slide</a><a name="_GoBack" id="_GoBack"></a> </h4>
+<ol>
+<li>Go  to menu item: <strong>Home</strong> </li>
+<li>In  the <strong>Slides</strong> section, select the <strong>Layout</strong> button</li>
+<li>Select  the layout you would like to use from the drop down menu<br />
+      <img src="sites/adod.idrc.ocad.ca/files/MSPowerPoint2010_6.png" alt="Image demonstrates location of Home menu, Layout button, and Layout drop-down menu." width="683" height="520" />
+  </li>
+</ol>
+<h3>3.2 Customize Using  Master Slides</h3>
+<p>If a layout must be customized, it is recommended that Master Slides be  used.</p>
+<p>Every slide layout in a presentation is defined by its master  slide.&nbsp; A master slide determines the  formatting style for various elements of the slide layout.&nbsp; This includes font styles, character  formatting, and the positioning of elements.&nbsp;  Essentially, each master slide acts as a design template for the slide  layout.&nbsp; </p>
+<p>If you edit any aspect of the slide layout in the master slide, the  change will affect all slides that were created based on it.&nbsp; For this reason, it is good practice to edit  the master slide and use the slide layouts before building individual  slides.&nbsp; It is essential that you create  and use master slides that meet the accessibility requirements outlined in this  document.</p>
+<h4><a name="_Toc278368456" id="_Toc278368456">To create or customize a master slide</a></h4>
+<ol>
+<li>Go to menu item: <strong>View</strong></li>
+<li>In the <strong>Master Views</strong> section, select the <strong>Slide Master</strong> icon</li>
+<li>The current slide  master with its associate layouts appears<br />
+  <em>Note:</em> If you have the <strong>Normal</strong> view open, the slide master is the larger slide image in the slide thumbnail  pane.&nbsp; The associated layouts are  positioned beneath the slide master.</li>
+<li>Customize the  existing master slide and its associated layouts to suit your needs (e.g.,  apply a design, theme-based colours, fonts, effects, backgrounds) ensuring that  your changes meet accessibility requirements</li>
+<li>Go to menu item: <strong>File &gt; Save As</strong></li>
+<li>In the <strong>File</strong> name box, type a file name</li>
+<li>In the <strong>Save as type</strong> list, select <strong>PowerPoint template</strong></li>
+<li>Select <strong>Save</strong></li>
+<li>On the <strong>Slide Master</strong> tab, in the <strong>Close</strong> section, select <strong>Close Master View<br />
+      <img src="sites/adod.idrc.ocad.ca/files/MSPowerPoint2010_7.png" alt="Image demonstrates Slide Master view." width="623" height="364" /><br />
+    </strong> </li>
+</ol>
+<h2><a name="_Toc284500791" id="_Toc284500791"></a><a name="_Toc284333453" id="_Toc284333453">Technique  4. Set a Logical Tab Order</a></h2>
+<p>Many presentation applications create content composed almost  exclusively of &quot;floating&quot; objects. This means that they avoid the  transitions between in-line content and secondary &quot;floating&quot; objects  (text boxes, images, etc.) that can cause accessibility issues in word  processors. </p>
+<p>  However, when you are working with &quot;floating&quot; objects, it is  important to remember that the way objects are positioned in two dimensions on  the screen may be completely different from how the objects will be read by a  screen reader or navigated using a keyboard. The order that content is  navigated sequentially is called the &quot;Tab Order&quot; because often the  &quot;Tab&quot; key is used to navigate from one &quot;floating&quot; object to  the next.</p>
+<div style="background-color:#FFC; border:gray solid 1px; padding: 0em 0.5em 0em 0.5em;">
+<h3>Tips  for setting a logical &ldquo;tab order&rdquo; for &quot;floating&quot; objects</h3>
+<ul>
+<li>The tab order of floating objects is usually from the &ldquo;lowest&rdquo; object on  the slide to the &ldquo;highest&rdquo;. </li>
+<li>Because objects automatically appear &ldquo;on top&rdquo; when they are inserted,  the default tab order is from the first object inserted to the last. However,  this will change if you use features such as &ldquo;bring to front&rdquo; and &ldquo;send to  back&rdquo;. </li>
+<li>The slide&rsquo;s main heading should be first in the tab order.</li>
+<li>Headings should be placed in the tab order immediately before the items  (text, diagrams, etc.) for which they are acting as a heading.</li>
+<li>Labels should be in the reading order placed immediately before the  objects that they label.</li>
+<li>For simple slide layouts, it may be possible to simply insert objects in  a logical tab order.</li>
+<li>For more complex layouts, it may be easier to simply create the slide  as usual and then set the tab order (see below).</li>
+</ul>
+<h3>To set the tab order using the &lsquo;Selection Pane&rsquo;</h3>
+<ol>
+<li>Go to menu item: <strong>Home</strong> </li>
+<li>In the <strong>Drawing</strong> section, select <strong>Arrange  &gt; Selection Pane&hellip;</strong> </li>
+<li>In the <strong>Selection and Visibility</strong> pane, all the elements on the slide are listed in reverse chronological  order under <strong>Shapes  on this Slide</strong> </li>
+<li>Elements can be re-ordered using  the Re-order buttons located at the bottom of the Selection and Visibility pane<br />
+    <em>Note:&nbsp;</em> The tab order of elements begins at the  bottom of the list and tabs upwards.</li>
+</ol>
+</div>
+<h2><a name="_Toc284500792" id="_Toc284500792">Technique 5. Use Slide Notes</a></h2>
+<p>A useful aspect of presentation  applications is the facility to add notes to slides, which can then be read by  assistive technologies.&nbsp; You can use  these slide notes to explain and expand on the contents of your slides in text  format.&nbsp; Slide notes can be created as  you build your presentation.</p>
+<h4><a name="_Toc278368449" id="_Toc278368449">To add notes to your slides</a></h4>
+<ol>
+<li>Go  to menu item: <strong>View</strong></li>
+<li>In the <strong>Presentation Views</strong> section,  select <strong>Normal</strong> to  ensure that the notes panel is in view<br />
+  <em>Note:</em> You can then select menu item <strong>Home</strong>,  to access text formatting options</li>
+<li>The <strong>Notes Pane</strong> can be found at the  bottom of the window, below the slide</li>
+<li>Type and format  your notes within the <strong>Notes Pane</strong> below each slide<br />
+      <img src="sites/adod.idrc.ocad.ca/files/MSPowerPoint2010_8.png" alt="Image demonstrates location of View menu, Normal button, and notes section." width="439" height="290" />
+  </li>
+</ol>
+<h2><a name="_Toc284500793" id="_Toc284500793">Technique 6. Provide  Text Alternatives for Images and Graphical Objects</a> </h2>
+<p>When  using images or other graphical objects, such as charts and graphs, it is  important to ensure that the information you intend to convey by the image is  also conveyed to people who cannot see the image.&nbsp; This can be accomplished by adding concise  alternative text to of each image. If an image is too complicated to concisely  describe in the alternative text alone (artwork, flowcharts, etc.), provide a  short text alternative and a longer description as well. </p>
+<div style="background-color:#FFC; border:gray solid 1px; padding: 0em 0.5em 0em 0.5em;">
+<h3>Tips for writing alternative  text (&ldquo;Title&rdquo; in PowerPoint 2010)</h3>
+<ul type="disc">
+<li>Try to answer the question &quot;what information is the image conveying?&quot; </li>
+<li>If the image does not convey any useful information, leave the alternative text blank </li>
+<li>If the image contains meaningful text, ensure all of the text is replicated </li>
+<li>Alternative text should be fairly short, usually a sentence or less and rarely more than two sentences </li>
+<li>If more description is required (e.g., for a chart or graph), provide a short description in the title text (e.g., a summary of the trend) and more detail in the long description, see below </li>
+<li>Test by having others review the document with the images replaced by the alternative text </li>
+</ul>
+<h3>Tips for writing longer descriptions (&ldquo;Description&rdquo; in PowerPoint 2010)</h3>
+<ul type="disc">
+<li>Long descriptions should be used when text alternatives (see above) are insufficient to answer the question &quot;what information is the image conveying?&quot; </li>
+<li>In some situations, the information being conveyed will be how an image looks (e.g., an artwork, architectural detail, etc.). In these cases, try to describe the image without making too many of your own assumptions. </li>
+<li>One approach is to imagine you are describing the image to a person over the phone </li>
+<li>Ensure that you still provide concise alternative text to help readers decide if they are interested in the longer description </li>
+</ul>
+</div>
+<p>Alternatively,  you can include the same information conveyed by the image within the body of  the document, providing the images as an alternate to the text. In that case,  you do not have to provide alternate text within the image.</p>
+<h4><a name="_Toc278368453" id="_Toc278368453">To add  alternative text to images and graphical objects</a> </h4>
+<ol>
+<li>Right-click*  the object </li>
+<li>Select <strong>Format Picture&hellip;</strong> </li>
+<li>Select  the <strong>Alt  Text</strong> option from the list </li>
+<li>Fill in the <strong>Title</strong>.&nbsp; If more description is required (e.g., for a  chart or graph), provide a short description in the <strong>Title</strong> (e.g., a summary of the trend) and more detail in the <strong>Description</strong>.<br />
+    <em>Note:</em> If  the document is ever saved to HTML, the <strong>Title</strong> and <strong>Description</strong> fields are combined into a single HTML &lt;alt&gt; tag. <br />
+      <img src="sites/adod.idrc.ocad.ca/files/MSPowerPoint2010_9_0.png" alt="Image demonstrates location of Title box and Description box in Format Picture dialog." width="488" height="461" />
+  </li>
+</ol>
+<h2><a name="_Toc284500794" id="_Toc284500794">Technique 7. Use Built-In Structuring Features</a></h2>
+<h3>7.1 Tables</h3>
+<p>When using tables, it is  important to ensure that they are clear and appropriately structured. This  helps all users to better understand the information in the table and allows  assistive technologies (e.g., screen readers) to provide context so that the information  within the table can be conveyed in a meaningful way. </p>
+<div style="background-color:#FFC; border:gray solid 1px; padding: 0em 0.5em 0em 0.5em;">
+<h3>Tips for tables</h3>
+<ul>
+<li>Only use tables for tabular information,       not for formatting.</li>
+<li>Use &ldquo;real tables&rdquo; rather than text       formatted to look like tables using the TAB key or space bar. These will       not be recognized by assistive technology.</li>
+<li>Keep tables simple by avoiding merged       cells and dividing complex data sets into separate smaller tables, where       possible.</li>
+<li>If tables are split across pages, set the       header to show at the top of each page. Also, set the table to break       between rows instead of in the middle of rows.</li>
+<li>Create a text  summary of the essential table contents. Any abbreviations used should be  explained in the summary. </li>
+<li>Table       captions or descriptions should answer the question &quot;what is the       table's purpose and how is it organized?&quot; (e.g., &quot;A sample order       form with separate columns for the item name, price and quantity&quot;).&nbsp; </li>
+<li>Table       cells should be marked as table headers when they serve as labels to help       interpret the other cells in the table. </li>
+<li>Table       header cells labels should be concise and clear. </li>
+<li>Ensure       the table is not &ldquo;floating&rdquo; on the page (see Technique 4). </li>
+</ul>
+</div>
+<h4><a name="_Toc278368464" id="_Toc278368464">To add a table with headings</a> </h4>
+<ol>
+<li>Go to menu item: <strong>Insert</strong> </li>
+<li>In the <strong>Tables</strong> section, select the <strong>Tables</strong> icon</li>
+<li>Select the number of rows and  columns you would like your table to have</li>
+<li>Select the table and a <strong>Table Tools</strong> menu item should appear</li>
+<li>Go to menu item: <strong>Table Tools &gt; Design</strong> </li>
+<li>In the <strong>Table Style Options</strong> section, select the <strong>Header Row</strong> check box<br />
+    <em>Note:</em> Whenever possible, keep tables  simple with just 1 row of headings.</li>
+</ol>
+<h3>7.2 Lists</h3>
+<p>When  you create lists, it is important to format them as &ldquo;real lists&rdquo;. Otherwise,  assistive technologies will interpret your list as a series of short separate  paragraphs instead of a coherent list of related items.</p>
+<h4><a name="_Toc278368466" id="_Toc278368466">To create an ordered or unordered list</a> </h4>
+<ol>
+<li><a name="_Toc278358150" id="_Toc278358150">Go  to menu item: <strong>Home</strong></a> </li>
+<li>In  the <strong>Paragraph</strong> section, select the <strong>Bullets</strong> icon for unordered lists or  select the <strong>Numbering</strong> icon for ordered lists</li>
+<li>To  select a different list format, select the arrow beside the icon</li>
+<li>Select  a format from the format <strong>Library</strong> that appears in the drop-down  menu</li>
+</ol>
+<h4><a name="_Toc278368467" id="_Toc278368467">To modify  list styles</a> </h4>
+<ol>
+<li>Go to menu item: <strong>Home</strong> </li>
+<li>In the <strong>Paragraph</strong> section, select the arrow beside  the <strong>Bullets</strong> icon for unordered lists or  select the arrow beside the <strong>Numbering</strong> icon for ordered lists</li>
+<li>Select <strong>Define New Bullet&hellip;</strong> to create a new unordered list  format</li>
+<li>Select <strong>Define New Number Format&hellip;</strong> to create a new ordered list  format</li>
+<li>In the <strong>New Bullet</strong> dialog or the <strong>New Number Format</strong> dialog, select the list  characteristics</li>
+<li>Select <strong>OK</strong> </li>
+</ol>
+<h3>7.3 Columns</h3>
+<p>Use Columns feature for placing  text in columns. <br />
+    <em>Note:</em> Because  columns can be a challenge for users of some assistive technologies, consider  whether a column layout is really necessary.</p>
+<h3>7.4 Document Title</h3>
+<p>In  case the document is ever converted into HTML, it should be given a descriptive  and meaningful title. </p>
+<h4><a name="_Toc278368479" id="_Toc278368479">To change the title of the current document</a> </h4>
+<ol>
+<li>Go to menu item: <strong>File</strong> </li>
+<li>Select <strong>Info</strong> from the list in the left window pane </li>
+<li>In  the right window pane, select the <strong>Title</strong> text box </li>
+<li>Enter  the <strong>Title</strong><strong><br />
+  </strong><em>Note:</em> The <strong>Title</strong> defined in the properties is different than the file name. It is also unrelated  to the template name, discussed above. </li>
+</ol>
+<h3>7.5 Slide Titles</h3>
+<p>Unique slide titles aid navigation for non-visual users.</p>
+<h4>To add a visible title to a slide</h4>
+<ol>
+<li>Go to menu item: <strong>Home.</strong></li>
+<li>Select <strong>Reset</strong> in the <strong>Slides</strong> section.</li>
+<li>Enter a title at the top of the slide.<br /><em>Note:</em>Slide titles should be unique for clarity and ease of navigation. </li>
+</ol>
+<h4>To add an invisible title to a slide</h4>
+<ol>
+<li>Enter your title at the top of the slide.</li>
+<li>Go to menu item: <strong>Home.</strong></li>
+<li>From the Drawing menu, select <strong>Arrange > Selection Pane</strong>. This will open the <strong>Selection and Visibility</strong> pane. </li>
+<li>In the <strong>Selection and Visibility</strong> pane, click on the eyeball icon next to the slide title to change visibility settings.</li>
+</ol>
+<h2><a name="_Toc284500795" id="_Toc284500795"></a><a name="_Toc284333457" id="_Toc284333457"></a><a name="_Toc284328028" id="_Toc284328028"></a><a name="_Toc282436947" id="_Toc282436947"></a><a name="_Toc278376940" id="_Toc278376940">Technique 8. Create Accessible Charts</a> </h2>
+<p>Charts can be used to make data  more understandable for some audiences.&nbsp; However, it is important to  ensure that your chart is as accessible as possible to all members of your  audience.&nbsp; All basic accessibility considerations that are applied to the  rest of your document must also be applied to your charts and the elements  within your charts.&nbsp; For example, use shape and colour, rather than colour alone, to convey information.&nbsp; As well, some further steps should be taken  to ensure that the contents are your chart are appropriately labeled to give  users reference points that will help them to correctly interpret the  information. </p>
+<h4>To create a chart</h4>
+<ol>
+<li>Select a <strong>Slide Layout</strong> that contains a placeholder for a chart (see Technique 3.1, above)</li>
+<li>Select the <strong>Insert Chart</strong> icon from the center of the placeholder</li>
+<li>Select a <strong>Chart  Type</strong> from the <strong>Insert  Chart </strong>dialog </li>
+<li>Select <strong>OK</strong><br />
+  <em>Note:</em> This will open the Excel document  titled &ldquo;Chart in Microsoft Office PowerPoint&rdquo;, where you can input the data you  would like to include in the chart.&nbsp;&nbsp; When you have done this, simply close the Excel window and the data will  appear on the chart in the PowerPoint presentation. </li>
+</ol>
+<h4>To add titles and labels</h4>
+<ol>
+<li>In the <strong>Chart  Tools</strong> menu section, go to menu  item: <strong>Layout</strong> </li>
+<li>In the <strong>Labels </strong>section, select the type of title  or label you would like to define (e.g., <strong>Chart Title, Axis Titles, Data Labels</strong>)</li>
+</ol>
+<h4>To apply a predefined Chart  Layout</h4>
+<ol>
+<li>In the <strong>Chart  Tools</strong> menu section, go to menu  item: <strong>Design</strong> </li>
+<li>In the <strong>Chart  Layouts</strong> section, select a <strong>Quick  Layout</strong> from the scrolling <strong>Chart  Layouts</strong> gallery</li>
+</ol>
+<h4>To change to a different  predefined Chart Type</h4>
+<ol>
+<li>In the <strong>Chart  Tools</strong> menu section, go to menu  item: <strong>Design</strong> </li>
+<li>In the <strong>Type</strong> section, select the <strong>Change Chart Type</strong> icon</li>
+<li>In the <strong>Change  Chart Type</strong> dialog, select a chart  type from the left pane</li>
+<li>Select a <strong>Chart  Design</strong> from the right pane</li>
+<li>Select <strong>OK</strong> </li>
+</ol>
+<h3>Other Chart Considerations</h3>
+<ul>
+<li>When creating line charts, use  the formatting options to create different types of dotted lines to facilitate  legibility for users who are colour blind</li>
+<li>When creating bar charts,  go to menu item: <strong>Chart  Tools &gt; Format</strong> and in the <strong>Shape Styles </strong>section select <strong>Shape  Fill</strong> to apply a texture to help  distinguish the bars</li>
+<li>Change the default colours  to a colour safe or gray-scale palette</li>
+<li>Use the formatting options  to change predefined colours, ensuring that they align with sufficient contrast  requirements (see Technique 9.2, below) </li>
+</ul>
+<h2><a name="_Toc284500796" id="_Toc284500796">Technique 9. Make  Content Easier to See</a> </h2>
+<h3>9.1 Format of Text</h3>
+<p>When  formatting text, especially when the text is likely to be printed, try to:</p>
+<ul type="disc">
+<li>Use font sizes between 12 and 18 points for       body text.</li>
+<li>Use fonts of normal weight, rather than       bold or light weight fonts.&nbsp; If you       do choose to use bold fonts for emphasis, use them sparingly. </li>
+<li>Use standard fonts with clear spacing       and easily recognized upper and lower case characters. Sans serif fonts (e.g.,       Arial, Verdana) may sometimes be easier to read than serif fonts (e.g.,       Times New Roman, Garamond).</li>
+<li>Avoid large amounts of text set all in       caps, italic or underlined.</li>
+<li>Use normal or expanded character       spacing, rather than condensed spacing.</li>
+<li>Avoid animated or scrolling text.</li>
+</ul>
+<p><strong>But can&rsquo;t users just  zoom in?</strong> Office applications do typically include  accessibility features such as the ability to magnify documents and support for  high contrast modes. However, because printing is an important aspect of many  workflows and changing font sizes directly will change document details such  the pagination, the layout of tables, etc., it is best practice to always  format text for a reasonable degree of accessibility.</p>
+<h3>9.2 Use Sufficient Contrast</h3>
+<p>The  visual presentation of text and images of text should have a contrast ratio of  at least 4.5:1. To help you determine the contrast, here are some examples on a  white background:</p>
+<ul type="disc">
+<li>Very good contrast (Foreground=black,       Background=white, Ratio=21:1)</li>
+<li>Acceptable contrast       (Foreground=#767676, Background=white, Ratio=4.54:1) </li>
+<li>Unacceptable contrast (Foreground=#AAAAAA,       Background=white, Ratio=2.32:1) </li>
+</ul>
+<p>Also,  always use a single solid colour for a text background rather than a pattern.<br />
+  In  order to determine whether the colours in your document have sufficient  contrast, you can consult an online contrast checker, such as: </p>
+<ul>
+<li><a href="http://juicystudio.com/services/luminositycontrastratio.php">Juicy Studio: Luminosity Color Contrast  Ratio Analyzer</a> </li>
+<li><a href="http://www.joedolson.com/color-contrast-tester.php">Joe Dolson Color Contrast Spectrum Tester</a> </li>
+<li><a href="http://www.joedolson.com/color-contrast-compare.php">Joe Dolson Color Contrast Comparison</a> </li>
+</ul>
+<h3><a name="_Toc273692193" id="_Toc273692193">9.3 Avoid Using  Colour Alone</a> </h3>
+<p>Colour  should not be used as the only visual means of conveying information,  indicating an action, prompting a response, or distinguishing a visual  element.&nbsp; In order to spot where colour might be the only visual means of conveying information, you can create a  screenshot of the document and then view it with online gray-scale converting  tools, such as:</p>
+<ul>
+<li><a href="http://graybit.com/main.php">GrayBit  v2.0: Grayscale Conversion Contrast Accessibility Tool</a> </li>
+</ul>
+<h3>9.4 Avoid Relying on  Sensory Characteristics</h3>
+<p>The  instructions provided for understanding and operating content should not rely  solely on sensory characteristics such as the colour or shape of content  elements. Here are two examples:</p>
+<ul type="disc">
+<li>Do not track changes by simply changing       the colour of text you have edited and noting the colour. Instead use PowerPoint       2010&rsquo;s &ldquo;Track Changes&rdquo; feature to track changes.</li>
+<li>Do not distinguish between images by referring       to their appearance (e.g. &ldquo;the bigger one&rdquo;). Instead, label each image       with a figure number and use that for references.</li>
+</ul>
+<h3>9.5 Avoid Using Images of  Text</h3>
+<p>Before  you use an image to control the presentation of text (e.g., to ensure a certain  font or colour combination), consider whether you can achieve the same result by  styling &ldquo;real text&rdquo;. If this is not possible, as with logos containing stylized  text, make sure to provide alternative text for the image following the  techniques noted above.</p>
+<h3><a name="_Toc278368480" id="_Toc278368480">9.6 Avoid  Transitions</a> </h3>
+<p>Transitions  between slides and elements in each slide (e.g., bullets in a list flying onto  the screen) can be distracting to users with disabilities.&nbsp; It can also cause assistive technologies to  read the slide incorrectly.&nbsp; For these  reasons, it is best to avoid transitions altogether.</p>
+<h2><a name="_Toc284500797" id="_Toc284500797">Technique 10. Make Content Easier to  Understand</a></h2>
+<h3>10.1 Write Clearly</h3>
+<p>By taking the time to design your content in  a consistent way, it will be easier to access, navigate and interpret for all  users:</p>
+<ul type="disc">
+<li>Whenever possible, write       clearly with short sentences.</li>
+<li>Introduce acronyms and       spell out abbreviations.</li>
+<li>Avoid making the document       too &ldquo;busy&rdquo; by using lots of whitespace and by avoiding too many different       colours, fonts and images.</li>
+<li>If content is repeated on       multiple pages within a document or within a set of documents (e.g.,       headings, footings, etc.), it should occur consistently each time it is       repeated.&nbsp; </li>
+</ul>
+<h3>10.2 Provide Context for Hyperlinks</h3>
+<p>Hyperlinks  are more effective navigation aids when the user understands the likely result  of following the link. Otherwise, users may have to use trial-and-error to find  what they need.</p>
+<p> To  help the user understand the result of selecting a hyperlink, ensure that the  link makes sense when read in the context of the text around it. For example,  while it would be confusing to use &ldquo;more information&rdquo; as a link by itself on a  page, it would be fine to use &ldquo;more information&rdquo; as a link in the following  sentence: &ldquo;The airport can be reached by taxi or bus (<u>more information</u>).&rdquo;</p>
+<p>To  make the address of hyperlink clear when printing, you may wish to include the  address in brackets following the descriptive text of the hyperlink.</p>
+<h4><a name="_Toc278368469" id="_Toc278368469">To change link  text</a> </h4>
+<ol>
+<li>Highlight the link and  right-click*</li>
+<li>Select <strong>Edit Hyperlink</strong> (Ctrl + K)</li>
+<li>Change the text in the <strong>Text to display</strong> box to something descriptive</li>
+</ol>
+<h3><a name="_Toc278368481" id="_Toc278368481">10.3 Accessible  Presentations</a> </h3>
+<p>It is important to consider  accessibility before, during, and after presentations.&nbsp;  Below is a helpful link with guidance on how to make presentations  accessible to all:</p>
+<ul>
+<li>&nbsp;&ldquo;How to Make Presentations Accessible to All&rdquo; (Source:  W3C-<a href="http://www.w3.org/WAI/training/accessible" target="_blank">WAI Draft) </a></li>
+</ul>
+<h2><a name="_Toc284500798" id="_Toc284500798"></a><a name="_Toc284333460" id="_Toc284333460">Technique 11. Check  Accessibility</a> </h2>
+<p>If  you wish to check the accessibility of your document or template (see Technique  1, above), PowerPoint 2010 offers an &ldquo;Accessibility Checker&rdquo; to review your  document against a set of possible issues that users with disabilities may  experience in your file. </p>
+<h3>The &ldquo;Accessibility Checker&rdquo;  classifies issues as:</h3>
+<ul>
+<li><strong>Error</strong> &ndash;  content that makes a file very difficult or impossible for people with  disabilities to understand</li>
+<li><strong>Warning</strong> &ndash;  content that in most, but not all, cases makes a file difficult for people with  disabilities to understand</li>
+<li><strong>Tip</strong> &ndash;  content that people with disabilities can understand, but that might be better  organized or presented in a way that would maximize their experience</li>
+</ul>
+<p>To  learn more about the Accessibility Checker and the rules it uses to identify  and classify accessibility issues in your document, visit the PowerPoint 2010  help section (see Accessibility Help, below).&nbsp;  Use the search term &ldquo;accessibility checker rules&rdquo; in the help search  box.</p>
+<h4>To use the &ldquo;Accessibility Checker&rdquo;</h4>
+<ol>
+<li>Go to menu item: <strong>File</strong></li>
+<li>Select <strong>Info</strong> in  the left window pane</li>
+<li>Under <strong>Prepare for Sharing</strong>,  an alert will appear if a potential accessibility issue has been detected <br />
+    <img src="sites/adod.idrc.ocad.ca/files/MSPowerPoint2010_11.png" alt="Image demonstrates location of Info option and Check for Issues button in File menu." width="480" height="271" /></li>
+<li>To view and repair  the issues, select <strong>Check  for Issues</strong> and then <strong>Check Accessibility<br />
+      <img src="sites/adod.idrc.ocad.ca/files/MSPowerPoint2010_12.png" alt="Image demonstrates location of Check Accessibility button in Check for Issues drop-down menu." width="276" height="205" /><br />
+  </strong> </li>
+<li>An <strong>Accessibility Checker</strong> task pane will open, showing the inspection results<br />
+  <img src="sites/adod.idrc.ocad.ca/files/MSPowerPoint2010_13.png" alt="Image demonstrates inspection results in Accessibility Checker task pane." width="172" height="187" /></li>
+<li>Select a specific  issue to see <strong>Additional  Information</strong> </li>
+<li>Follow the steps  provided to fix or revise the content<br />
+      <img src="sites/adod.idrc.ocad.ca/files/MSPowerPoint2010_14.png" alt="Image demonstrates location of additional information for inspection results in Accessibility Checker task pane." width="180" height="517" />
+  </li>
+</ol>
+<p>In  order to get further indication of the accessibility of your document or  template (see Technique 1), then you may consider saving the file into HTML or  PDF in order to perform an accessibility check in one of those formats, as  described below. </p>
+<h4>To evaluate HTML accessibility</h4>
+<p>Another  option is to save the document into HTML format and use one of the web  accessibility checkers available online.&nbsp;  Such as:</p>
+<ul>
+<li><a href="http://achecker.ca/checker/index.php">AChecker</a> </li>
+<li><a href="http://wave.webaim.org/">WebAIM  Wave Web Accessibility Evaluation Tool</a> </li>
+</ul>
+<h4>To evaluate PDF accessibility</h4>
+<p>If  you saved your document in tagged PDF format, you can use the following tools  and steps to evaluate the accessibility of the PDF document:</p>
+<ul>
+<li>Adobe Acrobat  Professional</li>
+<li><a href="http://www.access-for-all.ch/en/pdf-lab/pac-pdf-accessibility-checker.html">PDF Accessibility Checker (PAC)</a> &ndash;  a free alternative provided by &ldquo;Access for all&rdquo; </li>
+</ul>
+<h4>To evaluate PDF  accessibility in Adobe Acrobat Professional</h4>
+<ol>
+<li>Go to menu item: <strong>Advanced &gt; Accessibility &gt; Full Check&hellip;</strong> </li>
+<li>In the <strong>Full Check</strong> dialog, select all the checking options</li>
+<li>Select the <strong>Start Checking</strong> button</li>
+</ol>
+<h2><a name="_Toc284333462" id="_Toc284333462"></a><a name="_Toc282426592" id="_Toc282426592"></a><a name="_Toc282436954" id="_Toc282436954"></a><a name="_Toc284500799" id="_Toc284500799"></a><a name="_Toc284333461" id="_Toc284333461">Technique 12. Use Accessibility Features when Saving/Exporting  to Other Formats</a> </h2>
+<p>In some cases, additional steps must be taken  in order to ensure accessibility information is preserved when saving/exporting  to formats other than the default.</p>
+<h3>PDF</h3>
+<p>PDF documents are not always accessible. Accessible PDF documents are  often called &ldquo;Tagged PDF&rdquo; because they include &ldquo;tags&rdquo; that encode structural  information required for accessibility.&nbsp;  To evaluate the accessibility of your PDF document, see Technique 11  (above).</p>
+<ol>
+<li>Go to menu item:<strong> File</strong></li>
+<li>Select <strong>Save As</strong> </li>
+<li>In  the <strong>File  name </strong>box, type a name for the file</li>
+<li>In  the <strong>Save  as type </strong>list, select <strong>PDF or XPS Document</strong> </li>
+<li>Select  the <strong>Options</strong> button</li>
+<li>Under <strong>Include  non-printing information</strong> in the <strong>Options</strong> dialog, ensure that the <strong>Document structure tags for  accessibility</strong> check box is selected</li>
+<li>Select <strong>OK</strong> and <strong>Save<br />
+      <img src="sites/adod.idrc.ocad.ca/files/MSPowerPoint2010_10_0.png" alt="Image demonstrates location of Document structure tags for accessibility check box in Options dialog." width="364" height="346" /><br />
+  </strong> </li>
+</ol>
+<h3><a name="_Toc278368484" id="_Toc278368484">HTML</a> </h3>
+<ol>
+<li>Go  to menu item: <strong>File</strong> </li>
+<li>Select <strong>Save As</strong> </li>
+<li>In  the <strong>File  name</strong> box, type a name for the file</li>
+<li>In  the <strong>Save  as type</strong> box, select <strong>Web Page</strong> </li>
+<li>Select <strong>Save</strong> </li>
+<li>Check  the HTML file for accessibility (see Technique 11, above)</li>
+</ol>
+<h4><a name="_Toc278368485" id="_Toc278368485"></a><a name="_Toc278358173" id="_Toc278358173"></a><a name="_Toc273644400" id="_Toc273644400">To clean  up your HTML file</a></h4>
+<ul>
+<li>Remove unnecessary  styles, line breaks, etc.</li>
+<li>Remove unnecessary id,  class, and attributes</li>
+<li>Remove font tags</li>
+<li>Remove styles in the  &lt;head&gt; tag</li>
+<li>Ensure the &lt;th&gt;  tags have a scope attribute</li>
+<li>Remove &lt;p&gt; tags  nested inside &lt;th&gt; and &lt;td&gt; tags</li>
+<li>Check for  accessibility (see Technique 11, above)<br />
+  <em>Note:</em> you may wish to use HTML editors  or utilities to help with this process.</li>
+</ul>
+<h2><a name="_Toc284500800" id="_Toc284500800">Technique 13. Consider Using Accessibility Support  Applications/Plugins</a> </h2>
+<p><em>Disclaimer:</em> This  list is provided for information purposes only. It is not exhaustive and  inclusion of an application or plug-in on the list does not constitute a  recommendation or guarantee of results.</p>
+<p> The following accessibility  related plug-ins and support are available for PowerPoint 2007:</p>
+<ul>
+<li><a name="OLE_LINK3" id="OLE_LINK3"></a><a name="OLE_LINK2" id="OLE_LINK2"> </a><a href="http://www.pptools.com/ppt2html/index.html">PPT2HTML </a> &ndash; offers an accessibility tool  bar for adding alt-text to charts.</li>
+<li> <a href="http://fullmeasure.co.uk/PowerTalk/ReadMe.htm">PowerTalk </a> &ndash; an accessibility tool that  provides a good approximation of how presentations will sound with a screen  reader.</li>
+<li><a href="http://www.hisoftware.com/">HiSoftware</a> &ndash; desktop add-ins  that will create a Section 508 or WAI Fully Compliant Web pages from PowerPoint  presentations (some knowledge of HTML code is required).</li>
+<li><a href="http://office2010.microsoft.com/en-us/powerpoint-help/keyboard-shortcuts-for-use-while-creating-a-presentation-in-powerpoint-2010-HP010336519.aspx">Keyboard shortcuts in PowerPoint 2010</a></li>
+<li><a href="http://office2010.microsoft.com/en-us/powerpoint-help/keyboard-shortcuts-for-use-while-creating-a-presentation-in-powerpoint-2010-HP010336519.aspx">Accessibility Tutorials for Office 2010</a> </li>
+</ul>
+<h2><a name="_Toc284500801" id="_Toc284500801">Accessibility  Help</a> </h2>
+<p>If  you are interested in what features are provided to make using PowerPoint 2010  more accessible to users, documentation is provided in the Help system: </p>
+<ol>
+<li>Go to menu item: <strong>File</strong> </li>
+<li>Select <strong>Help</strong> from the list on the left</li>
+<li>Under the <strong>Support</strong> section, select the <strong>Help</strong> icon</li>
+<li>Enter &ldquo;Accessibility&rdquo;  as your search term in the <strong>Help </strong>dialog box</li>
+</ol>
+<h2><a name="_Toc284500802" id="_Toc284500802">References and  Resources</a> </h2>
+<ol>
+<li>Microsoft PowerPoint 2010 Help</li>
+<li>GAWDS Writing  Better Alt Text [<a href="http://www.gawds.org/show.php?contentid=28" target="_blank">http://www.gawds.org/show.php?contentid=28</a>]</li>
+<li>Microsoft  PowerPoint 2010 Online Accessibility Center</li>
+</ol>
+<h2><a name="_Toc284500803" id="_Toc284500803">Acknowledgments</a></h2>
+<p><strong>Authors:</strong> Jan Richards, Sabrina Ruplall</p>
+<p>This document was produced as part of the  Accessible Digital Office Document (ADOD) Project (<a href="http://inclusivedesign.ca/accessible-office-documents">http://inclusivedesign.ca/accessible-office-documents</a>). This project has been developed by the  Inclusive Design Research Centre, OCAD University as part of an EnAbling Change  Partnership project with the Government of Ontario and UNESCO (United Nations  Educational, Scientific and Cultural Organization).</p>
+<p><img src="sites/adod.idrc.ocad.ca/files/partners.png" alt="Partner logos: UNESCO-United Nations Educational, Scientific and Cultural Organization, the Government of Ontario and the Inclusive Design Research Centre (OCAD University)" width="626" height="166" /></p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Accessible Digital Office Documents (ADOD) Project</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="index.html" property="cc:attributionName" rel="cc:attributionURL">Inclusive Design Research Centre (IDRC)</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
+  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+      </div>
+
+</div>
+          </div>
+                    <div id="footer">Copyright 2010, IDRC</div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+    </body>
+</html>

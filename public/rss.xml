@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://adod.idrc.ocadu.ca"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Accessible Digital Office Document (ADOD) Project</title>
+ <link>https://adod.idrc.ocadu.ca</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Accessibility of Office Documents and Office Applications</title>
+ <link>https://adod.idrc.ocadu.ca/node/1</link>
+ <description>&lt;!-- &lt;span style=&quot;font-weight: bold; font-size: small; color: red; padding: 0.1em; background-color:#FFFF99; border: dotted red thin;&quot; &gt;New!&lt;/span&gt; --&gt;&lt;!-- &lt;span style=&quot;font-weight: bold; font-size: small; color: red; padding: 0.1em; background-color:#FFFF99; border: dotted red thin;&quot; &gt;New!&lt;/span&gt; --&gt;&lt;!-- &lt;span style=&quot;font-weight: bold; font-size: small; color: green; padding: 0.1em; background-color:#FFFF99; border: dotted green thin;&quot; &gt;Updated!&lt;/span&gt; --&gt;&lt;!-- &lt;span style=&quot;font-weight: bold; font-size: small; color: green; padding: 0.1em; background-color:#FFFF99; border: dotted green thin;&quot; &gt;Updated!&lt;/span&gt; --&gt;&lt;!-- &lt;div style = &quot;background-color: #FFFFCC; border: black thin solid; margin:2em; font-weight:bold; padding: 0.5em 1em 0.5em 1em;&quot; &gt;
+&lt;p&gt;9 May 2012: Our third round of development is about to start. If you have any suggestions please let us know at: &lt;a href=&quot;mailto:adod-comments@idrc.ocad.ca&quot;&gt;adod-comments@idrc.ocad.ca&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt; --&gt;&lt;!-- &lt;div style = &quot;background-color: #FFFFCC; border: black thin solid; margin:2em; font-weight:bold; padding: 0.5em 1em 0.5em 1em;&quot; &gt;
+&lt;p&gt;9 May 2012: Our third round of development is about to start. If you have any suggestions please let us know at: &lt;a href=&quot;mailto:adod-comments@idrc.ocad.ca&quot;&gt;adod-comments@idrc.ocad.ca&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt; --&gt;&lt;!-- &lt;img align=&quot;right&quot; src=&quot;http://adod.idrc.ocad.ca/sites/adod.idrc.ocad.ca/files/AODAsmall_20.jpg&quot; alt=&quot;Helping you meet Ontario&#039;s AODA&quot; /&gt; --&gt;&lt;!-- &lt;img align=&quot;right&quot; src=&quot;http://adod.idrc.ocad.ca/sites/adod.idrc.ocad.ca/files/AODAsmall_20.jpg&quot; alt=&quot;Helping you meet Ontario&#039;s AODA&quot; /&gt; --&gt;&lt;p&gt;This site can help you create accessible office documents and choose accessible office applications for your organization. The guidance is based primarily on WCAG 2.0 and ATAG 1.0. For more details, see &lt;a href=&quot;#background&quot;&gt;background information&lt;/a&gt;.&lt;/p&gt;
+&lt;hr style=&quot;margin: 1em 0em 1em 0em&quot; /&gt;
+&lt;h3 style=&quot;font-weight:bold;&quot;&gt;Authoring Techniques for Accessible Office Documents&lt;/h3&gt;
+&lt;h4 style=&quot;font-weight:bold; font-size:110%; text-decoration:underline;&quot;&gt;Word Processing Applications:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Microsoft Word&lt;/strong&gt;&lt;br /&gt;
+&lt;ul style=&quot;margin-top:0em; margin-bottom:0em&quot;&gt;
+&lt;li&gt;&lt;span style=&quot;font-weight: bold; font-size: small; color: red; padding: 0.1em; background-color:#FFFF99; border: dotted red thin;&quot; &gt;New!&lt;/span&gt; &lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/word2013&quot; title=&quot;Microsoft Word 2013 Accessible Authoring Techniques&quot;&gt;Microsoft Word 2013&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/word2011mac&quot; title=&quot;Microsoft Word 2011:Mac Accessible Authoring Techniques&quot;&gt;Microsoft Word 2011:Mac&lt;/a&gt;&lt;/strong&gt; &lt;a href=&quot;http://adod.idrc.ocad.ca/translations#nl&quot; title=&quot;Dutch version of Microsoft Word 2011:Mac techniques&quot;&gt;&lt;span style=&quot;color:white; background-color: black;font-weight:bold; padding:0.1em 0.2em 0.1em 0.2em;text-decoration:none&quot;&gt;NL&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/word2010&quot; title=&quot;Microsoft Word 2010 Accessible Authoring Techniques&quot;&gt;Microsoft Word 2010&lt;/a&gt;&lt;/strong&gt; &lt;a href=&quot;http://adod.idrc.ocad.ca/translations#nl&quot; title=&quot;Dutch version of Microsoft Word 2010 techniques&quot;&gt;&lt;span style=&quot;color:white; background-color: black;font-weight:bold; padding:0.1em 0.2em 0.1em 0.2em;text-decoration:none&quot;&gt;NL&lt;/span&gt;&lt;/a&gt; &lt;a href=&quot;http://adod.idrc.ocad.ca/translations#fr&quot; title=&quot;French version of Microsoft Word 2010 techniques&quot;&gt;&lt;span style=&quot;color:white; background-color: black;font-weight:bold; padding:0.1em 0.2em 0.1em 0.2em;text-decoration:none&quot;&gt;FR&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/word2008&quot; title=&quot;Microsoft Word 2008:Mac Accessible Authoring Techniques&quot;&gt;Microsoft Word 2008:Mac&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/word2007&quot; title=&quot;Microsoft Word 2007 Accessible Authoring Techniques&quot;&gt;Microsoft Word 2007&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/word2003&quot; title=&quot;Microsoft Word 2003 Accessible Authoring Techniques&quot;&gt;Microsoft Word 2003&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/googledocument&quot; title=&quot;Google docs: Document Accessible Authoring Techniques (Feb 2011)&quot;&gt;Google docs: Document (Feb 2011)&lt;/a&gt;&lt;/strong&gt; &lt;a href=&quot;http://adod.idrc.ocad.ca/translations#nl&quot; title=&quot;Dutch version of Google docs: Document techniques&quot;&gt;&lt;span style=&quot;color:white; background-color: black;font-weight:bold; padding:0.1em 0.2em 0.1em 0.2em;text-decoration:none&quot;&gt;NL&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/pages&quot; title=&quot;iWork Pages &#039;09 Accessible Authoring Techniques&quot;&gt;iWork Pages &#039;09&lt;/a&gt;&lt;/strong&gt; &lt;a href=&quot;http://adod.idrc.ocad.ca/translations#nl&quot; title=&quot;Dutch version of iWork Pages &#039;09 techniques&quot;&gt;&lt;span style=&quot;color:white; background-color: black; font-weight:bold; padding:0.1em 0.2em 0.1em 0.2em; text-decoration:none&quot;&gt;NL&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/oowriter&quot; title=&quot;OpenOffice Writer (v3.4)and LibreOffice Writer (v4.0.4.2) Accessible Authoring Techniques&quot;&gt;OpenOffice Writer (v3.4) and LibreOffice Writer (v4.0.4.2)&lt;/a&gt;&lt;/strong&gt; &lt;a href=&quot;http://adod.idrc.ocad.ca/translations#nl&quot; title=&quot;Dutch version of OpenOffice Writer (v3.2) techniques&quot;&gt;&lt;span style=&quot;color:white; background-color: black;font-weight:bold; padding:0.1em 0.2em 0.1em 0.2em;text-decoration:none&quot;&gt;NL&lt;/span&gt;&lt;/a&gt;  &lt;a href=&quot;http://adod.idrc.ocad.ca/translations#fr&quot; title=&quot;French version of OpenOffice Writer (v3.4) and LibreOffice Writer (v4.0.4.2) techniques&quot;&gt;&lt;span style=&quot;color:white; background-color: black;font-weight:bold; padding:0.1em 0.2em 0.1em 0.2em;text-decoration:none&quot;&gt;FR&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/wordperfectx5&quot; title=&quot;Corel WordPerfect X5 Accessible Authoring Techniques&quot;&gt;Corel WordPerfect X5&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 style=&quot;font-weight:bold; font-size:110%; text-decoration:underline;&quot;&gt;Spreadsheets Applications:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Microsoft Excel&lt;/strong&gt;&lt;br /&gt;
+&lt;ul style=&quot;margin-top:0em; margin-bottom:0em&quot;&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/excel2010&quot; title=&quot;Microsoft Excel 2010 Accessible Authoring Techniques&quot;&gt;Microsoft Excel 2010&lt;/a&gt;&lt;/strong&gt; &lt;a href=&quot;http://adod.idrc.ocad.ca/translations#nl&quot; title=&quot;Dutch version of Microsoft Excel 2010 techniques&quot;&gt;&lt;span style=&quot;color:white; background-color: black;font-weight:bold; padding:0.1em 0.2em 0.1em 0.2em;text-decoration:none&quot;&gt;NL&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/excel2008&quot; title=&quot;Microsoft Excel 2008:Mac Accessible Authoring Techniques&quot;&gt;Microsoft Excel 2008:Mac&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/excel2007&quot; title=&quot;Microsoft Excel 2007 Accessible Authoring Techniques&quot;&gt;Microsoft Excel 2007&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/excel2003&quot; title=&quot;Microsoft Excel 2003 Accessible Authoring Techniques&quot;&gt;Microsoft Excel 2003&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/googlespreadsheet&quot; title=&quot;Google docs: Spreadsheet Accessible Authoring Techniques (Feb 2011)&quot;&gt;Google docs: Spreadsheet (Feb 2011)&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/numbers&quot; title=&quot;iWork Numbers &#039;09 Accessible Authoring Techniques&quot;&gt;iWork Numbers &#039;09&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/oocalc&quot; title=&quot;OpenOffice Calc (v3.2) Accessible Authoring Techniques&quot;&gt;OpenOffice Calc (v3.2)&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/quattrox5&quot; title=&quot;Corel Quattro Pro X5 Accessible Authoring Techniques&quot;&gt;Corel Quattro Pro X5&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 style=&quot;font-weight:bold; font-size:110%; text-decoration:underline;&quot;&gt;Presentation Applications:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Microsoft Powerpoint&lt;/strong&gt;&lt;br /&gt;
+&lt;ul style=&quot;margin-top:0em; margin-bottom:0em&quot;&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/powerpoint2010&quot; title=&quot;Microsoft PowerPoint 2010 Accessible Authoring Techniques&quot;&gt;Microsoft PowerPoint 2010&lt;/a&gt;&lt;/strong&gt;  &lt;a href=&quot;http://adod.idrc.ocad.ca/translations#nl&quot; title=&quot;Dutch version of Microsoft PowerPoint2010 techniques&quot;&gt;&lt;span style=&quot;color:white; background-color: black;font-weight:bold; padding:0.1em 0.2em 0.1em 0.2em;text-decoration:none&quot;&gt;NL&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/powerpoint2008&quot; title=&quot;Microsoft PowerPoint 2008:Mac Accessible Authoring Techniques&quot;&gt;Microsoft PowerPoint 2008:Mac&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/powerpoint2007&quot; title=&quot;Microsoft PowerPoint 2007 Accessible Authoring Techniques&quot;&gt;Microsoft PowerPoint 2007&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/powerpoint2003&quot; title=&quot;Microsoft PowerPoint 2003 Accessible Authoring Techniques&quot;&gt;Microsoft PowerPoint 2003&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/googlepresentation&quot; title=&quot;Google docs: Presentation Accessible Authoring Techniques (Feb 2011)&quot;&gt;Google docs: Presentation (Feb 2011)&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/keynote&quot; title=&quot;iWork Keynote &#039;09 Accessible Authoring Techniques&quot;&gt;iWork Keynote &#039;09&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/ooimpress&quot; title=&quot;OpenOffice Impress (v3.2) Accessible Authoring Techniques&quot;&gt;OpenOffice Impress (v3.2)&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/presentationsx5&quot; title=&quot;Corel Presentations X5 Accessible Authoring Techniques&quot;&gt;Corel Presentations X5&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 style=&quot;font-weight:bold; font-size:110%; text-decoration:underline;&quot;&gt;PDF Production Applications:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Adobe Acrobat&lt;/strong&gt;&lt;br /&gt;
+&lt;ul style=&quot;margin-top:0em; margin-bottom:0em&quot;&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/acrobat11&quot; title=&quot;Adobe Acrobat 11 Pro Accessible Authoring Techniques&quot;&gt;Adobe Acrobat 11 Pro&lt;/a&gt;&lt;/strong&gt;  &lt;a href=&quot;http://adod.idrc.ocad.ca/translations#nl&quot; title=&quot;Dutch version of Adobe Acrobat Pro 11 techniques&quot;&gt;&lt;span style=&quot;color:white; background-color: black;font-weight:bold; padding:0.1em 0.2em 0.1em 0.2em;text-decoration:none&quot;&gt;NL&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/acrobat10&quot; title=&quot;Adobe Acrobat 10 Pro Accessible Authoring Techniques&quot;&gt;Adobe Acrobat 10 Pro&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/acrobat9&quot; title=&quot;Adobe Acrobat 9 Pro Accessible Authoring Techniques&quot;&gt;Adobe Acrobat 9 Pro&lt;/a&gt;&lt;/strong&gt; | &lt;a href=&quot;http://adod.idrc.ocad.ca/translations#nl&quot; title=&quot;Dutch version of Adobe Acrobat 9 Pro techniques&quot;&gt;&lt;span style=&quot;color:white; background-color: black;font-weight:bold; padding:0.1em 0.2em 0.1em 0.2em;text-decoration:none&quot;&gt;NL&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adobe InDesign CS6&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/indesigncs6&quot; title=&quot;Adobe InDesign CS6 Accessible Authoring Techniques for PDF&quot;&gt;Adobe InDesign CS6&lt;/a&gt;&lt;/strong&gt;  &lt;a href=&quot;http://adod.idrc.ocad.ca/translations#nl&quot; title=&quot;Dutch version of Adobe InDesign CS5 techniques&quot;&gt;&lt;span style=&quot;color:white; background-color: black;font-weight:bold; padding:0.1em 0.2em 0.1em 0.2em;text-decoration:none&quot;&gt;NL&lt;/span&gt;&lt;/a&gt;
+&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 style=&quot;font-weight:bold; font-size:110%; text-decoration:underline;&quot;&gt;eBook Production Applications:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/ibooksauthor2&quot; title=&quot;iBooks Author version 2 Authoring Techniques&quot;&gt;iBooks Author (ver. 2)&lt;/a&gt;&lt;/strong&gt; &lt;a href=&quot;http://adod.idrc.ocad.ca/ibooksauthor2-nl&quot; title=&quot;Dutch version of iBooks Author version 2 Authoring Techniques&quot;&gt;&lt;span style=&quot;color:white; background-color: black;font-weight:bold; padding:0.1em 0.2em 0.1em 0.2em;text-decoration:none&quot;&gt;NL&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr style=&quot;margin: 1em 0em 1em 0em&quot; /&gt;
+&lt;h3 style=&quot;font-weight:bold;&quot;&gt;Overview and Assessment Framework&lt;/h3&gt;
+&lt;p&gt;The Overview provides a high-level introduction to the project and the relationship between the different documents that are part of the ADOD Project. The Assessment Framework provides a low-level mechanism for assessing the accessibility of office documents, office document formats and office applications based on &lt;a href=&quot;http://www.w3.org/WAI/intro/wcag&quot;&gt;WCAG 2.0&lt;/a&gt; and &lt;a href=&quot;http://www.w3.org/WAI/intro/atag&quot;&gt;ATAG 1.0&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/overview&quot;&gt;ADOD Overview&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/framework&quot;&gt;ADOD Assessment Framework&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr style=&quot;margin: 1em 0em 1em 0em&quot; /&gt;
+&lt;h3 style=&quot;font-weight:bold;&quot;&gt;Office Application Accessibility Reviews&lt;/h3&gt;
+&lt;p&gt;These documents are reviews of the accessibility of office applications for users with disabilities. These reviews may be useful to users, employers and others. However, it should be noted that the reviews are intended to be informative, but not definitive, and that they can be outdated by updates to the office applications or assistive technologies. It is best practice to consult other reviews and to test applications in your work context (e.g., using a &quot;demo&quot; version) before making a purchase or a full organizational switch.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://adod.idrc.ocad.ca/accessibility-reviews&quot; title=&quot;Office Application Accessibility Reviews&quot;&gt;Office Application Accessibility Reviews&lt;/a&gt;&lt;/p&gt;
+&lt;hr style=&quot;margin: 1em 0em 1em 0em&quot; /&gt;
+&lt;h3 style=&quot;font-weight:bold;&quot;&gt;Other Languages&lt;/h3&gt;
+&lt;p&gt;Versions of documents on this site are available from our &lt;a href=&quot;http://adod.idrc.ocad.ca/translations&quot;&gt;Other Languages&lt;/a&gt; page.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Accessible Office Documents Project welcomes translation assistance. If you are interested in translating any of the documents on this site, please see our &lt;a href=&quot;http://adod.idrc.ocad.ca/translations#translation_policy&quot;&gt;Translation Policy&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr style=&quot;margin: 1em 0em 1em 0em&quot; /&gt;
+&lt;h3 style=&quot;font-weight:bold;&quot;&gt;Questions, Comments or Corrections&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Please send any questions, comments or corrections to &lt;a href=&quot;mailto:adod-comments@idrc.ocad.ca&quot;&gt;adod-comments@idrc.ocad.ca&lt;/a&gt;. &lt;/strong&gt;&lt;/p&gt;
+&lt;hr style=&quot;margin: 1em 0em 1em 0em&quot; /&gt;
+&lt;h3 style=&quot;font-weight:bold;&quot;&gt;&lt;a name=&quot;background&quot; id=&quot;background&quot;&gt;Background Information&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;While information about how to create accessible office documents currently exists on a range of web sites, the information can be incomplete, vendor-biased or specific to only a single office application. Governments, public sector organizations, and service organization that wish to comply with accessibility requirements, have expressed the need for centralized guidance for creating accessible office documents.&lt;/p&gt;
+&lt;p&gt;Our guidance supports the W3C-WAI process as it is based on &lt;a href=&quot;http://www.w3.org/WAI/intro/wcag&quot;&gt;WCAG 2.0&lt;/a&gt; and &lt;a href=&quot;http://www.w3.org/WAI/intro/atag&quot;&gt;ATAG 1.0&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 style=&quot;font-weight:bold; font-size:110%; text-decoration:underline;&quot;&gt;Audiences&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;users of office applications&lt;/li&gt;
+&lt;li&gt;purchasers of office applications&lt;/li&gt;
+&lt;li&gt;office applications/document format policy-makers&lt;/li&gt;
+&lt;li&gt;accessibility specialists&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;people with disabilities in any of the preceding categories&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 style=&quot;font-weight:bold; font-size:110%; text-decoration:underline;&quot;&gt;&lt;a name=&quot;publicreview&quot; id=&quot;publicreview&quot;&gt;Public Review&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;In early October 2010, a public invitation to review and comment on the documents developed for the Accessible Digital Office Documents Project was issued. By the end of October we had received feedback from 11 contributors, encompassing accessibility experts, organizations and office application developers. &lt;strong&gt;Thank you to everyone who contributed feedback!&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 style=&quot;font-weight:bold; font-size:110%; text-decoration:underline;&quot;&gt;Authors&lt;/h4&gt;
+&lt;p&gt;Jutta Treviranus (Principal Investigator), Jan Richards, Sabrina Ruplall, Vellicia Christanto.&lt;/p&gt;
+&lt;hr style=&quot;margin: 1em 0em 1em 0em&quot; /&gt;
+&lt;h3 style=&quot;font-weight:bold;&quot;&gt;&lt;a name=&quot;partnership&quot; id=&quot;partnership&quot;&gt;&lt;/a&gt;Acknowledgements&lt;/h3&gt;
+&lt;p&gt;This project has been developed by the &lt;a href=&quot;http://idrc.ocad.ca/&quot;&gt;Inclusive Design Research Centre, OCAD University&lt;/a&gt; as part of an &lt;a href=&quot;http://www.accesson.ca/en/mcss/programs/accessibility/EnablingChange/index.aspx&quot;&gt;EnAbling Change Partnership&lt;/a&gt; project with the &lt;a href=&quot;http://www.ontario.ca/&quot;&gt;Government of Ontario&lt;/a&gt; and &lt;a href=&quot;http://www.unesco.org/&quot;&gt;UNESCO (United Nations Educational, Scientific and Cultural Organization)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://adod.idrc.ocad.ca/sites/adod.idrc.ocad.ca/files/partners.png&quot; alt=&quot;Partner logos: UNESCO-United Nations Educational, Scientific and Cultural Organization, the Government of Ontario and the Inclusive Design Research Centre (OCAD University)&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Substantial contributions have also been made to the project by &lt;a href=&quot;http://www.anysurfer.be/en/index.html&quot;&gt;AnySurfer&lt;/a&gt;, the &lt;a href=&quot;http://www.toronto.ca/&quot;&gt;City of Toronto&lt;/a&gt;, and &lt;a href=&quot;http://www.ocadu.ca&quot;&gt;OCAD University&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&quot;http://adod.idrc.ocad.ca/sites/adod.idrc.ocad.ca/files/anysurfer_logo.png&quot; alt=&quot;AnySurfer logo&quot; /&gt; &lt;img src=&quot;http://adod.idrc.ocad.ca/sites/adod.idrc.ocad.ca/files/logo_city_toronto.png&quot; alt=&quot;City of Toronto logo&quot; /&gt; &lt;img src=&quot;http://adod.idrc.ocad.ca/sites/adod.idrc.ocad.ca/files/ocad_logo.png&quot; alt=&quot;OCAD University logo&quot; width=&quot;104&quot; height=&quot;86&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/3.0/deed.en_US&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/3.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span xmlns:dct=&quot;http://purl.org/dc/terms/&quot; property=&quot;dct:title&quot;&gt;Accessible Digital Office Documents (ADOD) Project&lt;/span&gt; by &lt;a xmlns:cc=&quot;http://creativecommons.org/ns#&quot; href=&quot;http://adod.idrc.ocad.ca/&quot; property=&quot;cc:attributionName&quot; rel=&quot;cc:attributionURL&quot;&gt;Inclusive Design Research Centre (IDRC)&lt;/a&gt; is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/3.0/deed.en_US&quot;&gt;Creative Commons Attribution-ShareAlike 3.0 Unported License&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://adod.idrc.ocadu.ca/node/1&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <pubDate>Thu, 30 Sep 2010 16:05:06 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">1 at https://adod.idrc.ocadu.ca</guid>
+</item>
+</channel>
+</rss>

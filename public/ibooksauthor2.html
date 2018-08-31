@@ -1,0 +1,421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="misc/favicon.ico" type="image/x-icon" />
+
+    <title>Authoring Techniques for Accessible Office Documents: iBooks Author ver2 | Accessible Digital Office Document (ADOD) Project</title>
+    <link type="text/css" rel="stylesheet" media="all" href="sites/adod.idrc.ocad.ca/files/css/css_f227edaa08468efc78f9ba2d884f9b5e.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/adod.idrc.ocad.ca/files/css/css_24d907fbbd309d49286f16c0b240a2d1.css" />
+        <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/themes/garland/fix-ie.css" />    <![endif]-->
+  </head>
+  <body>
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="index.html" title="Accessible Digital Office Document (ADOD) Project"><span>Accessible Digital Office Document (ADOD) Project</span></a></h1>        </div>
+
+                                                    
+      </div> <!-- /header -->
+
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="index.html">Home</a></div>                              <h2>Authoring Techniques for Accessible Office Documents: iBooks Author ver2</h2>                                                  <div class="clear-block">
+            <div id="node-57" class="node">
+
+
+
+  
+  <div class="content clear-block">
+    <p><strong>Authors:</strong> Jeroen Baldewijns (<a href="http://www.blindenzorglichtenliefde.be/">Licht en liefde</a>), Steven Breughe (<a href="http://www.blindenzorglichtenliefde.be/">Licht en liefde</a>), Bart Simons (<a href="http://anysurfer.be/">AnySurfer</a>)</p>
+<h2>Quick Reference</h2>
+<ul>
+<li><a href="ibooksauthor2.html#usage-notes">Usage Notes</a> </li>
+<li><a href="ibooksauthor2.html#tech1">Technique 1. Use Accessible Templates</a></li>
+<li><a href="ibooksauthor2.html#tech2">Technique 2. Specify the Book's Language</a></li>
+<li><a href="ibooksauthor2.html#tech3">Technique 3. Provide Text Alternatives for Images and Graphical Objects</a></li>
+<li><a href="ibooksauthor2.html#tech4">Technique 4. Provide Text Alternatives for Interactive Elements Made with Widgets</a></li>
+<li><a href="ibooksauthor2.html#tech5">Technique 5: Caption Video</a></li>
+<li><a href="ibooksauthor2.html#tech6">Technique 6. Use Headings</a></li>
+<li><a href="ibooksauthor2.html#tech7">Technique 7. Use   Styles</a></li>
+<li><a href="ibooksauthor2.html#tech8">Technique 8. Use Built-In  Document Structuring Features</a></li>
+<li><a href="ibooksauthor2.html#tech9">Technique 9. Create Accessible Tables</a></li>
+<li><a href="ibooksauthor2.html#tech10">Technique 10. Create Accessible Charts</a></li>
+<li><a href="ibooksauthor2.html#tech11">Technique 11. Make Content Easier to See</a></li>
+<li><a href="ibooksauthor2.html#tech12">Technique 12. Make Content  Easier to Understand</a></li>
+<li><a href="ibooksauthor2.html#tech13">Technique 13. Check Accessibility</a></li>
+<li><a href="ibooksauthor2.html#help">Accessibility Help</a></li>
+<li><a href="ibooksauthor2.html#ref">References and Resources</a></li>
+<li><a href="ibooksauthor2.html#ack">Acknowledgments</a></li>
+</ul>
+<h2><a id="usage-notes"></a>Usage Notes</h2>
+<p>At the time of testing  (July 2014), iBooks Author v2 provides a set of accessibility features that is  sufficient to enable the production of accessible digital books.</p>
+<p>Accessible digital books are those that are usable by a wider range of people with disabilities.      While these techniques will be useful when you want to make forms,  webpages, applications or other dynamic and/or interactive content, you should also consult the <a href="http://www.w3.org/WAI/intro/wcag.php"><strong>W3C-WAI Web Content  Accessibility Guidelines (WCAG 2.0)</strong></a> because these are specifically designed to provide guidance  for highly dynamic and/or interactive content.</p>
+<h3><a id="fileformats"></a>File Formats </h3>
+<p>The default file format in which iBooks  Author publishes books for the user is Apple&rsquo;s own <strong>iBooks-format</strong> <strong>(file name ends with &rdquo;.ibooks&rdquo;)</strong><strong>.</strong> These files  have a basis that conforms to the ePub-standard, but iBooks Author provides extra  features that add elements that are not available in the ePub-standard.</p>
+<p> Besides, iBooks Author offers a separate work  format that you use for a book in production (before it is published): the file  name of such a file ends with &quot;<strong>.iba</strong>&quot;.</p>
+<p> Furthermore, iBooks Author offers the  possibility to save a book in two other file formats (PDF and TXT). These other  file formats are not thoroughly tested for accessibility. In this document we  also don&rsquo;t pay attention to the possibility to export to a PDF-document because  you can&rsquo;t produce a &quot;tagged&quot; PDF with iBooks Author.</p>
+<h3>Information for Non-Mouse Users</h3>
+<p>iBooks  Author is an application that is meant to be used by designers who can create accessible  content. For this reason we assume that users of this application are mouse  users (producing an iBook involves quite some &quot;drag-and-drop&quot; with the mouse). Contrary  to the other ADOD-documents we don&rsquo;t offer here specific instructions for non-mouse  users.</p>
+<h3>Disclaimer and Testing Details</h3>
+<p><strong>Applying these techniques will significantly  increase the accessibility of your digital books, but it does not guarantee the  accessibility to people with every type of reading disability</strong>. For books where you want to be  sure about the accessibility, it is recommended to test with end users with reading  impairments and also with screen reader users.</p>
+<p>The  application-specific steps and screenshots in this document were created in July  2014 using iBooks Author (version 2.1.3 (463)) and Mac OS X 10.8.5.</p>
+<p> This  document is provided for information purposes only and is neither a  recommendation nor a guarantee of results. If errors are found, please report them  to: <a href="mailto:info@anysurfer.be">info@anysurfer.be</a>.</p>
+<h2><a id="tech1"></a>Technique 1. Use Accessible Templates </h2>
+<p>When making a new iBook you start from a template.  iBooks Author offers 15 templates that all form a solid basis for an accessible  book. Those templates contain the complete basic design (page orientation, page  layout, fonts, colours, styles, etc.) as well as some content elements (front page,  table of contents, glossary, etc.) for your book.</p>
+<p>  It is important to know that the templates  are divided into two groups: &quot;landscape with portrait&quot; and &quot;portrait only&quot;. If  you use a template from the category &quot;landscape with portrait&quot;, then you can read  the resulting book on an iPad in landscape orientation as well as in portrait orientation.  In that case, the design is optimised for landscape orientation and reading in portrait  orientation is secondary. If you use a template from the category &quot;portrait  only&quot;, then you can read the resulting book on an iPad only in portrait orientation.</p>
+<p>Taking into account the  readability for partially sighted, this choice is very important. The portrait orientation  contains a reading mode that provides a tool bar with which the reader of your book  can modify the font size and brightness. The reader can adapt the size of the paragraph  text, and iBooks will adapt the line length. Partially sighted users will therefore  prefer a book that is optimised for reading in the portrait orientation. This does not mean that a book  in the landscape orientation by definition is inaccessible, but it will be less  user-friendly for partially sighted users. </p>
+<p><img src="sites/adod.idrc.ocad.ca/files/ibooks1.png" alt="Reading in iBooks in portrait orientation with a small fontsize." /> <img src="sites/adod.idrc.ocad.ca/files/ibooks2.png" alt="Reading in iBooks in portrait orientation with a large fontsize." /></p>
+<p>When choosing a template,  also pay attention to the colours and contrasts that  are used. A template where text often overlaps with images in the background, will  be less readable for partially sighted users than a template that visually  separates text and images and that offers sufficient contrast between text and background.</p>
+<p><img src="sites/adod.idrc.ocad.ca/files/ibooks3.png" alt="Template with transparent text  overlapping the background image" /> <img src="sites/adod.idrc.ocad.ca/files/ibooks4.png" alt="Template with non-transparent text overlapping the background image" /></p>
+<h4>To create your own template</h4>
+<p>You  can also make your own templates with iBooks Author. This is only recommended for  those who have enough experience with graphic design. Otherwise you risk making  an inaccessibly designed template. If you do make templates, make sure to apply  all accessibility techniques from this document.</p>
+<h2><a id="tech2"></a>Technique 2. Specify the Book's Language </h2>
+<p>To allow assistive technologies (such as screen  readers) to present the book accurately,  it is important to define the natural language of the book. Also when the language  of only one paragraph or text fragment differs from the language of the rest of  the book, it is useful to indicate this language switch. In this way, the screen  reader knows it should adapt the language  of the speech synthesizer.</p>
+<p> Good to know: if you create a new book, the language  for that book is automatically set to the language of your operating system. In  other words: if the language of your operating system is set to English, iBooks  Author will use English as language setting for each new book.</p>
+<h4>To change the default  language of your book<br />
+</h4>
+<ol>
+<li>Choose  the menu-option: View <strong>&gt; Show inspector</strong>. </li>
+<li>Click the button <strong>Document inspector </strong>in the <strong>inspector</strong>:<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks5.png" alt="Document inspector button" />    </li>
+<li>Click the <strong>Document </strong>tab.</li>
+<li>Choose from the <strong>Language </strong>dropdown  menu the desired language for the book:<br />
+    <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks6.png" alt="Screenshot of the Document tab with language set to English" /></li>
+</ol>
+<h4>To apply a language directly to selected text</h4>
+<ol>
+<li>Select the text for which you want to change the  language.</li>
+<li>Choose  the menu-option: <strong>View &gt; Show inspector</strong>. </li>
+<li>Click the button <strong>Text inspector </strong>in the <strong>inspector</strong>:<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks7.png" alt="Text inspector button" /></li>
+<li>Click the <strong>More </strong>tab.</li>
+<li>Choose from the <strong>Language </strong>dropdown  menu <strong>the desired language for the selected text</strong>:<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks8.png" alt="Screen Shot of the Tab with the laguage setting for a text selection" /><strong><br />
+  </strong> </li>
+</ol>
+<h2><a id="tech3"></a>Technique 3. Provide  Text Alternatives for Images and Graphical Objects </h2>
+<p>When using  images or other graphical objects, such as charts and graphs, it is  important to ensure that the information you  intend to convey by the image is also conveyed to people who cannot see the  image.  This can be accomplished by  adding an accessibility description to each image. This accessibility  description is not visible for sighted readers of the book, but will be read by  a screen reader.</p>
+<p> When  an image is very complex (i.e. a lot of information is presented visually), you  should describe the image&rsquo;s entire informative message in the accessibility  description. </p>
+<p>Also,  the graphical elements that you create in iBooks Author with the function &quot;Shapes&quot;  must be given an accessibility description, if the created shape is meaningful  inside the content of your book. If the shape is not meaningful, then you  should leave the accessibility description blank. The reader of the book will  then not notice the shape at all.</p>
+<p>Elements  you create in iBooks Author with the function &quot;Text boxes&quot; do not need to be  given an accessibility description, since the contents of the text box can be read  by the screen reader. If you do add an accessibility description, this results  in double information being read by the screen reader, which might confuse the reader.</p>
+<div style="background-color:#FFC; border:gray solid 1px; padding: 0em 0.5em 0em 0.5em;">
+<h3>Tips for writing an accessibility description</h3>
+<ul>
+<li>Answer the question: &ldquo;What information is the image conveying?&rdquo;. </li>
+<li>If the image does not convey any useful information, leave the accessibility description blank. </li>
+<li>If the image contains meaningful information, ensure all of the text is replicated. </li>
+<li>An accessibility description should be rather short, preferably no more than 40 characters. </li>
+<li>Avoid punctuation in the accessibility description, because the screen reader will speak them too.</li>
+<li>If a longer description is required (e.g. for a graph, a street map, an organisation chart, etc.), make sure the accessibility description contains all information presented visually in the graphical element to the sighted reader of your book. </li>
+<li>Describe in your own words in detail what can be seen in the image (e.g. for an art work stick to a formal description and don&rsquo;t add your own interpretation. </li>
+<li>A good method to formulate a long description is to imagine you are describing the image to somebody over the phone.</li>
+<li>Test by having others review the book with the  images replaced by their accessibility  descriptions.</li>
+</ul>
+</div>
+<p>You also could include all information conveyed by images in the text of the book itself. Strictly speaking there is in this case no need for an accessibility description because the image is now purely decorative and the reader doesn’t miss anything when (s)he reads the book. The biggest disadvantage of this method is that you give double information (visual/textual) for people who can read the book visually. That is why we discourage this alternative technique.</p>
+<h4>To add alternative text to images  and graphical objects</h4>
+<ol>
+<li>Select  the image or the graphical object.</li>
+<li>Choose  the menu-option: View<strong> &gt; Show inspector</strong>. </li>
+<li>Click the button <strong>Widget  inspector </strong>in the Inspector:<br />
+    <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks9.png" alt="Widget Inspector button" /></li>
+<li>Click the <strong>Layout </strong>tab.</li>
+<li>In the <strong>Accessibility Description </strong>field, provide a correct textual description containing the important visually perceivable  information:<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks10.png" alt="Screen Shot of an image in iBooks author and the inspector tab on the field for an accessibility description" /></li>
+</ol>
+<h3>What  about the title and the label?</h3>
+<p>The  tab where you enter the accessibility description, also allows to add to each image  a title and a label. The title is shown above the image in the book. The label is  shown under the image in the book. This is an important difference with the accessibility  description, that is visually not shown in the book and so only available as  metadata</p>
+<p><img src="sites/adod.idrc.ocad.ca/files/ibooks11.png" alt="Screen Shot of an image in iBooks Author and the inspector tab for accessibility description, title and caption" /></p>
+<p>Some more  explanation about accessibility on these items:</p>
+<ul>
+<li>You can use a title or a label, they don&rsquo;t       affect the accessibility of the book you are making.</li>
+<li>However,  titles and/or labels are not alternatives       for the accessibility description.</li>
+</ul>
+<p>If you give an image just a title  or a label, than it will also be automatically copied in the field for the accessibility  description. Verify in this case whether this automatic addition conforms to the  tips for writing an accessibility description (above).</p>
+<h2><a id="tech4"></a>Technique 4. Provide  text alternatives for interactive elements made with widgets</h2>
+<p>iBooks  Author offers the possibility to add interactive content to a book by the use  of &quot;widgets&quot;. Using widgets you can make books that are very attractive for training  purposes.</p>
+<p> The good news is that the use of widgets does not necessarily create accessibility  problems for the iBook. You can indeed add an accessibility description to every  widget, to ensure its accessibility. For each widget, it is also recommended that  you add a title with a label. This label ensures that the screen reader user is  informed in detail about the type of interactive image:</p>
+<ol>
+<li>Select  the interactive image.</li>
+<li>Choose the  menu-option: <strong>View &gt; Show inspector</strong>. </li>
+<li>Click the button <strong>Widget inspector </strong>in the <strong>inspector</strong>:  <br />
+    <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks9.png" alt="Widget Inspector button" /></li>
+<li>Click the <strong>Layout </strong>tab.</li>
+<li>In the <strong>Accessibility Description </strong>field<strong>, </strong>provide a correct textual description that  contains literally all visually perceivable information.</li>
+<li>Check the <strong>Title </strong>checkbox and choose in the <strong>Label</strong> menu  the corresponding label-type. Then type the desired title above the image.<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks12.png" alt="Screen Shot of an image in iBooks Author with the inspector tab for adding the accessibility description, the title and the label" />  </li>
+</ol>
+<p>For  each type of widget, we add a few notes for accessibility:  </p>
+<ul>
+<li><strong>Gallery</strong> (picture gallery for the reader of       the book to browse through): you can only add one accessibility       description for the series of pictures as a whole, so it is recommended to       add a separate label to describe each picture.</li>
+<li><strong>Interactive image </strong>(image where the       reader of the iBook can zoom in on certain parts of that image): provide a       meaningful accessibility description, in which you explain about the zones       the sighted reader of the iBook can zoom in on.</li>
+<li><strong>3D</strong> (the reader of the book can view the       image full screen from all angles): provide an accessibility description       and announce in this accessibility description that the image is a 3D image       that sighted people can view in 3D.</li>
+<li><strong>Pop-over </strong>(image where a window with extra       information opens as soon as you click on it): the text in the pop-over window       is perfectly readable by screen readers. But a screen reader user is not aware       that the image is a pop-over image. Make sure to announce this in the accessibility       description.</li>
+<li><strong>Scrolling sidebar (image is embedded in       a frame with an extra text description, in which you can scroll): </strong>provide an       accessibility description, since the accessibility description as well as       the extra descriptive text are read by the screen reader</li>
+<li><strong>Review </strong>(a test with multiple choice       questions that you can insert to verify that the info from the previous       chapter was well understood): the test is usable by users of assistive       technologies, use descriptions in the accessibility description if the       reader must see the picture to be able to answer the question.</li>
+</ul>
+<h2><a id="tech5"></a>Technique 5. Caption Video</h2>
+<p>iBooks Author also offers a widget to include  a video in an iBook. We treat this separately because video has specific requirements  to be accessible.</p>
+<p> First of all, for video the same principles  apply as for other content made with widgets:</p>
+<ul>
+<li>Ensure each video has an accessibility description (see see <a href="https://adod.idrc.ocadu.ca/tech3">technique 3</a>) that contains the content/message of the video clip.</li>
+<li>Preferably, also add a title and a label &quot;Movie&quot; to each video, so that it is clear for the reader of your book that a video is available. </li>
+</ul>
+<p>It is important that you caption your video  clip. This makes the videos more accessible for people with a hearing  impairment and on the platforms where iBooks can be read (iOS and Mac OS X),  the size, colour and font of the captions are adaptable to the needs of partially  sighted end users:</p>
+<p><img src="sites/adod.idrc.ocad.ca/files/ibooks13.png" alt="Screen shot of a video with non adapted closed caption" /> <img src="sites/adod.idrc.ocad.ca/files/ibooks14.png" alt="Screen shot of a video with enlarged and colored closed caption" /></p>
+<p>This document will explain the technique of captioning in detail, however, here is a basic workflow to make a captioned video:</p>
+<ol>
+<li>Make sure  the video is in the MP4-format (if this is not yet the case, convert it to this  format).</li>
+<li>Make a caption  file in the SCC-format (Note: the captions should contain no more than 32 characters  per line). We found two possible tools to do this:
+<ul>
+<li>A paid  solution: MovieCaptioner (14 days free trial): <a href="http://www.synchrimedia.com/downloads.html">http://www.synchrimedia.com/downloads.html</a>)</li>
+<li>A free  solution: make the captions with a free tool (such as Subtitle Horse) in the more  common SRT-format and convert them to the SCC-format with the 3playmedia  Converter (<a href="http://www.3playmedia.com/services-features/tools/captions-format-converter/">http://www.3playmedia.com/services-features/tools/captions-format-converter/</a>)</li>
+</ul>
+</li>
+<li>Link the captions  to the MP4-file. This can also be done in two ways:
+<ul>
+<li>A paid  solution: Compressorn by Apple</li>
+<li>A free solution: Subler, only for Mac OS X (<a href="http://subler.nl.softonic.com/mac">http://subler.nl.softonic.com/mac</a>):<br /><br />
+        <img src="sites/adod.idrc.ocad.ca/files/ibooks15.png" alt="Screen shot of the interface of the Subler application" /></li>
+</ul>
+</li>
+<li>Import the  resulting MP4-file via the widget <strong>Media</strong> in the iBook.</li>
+<li>Check whether  the movie plays in your iBook and shows the captions. For this to work on an  iOS-device as well as on a Mac you need to switch on Closed captions and SDH. You  find this under <strong>Settings </strong>&gt; <strong>General</strong> &gt; <strong>Accessibility </strong>&gt; <strong>Hearing</strong> &gt; <strong>Subtitles and captioning</strong>.</li>
+</ol>
+<p>An extensive  explanation about captioning video files can be found here: <a href="http://www.synchrimedia.com/Get_Started_with_Video_Captioning.zip">http://www.synchrimedia.com/Get_Started_with_Video_Captioning.zip</a></p>
+<h2><a id="tech6"></a>Technique 6. Use  Headings </h2>
+<p>All digital  books require structuring to make them more straightforward for readers to  understand. The most efficient way to do this is to use &quot;true headings&quot;, to  create logical  divisions between  subsequent chapters and sections in the book. &quot;True headings&quot; are more than  just bolded,  enlarged, or centred text;  they are structural elements that provide a meaningful sequence to users of  assistive technologies.</p>
+<p>&quot;True  headings&quot; are made by using heading styles. If you use the templates provided  by Apple in iBooks Author, they contain already the styles for chapters (first  heading level) and sections (second heading level) and all necessary underlying  heading levels. You only need to apply them correctly.</p>
+<div style="background-color:#FFC; border:gray solid 1px; padding: 0em 0.5em 0em 0.5em;">
+<h3>Tips for headings</h3>
+<ul>
+<li>Use the default headings styles provided (&quot;Heading &quot;, &quot;Heading 2&quot;, etc.)</li>
+<li>Nest headings properly (e.g., the sub-headings of a &quot;Heading 1&quot; are &quot;Heading 2&quot;, etc.)</li>
+<li>Do not skip heading levels</li>
+</ul>
+</div>
+<h4>To define a heading as a chapter or a section</h4>
+<ol>
+<li>Choose  the menu-option: <strong>View</strong> &gt;<strong> Show styles drawer</strong>. </li>
+<li>Select  the heading and choose under the paragraph styles the style &quot;Chapter title&quot; for  a chapter or &quot;Section title&quot; for a section:<br />
+    <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks16.png" alt="Screen Shot showing that you first need to select the title of a chapter or section and then select the style accordingly" /></li>
+<li>By double clicking the chapter or  section title you could also add a prefix or a number. While strictly speaking this  is not necessary for accessibility, it  is more user-friendly for the screen reader user:<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks17.png" alt="Screen Shot showing that by doubleclicking a chaptertitle or section allows you to add a prefix and or number" />  </li>
+</ol>
+<h4> To apply heading  styles to headings inside a section</h4>
+<ol>
+<li>Choose  the menu-option: <strong>View </strong><strong>&gt;</strong><strong> Show style drawer</strong>. </li>
+<li>Select  the heading(s) you want to link to a heading style and choose the desired  heading style under the paragraph styles: <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks18.png" alt="Screen Shot showing that you need to select the heading to assign a style to it" /></li>
+</ol>
+<h2><a id="tech7"></a>Technique 7. Use  Styles</h2>
+<p>As with heading styles (<a href="ibooksauthor2.html#tech6">Technique 6</a>), you  should also try to apply consequently the styles that the iBooks Author-templates  provides by default. Most templates contain enough pre-authored styles, that you  probably don&rsquo;t feel the need to add your own new styles. </p>
+<p>Applying text layout outside the styles should be limited as much as possible. When  styles are used correctly, the reader will more easily understand why a piece  of text is laid out in an certain way. This is particularly handy when there  could be several reasons to apply the same layout. E.g. it is common to use  italic to emphasize text, and for Latin terms and given names. Based on the style  used, the reader can recognise which of the three cases applies.</p>
+<p> Applying  styles is done exactly the same way as applying heading styles (see <a href="ibooksauthor2.html#tech6">Technique 6</a>). This is for paragraph styles as well as character  styles.</p>
+<h2><a id="tech8"></a>Technique 8. Use Built-In Document Structuring Features</h2>
+<h3>8.1. Lists</h3>
+<p>When you create lists, it is important to  format them as &quot;real lists&quot;. Otherwise, assistive technologies will interpret your  list as a series of short separate paragraphs instead of a structured and coherent  list of related items.</p>
+<p>To create lists, all templates offer several  list styles.</p>
+<h4>To create an ordered or unordered list</h4>
+<ol>
+<li>Select the text block which you want to make a list. </li>
+<li>Choose  the menu-option: <strong>View </strong><strong>&gt;</strong><strong> Show style drawer</strong>. </li>
+<li>Click  the list style you want to apply for the selected text block. <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks19.png" alt="Screen Shot of how to apply the correct liststyle to a list" /></li>
+</ol>
+<h3>8.2  Table of contents</h3>
+<p>Each  iBook template in iBooks Author automatically generates a table of contents based  on the headings used in the book. You don&rsquo;t need to do anything other than  correctly apply the heading styles (seesee <strong>Technique 6</strong>). </p>
+<p> The  best way to create a table of contents is to consequently use heading styles, such  as Heading 1, Heading 2, etc. (see <strong>Technique 6</strong>) for  all headings that should appear in the table of contents.</p>
+<p>Based on these, you  can automatically generate a table of contents with the function &ldquo;Table of contents&rdquo;.</p>
+<h4>To define the contents of the table of contents</h4>
+<ol>
+<li>Choose  the menu-option: <strong>View </strong><strong>&gt;</strong><strong> Show inspector</strong>. </li>
+<li>Click the button <strong>Document inspector </strong>in the <strong>inspector</strong>: <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks5.png" alt="Document inspector button" />    </li>
+<li>Click the <strong>TOC </strong>tab.</li>
+<li>Click the <strong>plus  button(+)</strong> to add a section to the table  of contents. Click the <strong>minus  button(-)</strong> to delete a section from  the table of contents.<br />
+    <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks20.png" alt="Screen Shot of the tab for creating the content of the table of contents" /></li>
+</ol>
+<h3>8.3 Glossary</h3>
+<p>Each  iBook template in iBooks Author provides a way to include a glossary. One can  add to this list key words that are important inside the book. The glossary gives  readers of the book an additional method to search through the contents of the book.  Screen readers can also use the glossary to navigate.</p>
+<h4>To add a glossary</h4>
+<ol>
+<li>Click <strong>Glossary</strong> <strong>in the left hand column </strong><strong>Book</strong>. </li>
+<li>Click the <strong>plus-button(+)</strong> in the <strong>Glossary</strong> column and type the word you  want to add to the glossary. </li>
+<li>Type in the right hand column the explanation  for this word.</li>
+<li>Repeat  these steps for each word that you want to add to the glossary: <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks21.png" alt="Screen Shot showing how to add a glossary to the iBook" /></li>
+</ol>
+<h3>8.4 Page Numbering</h3>
+<p>An  iBook consists of pages, just like a printed book. Page numbers are important because  they allow references from the table of contents and because they offer the user  of the book an additional way to digitally browse through the book or go directly  to a specific page. For the screen reader user as well, the page numbering is an  extra way to navigate through a book.</p>
+<p> To generate  page numbers, you often don&rsquo;t need to do anything, since page numbering is  included in all standard templates of iBooks Author.</p>
+<h3>8.5  Metadata</h3>
+<p>You  can also add metadata to iBooks, such as the book title and the author of the book.  It is essential that you minimally add these metadata correctly, because in the  iBooks reading app a screen reader will use these two data to announce books on  the book shelf. If you don&rsquo;t correctly include the title and the author when creating  the book, a screen reader will announce on the book shelf in the iBooks reading  app this book as &ldquo;unknown title, unknown author&rdquo;, and so the screen reader user  has no idea which book it is.</p>
+<h4>To indicate the title and author of a book</h4>
+<ol>
+<li>Choose  the menu-option: <strong>View </strong><strong>&gt;</strong><strong> Show inspector</strong>. </li>
+<li>Click the button <strong>Document inspector </strong>in the <strong>inspector</strong>:<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks5.png" alt="Document inspector button" /></li>
+<li>Click the <strong>Document tab</strong>.</li>
+<li> Fill in the author of the book in the <strong>Author field</strong>, </li>
+<li>Fill in the title of the book in the <strong>Title field</strong>:<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks22.png" alt="Screen Shot of the tab for adding title and author to an iBook" /></li>
+</ol>
+<h2><a id="tech9"></a>Technique 9. Make Accessible Tables</h2>
+<p>When  including tables in an iBook, it is important that they are clear and appropriately  structured. This helps all users to better understand the information in the tables  and assures that the screen reader user receives the contextual information (row  header, column header) when reading the table contents.</p>
+<div style="background-color:#FFC; border:gray solid 1px; padding: 0em 0.5em 0em 0.5em;">
+<h3>Tips for tables<br />
+  </h3>
+<ul>
+<li>Only use tables for tabular information, not for page layout or formatting.</li>
+<li>Use the table function to create tables. Never create tables &rdquo;manually&rdquo; with the tab key or (even worse) the space bar, since assistive technologies will not recognise them as tables.</li>
+<li>Keep tables simple by avoiding merged cells       and if possible by dividing complex data sets into separate smaller tables.</li>
+<li>If a table is split over multiple pages,       make sure the column headers are repeated at the top of every new page. Make       also sure in this case to break the table between rows instead of in the middle       of rows.</li>
+<li>Create a text summary of the essential       table contents. Any abbreviations used should be explained in the summary.</li>
+<li>When captions or descriptions are       provided for tables, they should answer the question: &ldquo;What is the table&rsquo;s       purpose and how is it organised?&rdquo;.</li>
+<li>Table cells should be marked as table       headers when they serve as labels to help interpret other cells in the       table. This also allows the screen reader to link the headers to the data cells.</li>
+<li>Try to limit to just one row and one column       with headers.</li>
+<li>Table header cell labels should be       concise and clear.</li>
+<li>Ensure the table is not &quot;floating&quot; on  the page.</li>
+</ul>
+</div>
+<h4>To add a table with  headers</h4>
+<ol>
+<li>Choose  the menu-option: <strong>View </strong><strong>&gt;</strong><strong> Show inspector</strong>. </li>
+<li>Click the button <strong>Table inspector </strong>in the <strong>I</strong><strong>nspector</strong>: <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks23.png" alt="Table Inspector button" /></li>
+<li>Click the <strong>Table tab</strong>.</li>
+<li>Use the buttons under <strong>Headers and  footer</strong> to define how many columns and rows must be used as header:<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks24.png" alt="Screen Shot of a Table and the tab in Inspector for selecting headers and footers" /></li>
+</ol>
+<h2><a id="tech10"></a>Technique 10. Make Accessible Charts</h2>
+<p>Charts  can be used to make data more understandable for some audiences.  However, it is important to ensure that your  chart is as accessible as possible to all iBook readers.</p>
+<p> All  basic accessibility considerations that are applied to the rest of your  document must also be applied to your charts and the elements within your  charts.  For example, use shape and colour,  rather than colour alone, to convey information (see <a href="ibooksauthor2.html#tech11-3">Technique 11.3</a>)  and use sufficient contrast when creating the charts (see <a href="ibooksauthor2.html#tech11-2">Technique 11.2</a>). </p>
+<p>A chart made with the chart function of iBooks  Author is by definition a graphical element that the screen reader can&rsquo;t translate into spoken or braille output. Also  the textual information that you add in the <strong>Chart Inspector</strong> (title, legend, labels, axis indicators, etc.), are embedded into chart and are  not readable by the screen  reader. It  is therefore very important that you provide for the chart an accessibility  description (see <a href="ibooksauthor2.html#tech3">Technique 3</a>). Bear in mind that the accessibility  description must  contain all information you want to convey visually with the diagram. You can possibly  also add a title and/or label in the Widget inspector. These are also picked up  by a screen  reader.</p>
+<h3>More about charts:</h3>
+<ul>
+<li>When creating line  charts, use the formatting options to create different types of dotted lines to  facilitate legibility for users who are colour blind.<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks25.png" alt="Example of a linechart using different kinds of dotted lines and another example using different thicknesses of lines" /></li>
+<li>When creating bar  charts, it is helpful to apply textures rather than colours to differentiate  the bars.<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/ibooks26.png" alt="Example of a bar chart using different textures" /></li>
+<li>Change  the default colours for charts as much as possible in colour schemes with good  contrasts. In iBooks Author, colour schemes such as &quot;Bright colours&quot; and &quot;Fun&quot; provide  good contrast. </li>
+<li>If  necessary, change predefined colour schemes, ensuring that they align with  sufficient contrast requirements (see <a href="ibooksauthor2.html#tech11-2">Technique 11.2</a><strong>)</strong>.</li>
+</ul>
+<h2><a id="tech11"></a>Technique 11. Make Content Easier to See </h2>
+<h3><a id="tech11-1"></a>11.1 Format of Text</h3>
+<p>When formatting text, try to:</p>
+<ul>
+<li>Use font sizes between 12 and 18 points for body text.</li>
+<li>Use fonts of normal weight, rather than bold or light weight fonts. If you do choose to use bold fonts       for emphasis, use them sparingly.</li>
+<li>Use standard fonts with clear spacing and easily recognized upper and lower case characters. Sans       serif fonts (e.g. Arial, Verdana) may</li>
+<li>sometimes be easier to read than serif fonts (e.g. Times New Roman, Garamond).</li>
+<li>Avoid large amounts of text set all in caps, italic or underlined.</li>
+<li>Use normal (or possibly expanded)       character spacing, rather than condensed spacing.</li>
+</ul>
+<h3><a id="tech11-2"></a>11.2 Use Sufficient Contrast</h3>
+<p>The  visual presentation of text and images of text should have a contrast ratio of  at least 4.5:1. To help you determine the contrast, here are some examples on a white background:
+</p>
+<ul>
+<li>Very good contrast (Foreground=black,       Background=white, Ratio=21:1)</li>
+<li>Acceptable contrast       (Foreground=#767676, Background=white, Ratio=4.54:1) </li>
+<li>Unacceptable contrast       (Foreground=#AAAAAA, Background=white, Ratio=2.32:1) </li>
+</ul>
+<p>Also,  always use a single solid color for a text background rather than a pattern.</p>
+<p>In  order to determine whether the colors in your document have sufficient  contrast, you can consult an online contrast checker, such as: </p>
+<ul>
+<li><a href="http://juicystudio.com/services/luminositycontrastratio.php">Juicy Studio: Luminosity Color Contrast Ratio  Analyzer</a> </li>
+<li><a href="http://www.joedolson.com/color-contrast-compare.php">Joe Dolson Color Contrast Comparison</a> </li>
+<li><a href="http://www.paciellogroup.com/resources/contrastAnalyser">TPG Contrast Analyser</a></li>
+</ul>
+<h3><a id="tech11-3"></a>11.3 Avoid Relying on Colour Alone</h3>
+<p>Do not rely solely on colours to convey  information in a visual way, to indicate an action or to distinguish an object  visually. People with a reduced colour perception loose indeed information.<br /><br />
+When you want to check whether colour is used in your iBook to convey meaningful  information, you can make a screenshot of your page and have it checked by an online  tool that converts your screenshot into grayscale. A possible tool for this is:</p>
+<ul>
+<li><a href="http://graybit.com/main.php">GrayBit v2.0: Grayscale Conversion Contrast  Accessibility Tool</a></li>
+</ul>
+<h3><a id="tech11-4"></a>11.4  Avoid Relying on Sensory Characteristics</h3>
+<p>If your text contains instructions that help  to understand and/or use the information in your iBook, these should not only  rely on sensory characteristics, such as colours or shapes. An example to  clarify this:</p>
+<ul>
+<li>Never refer to images by just mentioning their shape (e.g. &quot;the biggest…&quot;). An alternative could be       to number the images so that you can refer to a specific one. </li>
+</ul>
+<h3><a id="tech11-5"></a>11.5  Avoid Using Images of Text</h3>
+<p>Before  you use an image to control the presentation of text (e.g., to ensure a certain  font or colour combination), consider whether you can achieve the<br />
+  same result  by styling &quot;real text&quot;. If this is not possible, as with logos  containing stylized  text, make sure to  provide alternative text for the image<br /><br />
+following  the techniques noted above.</p>
+<h2><a id="tech12"></a>Technique 12. Make Content Easier to  Understand</h2>
+<h3>12.1 Write Clearly</h3>
+<p>By  taking the time to design the content of your iBook in a consistent way, it  will be easier to access, navigate and interpret for all  users:</p>
+<ul>
+<li>Whenever possible, write clearly with short sentences.</li>
+<li>Introduce acronyms and spell out abbreviations.</li>
+<li>Avoid making the document too &quot;busy&quot; by using lots of whitespace and by avoiding too many different colors, fonts and images.</li>
+<li>If content is repeated on multiple pages within a document or within a set of documents (e.g., headings, footings, etc.), it should occur consistently each time it is repeated.  </li>
+</ul>
+<h3>12.2 Provide Context for Hyperlinks</h3>
+<p>Hyperlinks are more effective navigation aids  when the user understands the likely result   of following the link. Otherwise, users may have to use trial-and-error<br />
+to find what they need. To help the user  understand the result of selecting a hyperlink, ensure that the link makes  sense when read in the context of the text around it. E.g. it is not good to  use &ldquo;<u>More information</u>&rdquo; as link text in the sentence: &ldquo;More information about  the train and bus timetable can be found here&rdquo;. It is better associate the link  to the text &ldquo;<u>train and bus timetable</u>&rdquo;.</p>
+<h2><a id="tech13"></a>Technique 13. Check  Accessibility </h2>
+<p><strong>Note: </strong>At the time  of testing (July 2014) iBooks Author does not  offer its own function to check  a book for  potential accessibility problems, before publishing it. It is also not possible  to export a book from iBooks Author as an HTML-page, which makes it impossible to  check the accessibility on the basis of an exported HTML-version.<strong> </strong></p>
+<p>To  get an idea of the accessibility of your book, you can create a preview (the <strong>Preview</strong> button can be found<strong> </strong>in  the iBooks Author tool bar) of the book on an iPad. Try to read this test book completely  using the in iOS built-in accessibility features: </p>
+<ul>
+<li>the VoiceOver screen reader,</li>
+<li>the zoom function, </li>
+<li>inverted colours, </li>
+<li>captions for video, etc.</li>
+</ul>
+<p>Try  to imagine yourself in the functional impairment of the blind, partially  sighted, deaf or hearing impaired reader of your book. You could for instance  wear eye shades or switch off the sound of your iPad.</p>
+<p> For other  document types, it is often recommended to convert them into a &quot;tagged&quot; PDF-file.  Then you can have this file automatically checked by Acrobat Reader for accessibility  problems. iBooks Author unfortunately does not offer the possibility to produce  a tagged PDF. A PDF-document without tagging is by definition not accessible  and therefore not relevant to check the accessibility of your iBook.</p>
+<h2><a id="help"></a>Accessibility Help</h2>
+<p>More  information about the accessibility features provided by iBooks Author to be  more usable for disabled users, can be found in the help function of iBooks  Author:</p>
+<ol>
+<li>Open the menu: <strong>Help</strong>.</li>
+<li>Type a search term in the Search box.</li>
+</ol>
+<h2><a id="ref"></a>References and Resources</h2>
+<ol>
+<li>iBooks  Author Help</li>
+<li>GAWDS Writing Better Alt Text [<a href="http://www.gawds.org/show.php?contentid=28">http://www.gawds.org/show.php?contentid=28</a>]</li>
+<li>Publishing with iBooks Author, An  Introduction to Creating Ebooks for the iPad, Nellie McKesson &amp; Adam  Witwer, O&rsquo;Reilly, February 2012</li>
+<li>iBooks Accessibility, Luis F. Pérez,  M. Ed.</li>
+</ol>
+<h2><a id="Ack"></a>Acknowledgments</h2>
+<p><strong>Authors:</strong> Jeroen Baldewijns (<a href="http://www.blindenzorglichtenliefde.be/">Licht en liefde</a>), Steven Breughe (<a href="http://www.blindenzorglichtenliefde.be/">Licht en liefde</a>), Bart Simons (<a href="http://anysurfer.be/">AnySurfer</a>), Jan Richards (Editor, <a href="http://idrc.ocad.ca">Inclusive Design Research Centre</a>)</p>
+<p>This document was produced as part of the  <a href="http://inclusivedesign.ca/accessible-office-documents">Accessible Digital Office Document (ADOD) Project</a>. This project has been developed by the  Inclusive Design Research Centre, OCAD University as part of an EnAbling Change  Partnership project with the Government of Ontario and UNESCO (United Nations  Educational, Scientific and Cultural Organization).</p>
+<p>Substantial contributions have also been made to the project by <a href="http://www.anysurfer.be/en/index.html">AnySurfer</a>, <a href="http://www.blindenzorglichtenliefde.be/">Licht en liefde</a>, the <a href="http://www.toronto.ca/">City of Toronto</a>, and <a href="http://www.ocadu.ca/">OCAD University</a>.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Accessible Digital Office Documents (ADOD) Project</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="index.html" property="cc:attributionName" rel="cc:attributionURL">Inclusive Design Research Centre (IDRC)</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
+<p>Updated: <strong>19 Aug 2013</strong></p>
+  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+      </div>
+
+</div>
+          </div>
+                    <div id="footer">Copyright 2010, IDRC</div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+    </body>
+</html>

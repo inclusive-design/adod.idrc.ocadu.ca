@@ -1,0 +1,420 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="misc/favicon.ico" type="image/x-icon" />
+
+    <title>Technieken voor het produceren van Toegankelijke Office Documenten: iBooks Author v2 | Accessible Digital Office Document (ADOD) Project</title>
+    <link type="text/css" rel="stylesheet" media="all" href="sites/adod.idrc.ocad.ca/files/css/css_f227edaa08468efc78f9ba2d884f9b5e.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/adod.idrc.ocad.ca/files/css/css_24d907fbbd309d49286f16c0b240a2d1.css" />
+        <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/themes/garland/fix-ie.css" />    <![endif]-->
+  </head>
+  <body>
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="index.html" title="Accessible Digital Office Document (ADOD) Project"><span>Accessible Digital Office Document (ADOD) Project</span></a></h1>        </div>
+
+                                                    
+      </div> <!-- /header -->
+
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="index.html">Home</a></div>                              <h2>Technieken voor het produceren van Toegankelijke Office Documenten: iBooks Author v2</h2>                                                  <div class="clear-block">
+            <div id="node-58" class="node">
+
+
+
+  
+  <div class="content clear-block">
+    <div lang="nl">
+<p><strong>Auteurs:</strong> Jeroen Baldewijns (<a href="http://www.blindenzorglichtenliefde.be/">Licht en liefde</a>), Steven Breughe (<a href="http://www.blindenzorglichtenliefde.be/">Licht en liefde</a>), Bart Simons (<a href="http://anysurfer.be/">AnySurfer</a>)</p>
+<h2>Inhoudsopgave</h2>
+<ul>
+<li><a href="ibooksauthor2-nl.html#usage-notes">Gebruikersinstructies</a> </li>
+<li><a href="ibooksauthor2-nl.html#tech1">Techniek 1: Gebruik toegankelijke sjablonen</a></li>
+<li><a href="ibooksauthor2-nl.html#tech2">Techniek 2: Geef de taal van het boek op</a></li>
+<li><a href="ibooksauthor2-nl.html#tech3">Techniek 3: Voorzie tekstalternatieven bij afbeeldingen en grafische objecten</a></li>
+<li><a href="ibooksauthor2-nl.html#tech4">Techniek 4: Voorzie tekstalternatieven bij met widgets gemaakte interactieve elementen</a></li>
+<li><a href="ibooksauthor2-nl.html#tech5">Techniek 5: Gebruik ondertiteling bij video’s</a></li>
+<li><a href="ibooksauthor2-nl.html#tech6">Techniek 6: Gebruik koppen</a></li>
+<li><a href="ibooksauthor2-nl.html#tech7">Techniek 7: Gebruik stijlen</a></li>
+<li><a href="ibooksauthor2-nl.html#tech8">Techniek 8: Gebruik de aangeboden structuurelementen</a></li>
+<li><a href="ibooksauthor2-nl.html#tech9">Techniek 9: Maak toegankelijke tabellen</a></li>
+<li><a href="ibooksauthor2-nl.html#tech10">Techniek 10: Maak toegankelijke diagrammen</a></li>
+<li><a href="ibooksauthor2-nl.html#tech11">Techniek 11: Maak de inhoud beter zichtbaar</a></li>
+<li><a href="ibooksauthor2-nl.html#tech12">Techniek 12: Maak de inhoud makkelijker te begrijpen</a></li>
+<li><a href="ibooksauthor2-nl.html#tech13">Techniek 13: De toegankelijkheid checken</a></li>
+<li><a href="ibooksauthor2-nl.html#help">Hulp bij een toegankelijk gebruik</a></li>
+<li><a href="ibooksauthor2-nl.html#ref">Referenties en Bronnen</a></li>
+<li><a href="ibooksauthor2-nl.html#ack">Dankwoord</a></li>
+</ul>
+<h2><a id="usage-notes"></a>Gebruikersinstructies</h2>
+<p>Op het ogenblik van deze test (24 juli 2014), biedt iBooks Author v2 vrij veel toegankelijkheidsfaciliteiten, die voldoen om vlot toegankelijke digitale boeken te produceren.</p>
+<p>Ook als je formulieren, webpagina’s, applicaties of andere dynamische en/of interactieve content wil maken, zullen deze technieken bruikbaar zijn. Toch raden we in dat geval aan om ook de <strong>W3C-WAI webtoegankelijkheidsrichtlijnen (WCAG 2.0)</strong> te raadplegen, want deze zijn specifiek gericht op dynamische en/of interactieve content.</p>
+<h3><a id="fileformats"></a>Bestandsformaten</h3>
+<p>Het  standaard bestandsformaat waarin iBooks Author boeken voor de gebruiker  publiceert is het eigen <strong>iBooks-formaat</strong> van Apple<strong> (bestandsnaam  eindigt op &lsquo;.ibooks&rsquo;)</strong><strong>.</strong> Deze bestanden hebben een basis die conform de ePub-standaard is, maar iBooks  Author voorziet extra functies die elementen toevoegen die niet voorzien zijn  in de ePub-standaard.</p>
+<p>  Daarnaast  biedt iBooks Author een afzonderlijk werkformaat dat je gebruikt bij een boek  in aanmaak (vooraleer het gepubliceerd wordt): de bestandsnaam van zo&rsquo;n bestand  eindigt op &lsquo;<strong>.iba</strong>&rsquo;.</p>
+<p>Verder  biedt iBooks Author de mogelijkheid om een boek in twee andere bestandsformaten  (PDF en TXT) te bewaren. Deze andere bestandsformaten hebben we niet uitgebreid  getest op toegankelijkheid. Ook aan de exportmogelijkheid naar een PDF-document  besteden we in dit document geen aandacht omdat je met iBooks Author geen  &lsquo;tagged&rsquo; PDF kan produceren.</p>
+<h3>Info voor niet-muisgebruikers</h3>
+<p>iBooks Author is een app die  eerder gericht op hulpverleners, die er toegankelijke content mee kunnen  produceren. Om die reden hebben de app enkel benaderd als muisgebruiker (bij  het produceren van een iBook komt nogal wat &lsquo;drag-and-drop&rsquo;-werk met de muis  kijken). In tegenstelling tot de andere ADOD-documenten bieden we hier dus geen  specifieke informatie voor niet-muisgebruikers.</p>
+<h3>Verantwoording en testdetails</h3>
+<p><strong>Het toepassen van deze technieken zal de  toegankelijkheid van uw digitale boeken drastisch verhogen, maar het garandeert  niet de toegankelijkheid voor om het even welke mogelijke vorm van  leesbeperking</strong>. Voor boeken  waarbij je meer zekerheid wil over de toegankelijkheid, is het aanbevolen ze  uit te proberen samen met de eindgebruiker met zijn specifieke leesbeperking,  ook met gebruikers van schermuitleesprogramma&rsquo;s.</p>
+<p> De toepassingsspecifieke  stappen en schermafbeeldingen in dit document zijn gemaakt in juli 2014 met iBooks Author (versie  2.1.3 (463)) en Mac OS X 10.8.5 en werden bewaard als een DOCX-document. De bestanden  werden ook bewaard in andere bestandsformaten (zie ook <strong>Techniek 12</strong>).<strong> </strong></p>
+<p>Dit document is louter  informatief bedoeld en is noch een aanbeveling, noch een waterdichte garantie  op succes. Mocht je fouten vinden in dit document, dan kan je die melden bij: <a href="mailto:info@anysurfer.be">info@anysurfer.be</a>.</p>
+<h2><a id="tech1"></a>Techniek 1: Gebruik toegankelijke sjablonen</h2>
+<p>Bij  het maken van een nieuw iBook vertrek je van een kant en klaar sjabloon. iBooks  Author biedt 15 van deze sjablonen aan, die allen een goede basis voor een  toegankelijk boek vormen. Deze sjablonen bevatten de volledige basisvormgeving  (pagina-oriëntatie, pagina indeling, lettertypes, kleuren, stijlen,…) alsook  een aantal inhoudelijke elementen (voorpagina, inhoudsopgave, woordenlijst,…)  voor je boek.</p>
+<p> Belangrijk  om weten: de sjablonen zijn onderverdeeld in twee groepen: &lsquo;Liggend met staand&rsquo;  en &lsquo;Alleen staand&rsquo;. Gebruik je een sjabloon uit de categorie &lsquo;Liggend met  staand&rsquo;, dan kan je het resulterende boek op een iPad zowel in liggende (je  houdt de iPad vast met een lange zijde onderaan) als in staande (je houdt de  iPad vast met een korte zijde onderaan) oriëntatie lezen. In dat geval is de  opmaak echter geoptimaliseerd voor weergave in liggende oriëntatie en is het  lezen in staande oriëntatie eerder een extraatje; het boek is dus eerder  bedoeld om gelezen te worden in liggende oriëntatie. Gebruik je een sjabloon  uit de categorie &lsquo;Alleen staand&rsquo;, dan kan je het resulterende boek op een iPad  enkel in staande oriëntatie lezen.</p>
+<p> Vanuit de leesbaarheid voor slechtzienden, is  deze keuze erg belangrijk. De staande oriëntatie biedt een leesmodus die in de  menubalk een weergave-functie biedt, waarmee de lezer van je boek de helderheid  en tekengrootte kan aanpassen. De lezer kan dan zelf de grootte van de  paragraaftekst aanpassen, waarbij iBooks de regelsprongen aanpast.  Slechtzienden zullen om die reden baat hebben bij een boek dat geoptimaliseerd  is voor het lezen in de staande oriëntatie. Dat betekent echter niet dat een boek in de liggende  oriëntatie per definitie ontoegankelijk is, het zal wel minder  gebruiksvriendelijk zijn voor slechtziende gebruikers. </p>
+<p><img src="sites/adod.idrc.ocad.ca/files/nl-ibooks1.png" alt="Het leesvenster in de verticale oriëntatie bij iBooks met een relatief kleine tekengrootte" /> <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks2.png" alt="Het leesvenster in de verticale oriëntatie bij iBooks met een relatief grote tekengrootte" /></p>
+<p>Let bij de keuze vaneen sjabloon wel op de gebruikte kleuren en contrasten. Een sjabloon waarbij veelvuldig afbeeldingen onder de tekstblokken doorlopen, zal minder vlot leesbaar zijn voor slechtzienden dan een sjabloon dat tekst en afbeeldingen visueel scheidt en dat goede contrasten biedt tussen tekst en achtergrond.</p>
+<p><img src="sites/adod.idrc.ocad.ca/files/nl-ibooks3.png" alt="Sjabloon waarbij afbeeldingen onder tekstblokken doorlopen" /> <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks4.png" alt="Sjabloon waarbij afbeedlingen niet onder tekstblokken doorlopen" /></p>
+<h4>Zelf een sjabloon maken</h4>
+<p>Je kan met iBooks Author ook zelf sjablonen maken. Dit bevelen we enkel aan voor wie voldoende ervaring heeft met grafische vormgeving. Anders riskeer je al gauw te vervallen een ontoegankelijk ontwerp van een sjabloon. Maak je toch sjablonen, zorg er dan voor dat je daarbij alle toegankelijkheidstechnieken uit dit document toepast.</p>
+<h2><a id="tech2"></a>Techniek 2: Geef de taal van het boek op</h2>
+<p>Om het voor hulpmiddelen (zoals schermuitleesprogramma&rsquo;s) mogelijk te  maken een boek accuraat weer te geven, is het belangrijk om de natuurlijke taal  van het boek te definiëren. Ook als de taal van slechts één alinea of  tekstfragment afwijkt van de taal van de rest van het boek, is het nodig om  deze taalwijziging aan te geven. Op deze manier weet het schermuitleesprogramma  dat het de taal van de spraaksynthese moet aanpassen.</p>
+<p> Goed om weten: als je een nieuw boek aanmaakt wordt de taal voor dat  boek automatisch aangepast aan de taal van je besturingssysteem. Met andere  woorden: als de taal van je gebruiksomgeving voor je besturingssysteem  ingesteld staat op Nederlands, zal iBooks Author elk nieuw boek Nederlands  gebruiken als taalinstelling.</p>
+<h4>Wijzig de standaardtaal van je boek</h4>
+<ol>
+<li>Kies  de menu-optie: <strong>Weergave  &gt; Toon infovenster</strong>. </li>
+<li>Klik  op de knop <strong>Documentinfo </strong>in het Infovenster:<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks5.png" alt="De knop documentinfo uit het infovenster" />    </li>
+<li>Klik  op de rubriek <strong>Document</strong>.</li>
+<li>Kies  in het uitklapmenu <strong>Taal de gewenste taal voor het boek</strong>:<br />
+    <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks6.png" alt="Paneel waarin de taal van het boek kan worden aangegeven" /></li>
+</ol>
+<h4>Wijs een taal toe aan een geselecteerd tekstfragment</h4>
+<ol>
+<li>Selecteer  het tekstfragment waarvan je de taal wil wijzigen.</li>
+<li>Kies  de menu-optie: <strong>Weergave  &gt; Toon infovenster</strong>. </li>
+<li>Klik  op de knop <strong>Tekstinfo </strong>in het Infovenster:<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks7.png" alt="De knop tekstinfo uit het infovenster" /></li>
+<li>Klik  op de rubriek <strong>Meer</strong>.</li>
+<li>Kies  in het uitklapmenu <strong>Taal de gewenste taal voor het geselecteerde tekstfragment</strong>:<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks8.png" alt="Paneel waarin de taal van een tekstfragmet in het boek kan worden aangegeven" /><strong><br />
+  </strong> </li>
+</ol>
+<h2><a id="tech3"></a>Techniek 3: Voorzie tekstalternatieven bij afbeeldingen en grafische objecten</h2>
+<p>Als je afbeeldingen of andere  grafische objecten (zoals diagrammen, kaarten, grafieken,…) in een iBook  gebruikt, dan is het belangrijk dat de informatie die je met de afbeelding wil  overbrengen, ook beschikbaar is voor wie de afbeelding niet kan zien. Dit doe  je door een toegankelijkheidsbeschrijving toe te voegen aan elke afbeelding.  Deze toegankelijkheidsbeschrijving krijgt de ziende lezer van het boek niet te  zien, maar wordt wel opgepikt door een schermlezer.</p>
+<p> Als een afbeelding erg complex  is omdat ze louter visueel erg veel inhoudelijke informatie aanbiedt, omschrijf  je in detail de volledige inhoudelijke boodschap in de toegankelijkheidsbeschrijving. </p>
+<p> Ook de grafische elementen die  je in iBooks Author creëert met de functie &lsquo;Vormen&rsquo; moet je van zo&rsquo;n toegankelijkheidsbeschrijving  voorzien als de gecreëerde vorm betekenisvol is binnen de content van je boek.  Zo niet, dan laat je de toegankelijkheidsbeschrijving beter oningevuld. De  lezer van het boek zal de vorm dan helemaal niet opmerken.</p>
+<p>Elementen die je in iBooks  Author creëert met de functie &lsquo;Tekstvakken&rsquo;, hoef je niet van een  toegankelijkheidsbeschrijving te voorzien, omdat de inhoud van het tekstvak  prima uitgelezen wordt door de schermlezer. Voege je hier toch een  toegankelijkheidsbeschrijving aan toe, dan creëer je zeker geen  toegankelijkheidsprobleem, maar dit resulteert wel in weergave van dubbele  informatie door de schermlezer, wat het voor de lezer een beetje verwarrend kan  maken.</p>
+<div style="background-color:#FFC; border:gray solid 1px; padding: 0em 0.5em 0em 0.5em;">
+<h3>Tips bij het schrijven van een toegankelijkheidsbeschrijving</h3>
+<ul>
+<li>Zoek een antwoord op de       vraag: &ldquo;Welke informatie bevat de afbeelding?&rdquo;. </li>
+<li>Als de afbeelding geen       betekenisvolle informatie bevat, laat het tekstalternatief dan leeg. </li>
+<li>Als de afbeelding       betekenisvolle informatie bevat, zorg er dan voor dat àl die informatie       beschreven wordt. </li>
+<li>Houd de alternatieve tekst       eerder kort, bij voorkeur niet langer dan 40 tekens. </li>
+<li>Vermijd het gebruik van leestekens       in de toegankelijkheidsbeschrijving,       want die worden door de schermlezer mee uitgesproken.</li>
+<li>Als er een langere       beschrijving nodig is (bijvoorbeeld bij een diagram, een stratenplan, een       organigram,…), zorg er da voor dat die alle informatie bevat die het       grafisch element visueel overbrengt aan de goed ziende lezer van je boek. </li>
+<li>Voor veel complexe       afbeeldingen kan de techniek van &lsquo;vocale beschrijving&rsquo; aangewezen zijn,       waarbij je in detail in je eigen woorden beschrijft wat er in de       afbeelding te zien is (bijvoorbeeld voor een kunstwerk, en architecturaal       beeld,…). Hou je bij de vocale beschrijving strikt bij wat er te zien is       en voeg geen eigen veronderstellingen of interpretaties toe. </li>
+<li>Een goede benadering bij       het formuleren van een uitvoerige beschrijvende tekst, is jezelf in te beelden dat je iemand de afbeelding aan het       uitleggen bent tijdens een telefoongesprek. </li>
+<li>Test de deugdelijkheid van je  toegankelijkheidsbeschrijvingen door het boek (waarbij alle afbeeldingen zijn  aangevuld met toegankelijkheidsbeschrijvingen) te laten nalezen door een  buitenstaander.</li>
+</ul>
+</div>
+<p>Bij wijze van alternatief kan je  alles ook omkeren. Je kan alle informatie, die een afbeeldingen biedt, gewoon  verwerken in de tekst van het document. Je hoeft dan strikt gezien geen  tekstalternatief te voorzien. Zo krijgt de afbeelding een louter illustratief  karakter en mist de lezer niets wanneer hij/zij het boek leest. Het grootste  nadeel van deze methode is dat je dubbele info (visueel/tekstueel) geeft voor  mensen die het boek visueel kunnen lezen. Daarom raden we deze alternatieve  techniek af.</p>
+<h4>Een tekstalternatief toevoegen aan een afbeelding of grafisch object</h4>
+<ol>
+<li>Selecteer  de afbeelding of het grafisch object.</li>
+<li>Kies  de menu-optie: <strong>Weergave  &gt; Toon infovenster</strong>. </li>
+<li>Klik  op de knop <strong>Widgetinfo </strong>in het Infovenster:<br />
+    <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks9.png" alt="De knop widgetinfo uit het infovenster" /></li>
+<li>Klik op de rubriek <strong>Lay-out</strong>.</li>
+<li>In het  veld <strong>Toegankelijkheidsbeschrijving </strong>geef je een  correcte tekstuele omschrijving in die alle visueel waarneembare informatie  woordelijk omschrijft:<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks10.png" alt="Een afbeelding in een iBooks Author met het infovenster waarin je de toegankelijkheidsbeschrijving ingeeft" /></li>
+</ol>
+<h3>Wat met de titel en het bijschrift?</h3>
+<p>Het paneel waar je de  toegankelijkheidsbeschrijving ingeeft, biedt ook de mogelijkheid om voor elke  afbeelding een titel en een bijschrift op te geven. De titel wordt boven de  afbeelding getoond in het boek. Het bijschrift wordt onder de afbeelding  getoond in het boek. Dat is een belangrijk verschil met de  toegankelijkheidsbeschrijving, die visueel niet getoond wordt in het boek en  dus enkel onderhuids aanwezig is.</p>
+<p><img src="sites/adod.idrc.ocad.ca/files/nl-ibooks11.png" alt="Een afbeelding in een iBooks Author met het infovenster waarin je de toegankelijkheidsbeschrijving, de titel en het bijschrift ingeeft" /></p>
+<p>Bij  deze voorzieningen willen we wat toelichting inzake toegankelijkheid geven:</p>
+<ul>
+<li>Je       kan een titel of een bijschrift gerust gebruiken, ze doen niets af aan de       toegankelijkheid van het boek dat je maakt.</li>
+<li>Een       titel en/of bijschrift mogen echter niet als een alternatief voor de       toegankelijkheidsbeschrijving beschouwd worden.</li>
+<li>Als       je bij een afbeelding enkel een titel of een bijschrift invult, dan wordt       dit ook automatisch opgenomen in het veld voor de       toegankelijkheidsbeschrijving. Ga in dat geval na of deze automatische       doorvoer voldoet aan de regels voor het schrijven van een       toegankelijkheidsbeschrijving.</li>
+</ul>
+<h2><a id="tech4"></a>Techniek 4: Voorzie tekstalternatieven bij met widgets gemaakte interactieve elementen</h2>
+<p>iBooks Author biedt de  mogelijkheid om interactieve inhoud toe te voegen aan een boek door het gebruik  van &lsquo;widgets&rsquo;. Door gebruik van widgets kan je boeken maken die erg  aantrekkelijk zijn voor educatieve doeleinden.</p>
+<p> Het goede nieuws hierbij is dat het gebruik van widgets niet hoeft te betekenen  dat een iBook toegankelijkheidsproblemen krijgt. Je kan immers bij elk widget  een toegankelijkheidsbeschrijving toevoegen, dat de toegankelijkheid ervan  verzekert. Bij een widget is het ook aanbevolen om een titel met een label toe  te voegen. Dat label zorgt ervoor dat de schermlezer-gebruiker in detail  geïnformeerd over het type van interactieve afbeelding:</p>
+<ol>
+<li>Selecteer de interactieve afbeelding.</li>
+<li>Kies de menu-optie: <strong>Weergave &gt; Toon infovenster</strong>. </li>
+<li>Klik  op de knop <strong>Widgetinfo </strong>in het Infovenster:  <br />
+    <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks9.png" alt="De knop widgetinfo uit het infovenster" /></li>
+<li>Klik op de rubriek <strong>Lay-out</strong>.</li>
+<li>In het veld <strong>Toegankelijkheidsbeschrijving</strong> geef je een correcte tekstuele omschrijving in die alle visueel waarneembare  informatie woordelijk omschrijft.</li>
+<li>Vink <strong>Titel </strong>aan  en kies in het menu <strong>Label</strong> het bijhorende label-type. Typ vervolgens de gewenste  titel boven de afbeelding.<br /><br />
+    <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks12.png" alt="Een afbeelding in iBooks Author met het infovenster waarin je de toegankelijkheidsbeschrijving, de titel en bijg-behorend label ingeeft" />  </li>
+</ol>
+<p>We  overlopen per type widget nog een paar aandachtspunten op het vlak van  toegankelijkheid:  </p>
+<ul>
+<li><strong>Galerie       </strong>(fotogalerie waarheen de lezer van het boek kan doorbladeren): je kan       slechts één toegankelijkheidsbeschrijving ingeven voor de volledige fotogalerie,       daarom verdient het aanbeveling om per foto ook een afzonderlijk       bijschrift in te geven dat die foto beschrijft.</li>
+<li><strong>Interactieve       afbeelding</strong> (afbeelding waarbij de lezer van het iBook kan inzoomen op       bepaalde onderdelen van die afbeelding): geef een betekenisvolle       toegankelijkheidsbeschrijving op, waarin je extra uitleg geeft over de       zones waarop de ziende lezer van het iBook kan inzoomen.</li>
+<li><strong>3D</strong> (afbeelding die de lezer van het boek beeldvullend vanuit om het even       welke hoek kan bekijken): geef een toegankelijkheidsbeschrijving op en       meld in die toegankelijkheidsbeschrijving dat de afbeelding een 3D       afbeelding is die enkel door zienden in 3D kan bekeken worden. </li>
+<li><strong>Pop-over</strong> (afbeelding waaruit een venster met extra uitleg openschuift, zodra je       erop klikt): de tekst in het pop-over venster is perfect leesbaar voor       schermlezers. Alleen weet je als gebruiker van een schermlezer niet dat de       afbeelding een pop-over afbeelding is. Dat meld je dus best in de       toegankelijkheidsbeschrijving.</li>
+<li><strong>Zijkolom       + scrollbalk</strong> (afbeelding zit ingebed in een kader met een extra       tekstbeschrijving, waar je met een scrollbalk doorheen bladert): geef een       toegankelijkheidsbeschrijving op, zowel de toegankelijkheidsbeschrijving       als de extra beschrijvende tekst worden door de schermlezer voorgelezen</li>
+<li><strong>Toets</strong> (een ondervraging met meerkeuzevragen die je kan inlassen om te checken of       de info uit het voorbije hoofdstuk goed begrepen werd): de toets is vlot       bruikbaar voor hulpmiddelengebruikers, gebruik perfect beschrijvende       omschrijving in de toegankelijkheidsbeschrijving als de lezer de foto moet       kunnen zien om de vraag te kunnen beantwoorden.</li>
+</ul>
+<h2><a id="tech5"></a>Techniek 5: Gebruik ondertiteling bij video’s</h2>
+<p>iBooks  Author biedt ook een widget om een video op te nemen in een iBook. We  behandelen dit even afzonderlijk omdat video specifieke eisen stelt op vlak van  toegankelijkheid.</p>
+<p>  Om  te beginnen gelden voor video dezelfde aanbevelingen dan voor andere content  die je met widgets maakt:</p>
+<ul>
+<li>Voorzie       elke video van een toegankelijkheidsbeschrijving (zie <strong>Techniek       3</strong>) die de inhoudelijke boodschap van het videofragment omvat.</li>
+<li>Voorzie       elke video bij voorkeur ook van een titel met &lsquo;Film&rsquo; als label, zodat het       voor de lezer van je boek duidelijk is dat er een videofragment te zien       is.</li>
+</ul>
+<p>Belangrijk is echter dat je een videofragment van ondertiteling voorziet. Enerzijds wordt de video hierdoor toegankelijk voor mensen met een auditieve beperking. Anderzijds zijn de ondertitels op de platforms waarop iBooks werkt (iOS en Mac OS X) qua grootte, kleur en lettertype aanpasbaar aan de noden van een slechtziende:</p>
+<p><img src="sites/adod.idrc.ocad.ca/files/nl-ibooks13.png" alt="Een videofragment met ondertitels zonder aanpassingen" /> <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks14.png" alt="Een videofragment met ondertitels met zichtbaarheidsaanpassingen" /></p>
+<p>Het  is niet het opzet van dit document om de techniek voor het maken van  ondertiteling in detail uit te leggen. Wel willen we u  de basis-workflow voor het maken van een  ondertitelde video meegeven:</p>
+<ol>
+<li>Zorg ervoor dat de video het MP4-formaat heeft (doe een conversie naar dit formaat indien nodig)..</li>
+<li>Maak een ondertitelingsbestand in het SCC-formaat (aandachtspunt: de ondertitels mogen slechts 32 tekens per regel bevatten). We hebben hiervoor twee mogelijke tools gevonden:
+<ul>
+<li>Een betalende oplossing: MovieCaptioner (14 dagen gratis te testen: <a href="http://www.synchrimedia.com/downloads.html">http://www.synchrimedia.com/downloads.html</a>)</li>
+<li>Een gratis oplossing: de ondertitels met een gratis tool (zoals Subtitle Horse) maken in het veel courantere SRT-formaat en ze dan omzetten naar SCC-formaat met de Converter van 3playmedia (<a href="http://www.3playmedia.com/services-features/tools/captions-format-converter/">http://www.3playmedia.com/services-features/tools/captions-format-converter/</a>)</li>
+</ul>
+</li>
+<li>Koppel de ondertitels aan het MP4-bestand. Ook dit kan op twee manieren:
+<ul>
+<li>Een betalende oplossing: Compressorn van Apple</li>
+<li>Een gratis oplossing : Subler, enkel voor Mac OS X (<a href="http://subler.nl.softonic.com/mac">http://subler.nl.softonic.com/mac</a>):<br /><br />
+        <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks15.png" alt="De programma interface van Subler" /></li>
+</ul>
+</li>
+<li>Importeer het resulterende MP4-bestand via de widget <strong>Media</strong> in het iBook.</li>
+<li>Check of het filmpje in je iBook  afspeelt met weergave van ondertiteling. Hiervoor moet je zowel op een  iOS-apparaat als op een Mac de voorziening voor <strong>Bijschriften  geluid</strong> aanzetten. Deze vind je onder <strong>Instellingen</strong> &gt; <strong>Toegankelijkheid</strong> &gt; <strong>Horen</strong> &gt; <strong>Ondertiteling en  bijschriften</strong>.</li>
+</ol>
+<p>Een bijzonder uitgebreide uitleg  over het maken van ondertiteling bij videobestanden vind je hier: <a href="http://www.synchrimedia.com/Get_Started_with_Video_Captioning.zip">http://www.synchrimedia.com/Get_Started_with_Video_Captioning.zip</a></p>
+<h2><a id="tech6"></a>Techniek 6: Gebruik koppen</h2>
+<p>Elk digitaal boek moet  gestructureerd worden, wil de lezer het op een gemakkelijke manier kunnen  begrijpen. De efficiëntste manier om dit te bereiken is het gebruik van &lsquo;echte koppen&rsquo;,  die een logische scheiding maken tussen opeenvolgende hoofdstukken en secties  in het boek. Een &lsquo;echte kop&rsquo; is veel meer dan een stukje tekst dat enkel wat  grafische opsmuk kreeg, zoals: vette letters, een ander lettertype, een  gecentreerde uitlijning,… Het zijn structurele elementen die een rangorde  hebben en die de hulpmiddelengebruiker een beter inzicht geven in de structuur  van het document.</p>
+<p> &lsquo;Echte koppen&rsquo; maak je door gebruik te maken van kopstijlen. </p>
+<p>Als je de sjablonen gebruikt die Apple bij iBooks Author levert, zijn de  stijlen voor hoofdstukken (hoogste kopniveau) en secties (tweede kopniveau) en alle  benodigde onderliggende kopniveaus reeds voorzien. Je hoeft ze enkel nog correct  toe te passen.</p>
+<div style="background-color:#FFC; border:gray solid 1px; padding: 0em 0.5em 0em 0.5em;">
+<h3>Tips bij het gebruik van koppen</h3>
+<ul>
+<li>Gebruik       de standaard aangeboden kopstijlen (&lsquo;Hoofdstuktitel&rsquo;, &lsquo;Sectietitel&rsquo;, &lsquo;Koptekst       1&rsquo;, &lsquo;Koptekst 2&rsquo; , &lsquo;Koptekst 3&rsquo;,…) .</li>
+<li>Als       je koppen nestelt, doe dit dan op een correcte wijze: de onderliggende       koppen van een &lsquo;Hoofdstuktitel&rsquo; zijn &lsquo;Sectietitel&rsquo;; de onderliggende       koppen van een &lsquo;Sectietitel&rsquo; zijn &lsquo;Kop 1&rsquo;; de onderliggende koppen van een       &lsquo;Kop 1&rsquo; zijn &lsquo;Kop 2&rsquo;; de onderliggende koppen van een &lsquo;Kop 2&rsquo; zijn &lsquo;Kop 3&rsquo;        enz…</li>
+<li>Sla       nooit kopniveaus over.</li>
+</ul>
+</div>
+<h4>Een kop definiëren als een hoofdstuk of een sectie</h4>
+<ol>
+<li>Kies de menu-optie: <strong>Weergave &gt; Toon stijlen</strong>. </li>
+<li>Selecteer  de koptekst en klik in het paneel met de alineastijlen op de stijl  &lsquo;Hoofdstuktitel&rsquo; voor een hoofdstuk of &lsquo;Sectietitel&rsquo; voor een sectie:<br />
+    <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks16.png" alt="Deze illustratie toont dat je eerst de titel van een hoofdstuk of sectie moet selecteren en vervolgens op de gewneste stijl klikken om de kopstijl toe te kennen" /></li>
+<li>Eventueel kan je met een dubbele muisklik op de  hoofdstuk- of sectietitel ook nog een voorvoegsel of een nummering toevoegen,  wat strikt gezien niet noodzakelijk is voor toegankelijkheid, maar wat voor de  gebruiker van een schermlezer wel extra gebruiksvriendelijkheid biedt:<br /><br />
+    <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks17.png" alt="Deze illustratie toont dat je bij een dubbelklik op de titel van een hoofdstuk of sectie in staat bent om een nummering en/of voorvoegsel kunt toevoegen aan een hoofdstuk- of sectietitel" />  </li>
+</ol>
+<h4>Kopstijlen toepassen op koppen binnen een sectie</h4>
+<ol>
+<li>Kies  de menu-optie: <strong>Weergave  &gt; Toon stijlen</strong>. </li>
+<li>Selecteer  de koptekst(en) die je aan een kopstijl wil koppelen en klik in het paneel met  de alineastijlen op de gewenste kopstijl: <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks18.png" alt="Deze illustratie toont dat je eerst een koptekst moet selecteren en vervolgens op de gewenste stijl moet klikken om de kopstijl toe te kennen" /></li>
+</ol>
+<h2><a id="tech7"></a>Techniek 7: Gebruik stijlen</h2>
+<p>Parallel aan <strong>Techniek 6</strong> over kopstijlen, moet je ook streven naar het  consequent toepassen van de stijlen die de iBooks Author-sjablonen standaard  aanbieden. Het aanbod is bij de meeste sjablonen zo groot dat je wellicht niet  de nood voelt om extra eigen stijlen toe te voegen. </p>
+<p> Tekstvormgeving toepassen buiten de stijlen probeer je best zo weinig mogelijk  te doen. Bij een correct gebruik van stijlen zal de lezer makkelijker begrijpen  waarom een stuk tekst op een bepaalde manier is vormgegeven. Dat is vooral  handig als er diverse redenen kunnen zijn om dezelfde vormgeving toe te passen.  Zo is het bijvoorbeeld gebruikelijk om schuingedrukte letters te gebruiken voor  beklemtoonde tekst, Latijnse termen en soortnamen. Aan de toegepaste stijl kan de  lezer in zo&rsquo;n geval herkennen om welk van de drie gevallen het gaat.</p>
+<p> Stijlen toepassen doe je op  exact dezelfde manier dan kopstijlen toepassen (zie <strong>Techniek 6</strong>).  Dit geldt zowel voor alineastijlen als tekenstijlen.</p>
+<h2><a id="tech8"></a>Techniek 8: Gebruik de aangeboden structuurelementen</h2>
+<h3>8.1. Opsommingslijsten</h3>
+<p>Als  je opsommingslijsten maakt, is het belangrijk dat je die als &lsquo;echte lijsten&rsquo;  definieert. Anders interpreteert een schermuitleesprogramma de lijst-items als  afzonderlijke korte alinea&rsquo;s in plaats van als een gestructureerde en  samenhangende lijst van gerelateerde items.</p>
+<p> Voor  het aanmaken van lijsten bieden de diverse sjablonen heel wat kan en klare  lijststijlen aan.</p>
+<h4>Genummerde of niet genummerde lijsten creëren</h4>
+<ol>
+<li>Selecteer het tekstblok waarvan je een lijst wil maken. </li>
+<li>Kies de menu-optie: <strong>Weergave &gt; Toon stijlen</strong>. </li>
+<li>Klik  de lijststijl aan die je wil toepassen op het geselecteerde tekstblok. <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks19.png" alt="Deze illustratie toont hoe je correcte lijststijlen tepast bij het maken van een lijst" /></li>
+</ol>
+<h3>8.2 Inhoudsopgave</h3>
+<p>Elk iBook-sjabloon in iBooks  Author genereert automatisch een inhoudsopgave op basis van de in het boek  gebruikte koppen. Je hoeft hier zelf dus helemaal niets voor te doen, tenzij de  kopstijlen correct toepassen (zie <strong>Techniek 6</strong>).</p>
+<p> De beste manier om een  inhoudsopgave te creëren bestaat erin om consequent kopstijlen, zoals Kop 1,  Kop 2,… (zie ook <strong>Techniek 6</strong>), toe te passen op de  koppen die je in de inhoudsopgave wenst. Op basis daarvan kan je automatisch  een inhoudsopgave laten genereren door de functie <strong>Inhoudsopgave</strong>.<strong> </strong></p>
+<h4>De inhoud van een inhoudsopgave bepalen</h4>
+<ol>
+<li>Kies  de menu-optie: <strong>Weergave  &gt; Toon infovenster</strong>. </li>
+<li>Klik  op de knop <strong>Documentinfo </strong>in het Infovenster:   <br /><br />
+    <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks5.png" alt="De knop documentinfo uit het infovenster" /></li>
+<li>Klik op de rubriek <strong>Inhoudsopgave</strong>.</li>
+<li>Klik  op de &lsquo;+&rsquo;-knop om een kopniveau toe te voegen aan de inhoudsopgave. Klik op de  &lsquo;-&rsquo;-knop om een kopniveau te verwijderen uit de inhoudsopgave..<br />
+    <br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks20.png" alt="Paneel waar je de inhoud van de inhoudsopgave bepaalt" /></li>
+</ol>
+<h3>8.3 Woordenlijst</h3>
+<p>Elk iBook-sjabloon in iBooks Author biedt een voorziening voor een woordenlijst. Aan deze lijst kan kernwoorden toevoegen die belangrijk zijn binnen het boeken. Op basis van zo’n woordenlijst krijgt de lezer van het boek een extra methode om doorheen de content van het boek te zoeken. Ook voor de gebruiker van een schermlezer biedt zo’n woordenlijst een extra navigatiemethode, die geen overbodige luxe is bij gebrek aan visueel navigeren.</p>
+<h4>Een woordenlijst maken</h4>
+<ol>
+<li>Klik op <strong>Woordenlijst  in de linker kolom Overzicht boek</strong>. </li>
+<li>Klik op de plus-knop in de kolom <strong>Woordenlijst</strong> en  typ het woord in dat je aan de woordenlijst wil toevoegen. </li>
+<li>Typ in de rechter kolom de verklaring van dat woord.</li>
+<li>Herhaal deze stappen voor elk woord dat je aan  de woordenlijst wil toevoegen: <br /><br />
+    <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks21.png" alt="Illustratie die toont hoe je een woordenlijst aan een boek toevoegt" /></li>
+</ol>
+<h3>8.4 Paginanummering</h3>
+<p>Een iBook bestaat net zoals een  gedrukt boek uit pagina&rsquo;s. Paginanummers zijn belangrijk omdat ze verwijzingen  vanuit de inhoudsopgave mogelijk maken en omdat ze de gebruiker van het boek  een bijkomende manier bieden om digitaal doorheen het boek te bladeren of  direct naar een bepaalde pagina te gaan. Ook voor de gebruiker van een  schermlezer vormt de paginanummering een extra manier om binnen een boek te  navigeren.</p>
+<p> Voor het genereren van  paginanummers hoef je echter doorgaans zelf niets te ondernemen, omdat  paginanummering in alle standaard sjablonen van iBooks Author voorzien is.</p>
+<h3>8.5  Meta-gegevens</h3>
+<p>Aan elk iBook kan je een aantal  meta-gegevens toevoegen, waarvan het belang op het eerste zicht niet zo  duidelijk is. De boektitel en de auteur van het boek zijn daar voorbeelden van.  Het is essentieel dat je minimaal deze meta-gegevens correct invult, want in de  iBooks lees-app zal een schermlezer deze twee gegevens gebruiken bij het  overlopen van de boekenplank. Als je de titel en de auteur niet correct opgeeft  bij de creatie van het boek, dan zal een schermlezen bij het overlopen van de  boekenplank in de iBooks lees-app dit boek aankondigen als &ldquo;onbekende titel,  onbekende auteur&rdquo;, en dan weet de gebruiker van een schermlezer helemaal niet  over welk boek het gaat…</p>
+<h4>De titel en auteur van een boek opgeven</h4>
+<ol>
+<li>Kies de menu-optie: <strong>Weergave &gt; Toon infovenster</strong>. </li>
+<li>Klik op de knop <strong>Documentinfo </strong>in het Infovenster:<br /><br />
+    <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks5.png" alt="De knop documentinfo uit het infovenster" /></li>
+<li>Klik op de rubriek <strong>Document</strong>.</li>
+<li>Vul de auteur van het boek in in het veld <strong>Auteur</strong>,</li>
+<li>Vul de titel van het boek in in het veld <strong>Titel</strong>:<br /><br />
+    <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks22.png" alt="Infopaneel waar je de titel en auteur van boek kan ingeven" /></li>
+</ol>
+<h2><a id="tech9"></a>Techniek 9: Maak toegankelijke tabellen</h2>
+<p>Als je tabellen in een iBook inlast,  is het belangrijk dat die duidelijk en op een correcte manier worden  gestructureerd. Dit bevordert de verstaanbaarheid van de informatie in de  tabellen en zorgt ervoor dat de gebruiker van een schermlezer de contextuele  informatie (rijhoofding, kolomhoofding) krijgt bij het uitlezen van de  tabelinhoud.</p>
+<div style="background-color:#FFC; border:gray solid 1px; padding: 0em 0.5em 0em 0.5em;">
+<h3>Tips voor toegankelijke tabellen</h3>
+<ul>
+<li>Gebruik       tabellen enkel informatie die geschikt is voor weergave in tabelvorm, niet       voor paginaopmaak.</li>
+<li>Gebruik       de tabelfunctie voor het creëren van tabellen. Creëer niet zelf       &lsquo;handgemaakte&rsquo; tabellen met de tabtoets of (nog erger) de spatiebalk, want       deze zullen niet als tabel herkend worden door hulpmiddelen.</li>
+<li>Hou       tabellen zo eenvoudig mogelijk door samengevoegde cellen te vermijden en       door eventueel complexe dataverzamelingen zo mogelijk op te splitsen in       meerdere kleinere tabellen.</li>
+<li>Als       een tabel opgesplitst is over meerdere pagina&rsquo;s, zorg er dan voor dat de       kolomhoofdingen bovenaan elke nieuwe pagina herhaald worden. Zorg er in       dat geval ook voor dat de tabel opgesplitst wordt tussen twee rijen in       plaats van midden in een rij.</li>
+<li>Maak       een tekstuele samenvatting van de essentiële tabelinhoud en geef daarin       ook een verklaring van de eventueel gebruikte afkortingen in de tabel.</li>
+<li>Zorg       ervoor dat eventuele bijschriften bij tabellen een antwoord bieden op de       vraag: &ldquo;Wat is het doel van de tabel en hoe is hij georganiseerd?&rdquo;.</li>
+<li>Tabelcellen       die als koptekst voor kolommen of rijen gebruikt worden, en die dus als       label gebruikt worden om onder- of naastliggende cellen te verduidelijken,       moeten ook als koptekst gedefinieerd worden. Op deze manier kan de       schermlezer ook de kopteksten bij datacellen vermelden.</li>
+<li>Tracht       je te beperken tot slechts één rij en één kolom met kopteksten.</li>
+<li>Kopteksten       moeten beknopt maar duidelijk geformuleerd worden.</li>
+<li>Zorg       ervoor dat er geen tekstboeken naast de tabel op dezelfde pagina       voorkomen, want dan gaat de schermlezer de mist in.</li>
+</ul>
+</div>
+<h4>Een tabel met kopteksten toevoegen</h4>
+<ol>
+<li>Kies de menu-optie: <strong>Weergave &gt; Toon infovenster</strong>. </li>
+<li>Klik op de knop <strong>Tabelinfo </strong>in  het Infovenster: <br /><br />
+    <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks23.png" alt="De knop tabelinfo uit het infovenster" /></li>
+<li>Klik op de rubriek <strong>Tabel</strong>.</li>
+<li>Met de  knoppen bij <strong>Kop-/voetteksten</strong> bepaal je hoeveel  kolommen en rijen als koptekst moeten gebruikt worden:<br /><br />
+    <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks24.png" alt="Deze afbeelding toont de plek waar de kolom- en rijhoofdingen als dusdanig aangeduid worden" /></li>
+</ol>
+<h2><a id="tech10"></a>Techniek 10: Maak toegankelijke diagrammen</h2>
+<p>Diagrammen kan je gebruiken om  gegevens in één oogopslag begrijpelijker voor te stellen.&nbsp;Het is echter  van groot belang dat gegevens die het diagram bevat, toegankelijk zijn voor  alle lezers van het iBook. Alle basis toegankelijkheidsinspanningen die je voor  de rest van je document doet, moet je ook toepassen op je grafieken en de  gegevens in die grafieken. Gebruik bijvoorbeeld vorm én kleur in plaats van  kleur alleen om informatie over te brengen (zie <strong>Techniek 11.3</strong>)  of gebruik goede contrasten bij het creëren van diagrammen (zie <strong>Techniek 11.2</strong>). </p>
+<p> Een diagram dat je met de  diagramfunctie van iBooks Author maakt, is per definitie een grafisch element dat  de schermlezer niet kan vertalen naar een gesproken of een brailleweergave. Ook  de tekstuele informatie die je in het infovenster Diagraminfo kan ingeven  (titel, legenda, labels, as-waarden,…), worden in de grafiek ingebed en zijn  niet door de schermlezer uit te lezen. Het is daarom erg belangrijk dat je de  het diagram voorziet van een toegankelijkheidsbeschrijving (zie <strong>Techniek 3</strong>). Let er hierbij op dat de  toegankelijkheidsbeschrijving alle info bevat die je visueel met het diagram  wil overbrengen. Eventueel kan je bij de widgetinfo ook nog een titel en/of  bijschrift toevoegen. Ook deze worden door een schermlezer opgepikt.</p>
+<h3>Nog een paar bedenkingen bij grafieken</h3>
+<ul>
+<li>Als je lijndiagrammen maakt, gebruik dan, naast verschillende kleuren, ook de opmaaktools om verschillende types van stippellijnen en/of verschillende lijndiktes te creëren. Hierdoor maak je het lijndiagram makkelijker interpreteerbaar voor mensen met kleurenblindheid..<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks25.png" alt="Voorbeeld van een lijndiagram waarbij gebruik gemaakt is van verschillende soorten stippellijnen en een lijndiagram waarbij gebruik gemaakt is van verschillende lijndiktes" /></li>
+<li>Als je staafdiagrammen maakt, gebruik dan patronen voor het opvullen van vormen. Zo maak je het staafdiagram makkelijker interpreteerbaar voor mensen met kleurenblindheid.<br /><br />
+  <img src="sites/adod.idrc.ocad.ca/files/nl-ibooks26.png" alt="Voorbeeld van een staafdiagram waarbij gebruik gemaakt is van verschillende soorten patronen voor de invulling van de staven" /></li>
+<li>Wijzig de standaardkleuren  voor diagrammen zoveel mogelijk in kleurpaletten met goede contrasten. In  iBooks Author zijn bijvoorbeeld de kleurenschema&rsquo;s &lsquo;Heldere kleuren&rsquo; en  &lsquo;Plezier&rsquo; goed contrasterende kleurenschema&rsquo;s.</li>
+<li>Wijzig voorgedefinieerde  kleurenpaletten zo nodig met het oog op betere contrasten (zie ook <strong>Techniek 11.2</strong>).</li>
+</ul>
+<h2><a id="tech11"></a>Techniek 11: Maak de inhoud beter zichtbaar</h2>
+<h3><a id="tech11-1"></a>11.1 Vormgeving van tekst</h3>
+<p>Bij het vormgeven van tekst tracht je, met het oog op een goede visuele leesbaarheid:</p>
+<ul>
+<li>Een tekengrootte tussen 12 en 18 punten       te gebruiken voor normale paragraaftekst.</li>
+<li>Een normaal letterbeeld te gebruiken in       plaats van &lsquo;vet&rsquo; of &lsquo;licht&rsquo;. Als je toch vette letters gebruikt, bijvoorbeeld       om iets te benadrukken, ga daar dan spaarzaam mee om.</li>
+<li>Vooral de meest gangbare lettertypes te       gebruiken, die gekenmerkt zijn door voldoende tussenruimte tussen de       tekens en vlot leesbare hoofd- en kleine letters. Schreefloze lettertypes       (zoals Arial of Verdana) worden over het algemeen als makkelijker leesbaar ervaren dan geschreefde lettertypes (zoals Times New Roman of Garamond).</li>
+<li>Het gebruik van lange stukken tekst in hoofdletters, in schuine druk of met onderstreping te vermijden.</li>
+<li>De normale (of eventueel vergrote) spatiëring tussen de tekens te gebruiken. Vermijd verkleinde tekenspatiëring.</li>
+</ul>
+<h3><a id="tech11-2"></a>11.2 Gebruik goede contrasten</h3>
+<p>De visuele presentatie van tekst en tekstafbeeldingen moeten een contrastratio van ten minste 4.5:1 hebben. Met de volgende voorbeelden van telkens verschillend gekleurde tekst op een witte achtergrond, proberen we een idee te geven van goede en slechte contrastratio’s:
+</p>
+<ul>
+<li>Zeer goed contrast (Tekstkleur=zwart, Achtergrond=wit, Contrast Ratio=21:1)</li>
+<li>Aanvaardbaar contrast (Tekstkleur=#767676, Achtergrond=wit, Contrast Ratio=4.54:1)</li>
+<li>Onaanvaardbaar contrast (Tekstkleur=#AAAAAA, Achtergrond=wit, Contrast Ratio=2.32:1)</li>
+</ul>
+<p>Gebruik ook steeds een egaal gekleurde achtergrond en dus geen achtergrond met een patroon of geen afbeelding of foto als achtergrond.</p>
+<p>Om na te gaan of de kleuren die je in een boek gebruikt, voldoende contrasterend zijn, kan je online contrast checkers gebruiken, zoals:</p>
+<ul>
+<li><a href="http://juicystudio.com/services/luminositycontrastratio.php">Juicy Studio: Luminosity Color Contrast Ratio  Analyzer</a> </li>
+<li><a href="http://www.joedolson.com/color-contrast-compare.php">Joe Dolson Color Contrast Comparison</a> </li>
+<li><a href="http://www.paciellogroup.com/resources/contrastAnalyser">TPG Contrast Analyser</a></li>
+</ul>
+<h3><a id="tech11-3"></a>11.3 Vermijd het gebruik van alleen kleur</h3>
+<p>Alleen kleuren gebruiken om op een visuele manier informatie over te brengen, een actie aan te geven of een object visueel te onderscheiden, is uit den boze. Mensen met een verminderde kleurperceptie mislopen daardoor immers informatie.
+</p>
+<p>Als je wil contoleren of er in je iBook toch kleur gebruikt wordt om betekenisvolle informatie over te brengen, kan je daarvoor een schermafbeelding maken van je pagina en dit checken door toepassing van een online tool, die je schermafbeelding omzet naar grijswaarden. Een mogelijke tool hiervoor is: </p>
+<ul>
+<li><a href="http://graybit.com/main.php">GrayBit v2.0: Grayscale Conversion Contrast  Accessibility Tool</a></li>
+</ul>
+<h3><a id="tech11-4"></a>11.4  Baseer je niet enkel op zintuiglijke waarneming om inhoud te begrijpen</h3>
+<p>Als je in je tekst instructies geeft die helpen om de informatie in je iBook te begrijpen en/of te gebruiken, dan mogen die niet enkel steunen op zintuiglijke kenmerken, zoals kleuren of vormen. Een voorbeeld om dit te verduidelijken:</p>
+<ul>
+<li>Maak in je tekst nooit een onderscheid tussen afbeeldingen door enkel naar hun verschijningsvorm (bijvoorbeeld: ‘de grootste…’) te verwijzen. In de plaats daarvan nummer je de afbeeldingen en refereer je daarnaar. </li>
+</ul>
+<h3><a id="tech11-5"></a>11.5  Vermijd tekstafbeeldingen</h3>
+<p>Overweeg eerst of het mogelijk  is om tekst als &lsquo;echte tekst&rsquo; in je document op te nemen, alvorens een grafisch  element te gebruiken om die tekst weer te geven (bijvoorbeeld om zeker te zijn  van een bepaalde lettertype/kleurcombinatie). Als dat niet mogelijk is  (bijvoorbeeld voor tekst in een logo waaraan je niets mag wijzigen), zorg dan  zeker voor een correct gedefinieerd tekstalternatief (zie ook <strong>Techniek 3</strong>).</p>
+<h2><a id="tech12"></a>Techniek 12: Maak de inhoud makkelijker te begrijpen</h2>
+<h3>12.1 Gebruik ‘klare taal’</h3>
+<p>Door de nodige aandacht en zorg te besteden aan een consistent en makkelijk taalgebruik, zal het iBook beter inhoudelijk toegankelijk, vlotter navigeerbaar en makkelijker interpreteerbaar zijn voor alle gebruikers:</p>
+<ul>
+<li>Schrijf zo duidelijk mogelijk in korte       zinnen.</li>
+<li>Geef de verklaring van afkortingen en       acroniemen.</li>
+<li>Zorg ervoor dat pagina&rsquo;s niet te &lsquo;druk&rsquo;       overkomen. Dit doe je door voldoende witruimte in te lassen en niet te       overdrijven met verschillende lettertypes, kleuren en afbeeldingen.</li>
+<li>Als bepaalde termen of stukken tekst       herhaald worden doorheen een document, spel ze dan overal identiek.</li>
+</ul>
+<p>In  Vlaanderen kunnen we twee bronnen aanbevelen die uitvoerig uitleggen hoe je &lsquo;klare  taal&rsquo; gebruikt:</p>
+<ul>
+<li>KHK Klaar voor Taal: <a href="http://www.klaartje.eu">www.klaartje.eu</a></li>
+<li>Wablieft: <a href="http://www.wablieft.be">www.wablieft.be</a></li>
+</ul>
+<h3>12.2 Koppel hyperlinks steeds aan een betekenisvol tekstfragment</h3>
+<p>Hyperlinks  kunnen een zeer krachtig navigatie-instrument bieden, als ze de gebruiker een  goed beeld geven waarnaar ze verwijzen. Zo niet, dan vormen hyperlinks eerder  hindernissen die slechts met vallen en opstaan kunnen worden genomen.</p>
+<p> Om  zeker te zijn dat de lezer van jouw iBook het doel van een hyperlink begrijpt,  zorg je ervoor dat de linktekst ook betekenisvol is, als je die buiten de  context van het document zou lezen. Het is bijvoorbeeld niet goed om &ldquo;<u>Meer  informatie</u>&rdquo; als linktekst te gebruiken in de zin: &ldquo;Meer informatie over de  trein- en busregelingen vindt u hier&rdquo;. Je kan de link dan beter koppelen aan de  tekst &ldquo;<u>trein- en busregelingen</u>&rdquo;.</p>
+<h2><a id="tech13"></a>Techniek 13: De toegankelijkheid checken</h2>
+<p><strong> </strong>Op het moment van de  test (<strong>1 augustus 2014</strong>) biedt iBooks Author geen  eigen functie om een boek op eventuele toegankelijkheidsproblemen te  controleren, alvorens het te publiceren. Bovendien is het ook niet mogelijk om  vanuit iBooks Author een boek te exporteren naar een HTML-pagina, wat het  onmogelijk maakt om de toegankelijkheid te checken op basis van een  geëxporteerde HTML-versie.<strong> </strong></p>
+<p>Om een beeld te krijgen over de  toegankelijkheid van je boek, creëer je een voorvertoning (de knop <strong>Voorvertoning</strong> staat in de knoppenbalk van iBooks Author) van  het boek op een iPad. Probeer dit testboek eens helemaal door te lezen met de  in iOS voorziene toegankelijkheidsfaciliteiten: de VoiceOver spraakweergave, de  zoomfunctie voor slechtzienden, omgekeerde kleuren, ondertiteling bij video,…  Tracht je hierbij in te leven in de functiebeperking van de blinde, slechtziende,  dove of slechthorende lezer van je boek. Voor deze inleving kan je bijvoorbeeld  een blinddoek aandoen of het geluid van je iPad uitzetten.</p>
+<p>Voor andere documenttypes wordt  vaak aanbevolen om ze om te zetten naar een &lsquo;tagged&rsquo; PDF-bestand. Vervolgens  kan je dit bestand door Acrobat Reader automatisch laten checken op  toegankelijkheidsproblemen. iBooks Author biedt helaas niet de mogelijkheid om  een tagged PDF te produceren. Een PDF-document zonder tags is per definitie  niet toegankelijk en dus niet relevant om de toegankelijkheid van je iBook te  checken.</p>
+<h2><a id="help"></a>Hulp bij een toegankelijk gebruik</h2>
+<p>Meer  informatie over de toegankelijkheidsfaciliteiten die iBooks Author biedt om  beter bruikbaar te zijn voor gebruikers met een beperking, vind je in de  hulpfunctie van iBooks Author:</p>
+<ol>
+<li>Open het menu: <strong>Help</strong>.</li>
+<li>Vul uw zoekterm in het <strong>Zoekveld</strong>.</li>
+</ol>
+<h2><a id="ref"></a>Referenties en Bronnen</h2>
+<ol>
+<li>iBooks  Author Help</li>
+<li>GAWDS Writing Better Alt Text [<a href="http://www.gawds.org/show.php?contentid=28">http://www.gawds.org/show.php?contentid=28</a>]</li>
+<li>Publishing with iBooks Author, An  Introduction to Creating Ebooks for the iPad, Nellie McKesson &amp; Adam  Witwer, O&rsquo;Reilly, February 2012</li>
+<li>iBooks Accessibility, Luis F. Pérez,  M. Ed.</li>
+</ol>
+<h2><a id="Ack"></a>Dankwoord</h2>
+<p><strong>Auteurs:</strong> Jeroen Baldewijns (<a href="http://www.blindenzorglichtenliefde.be/">Licht en liefde</a>), Steven Breughe (<a href="http://www.blindenzorglichtenliefde.be/">Licht en liefde</a>), Bart Simons (<a href="http://anysurfer.be/">AnySurfer</a>), Jan Richards (Editor, <a href="http://idrc.ocad.ca">Inclusive Design Research Centre</a>)</p>
+<p>Dit document werd geproduceerd binnen het  Accessible Digital Office Document (ADOD) Project (<a href="http://inclusivedesign.ca/accessible-office-documents">http://inclusivedesign.ca/accessible-office-documents</a>).</p>
+<p> Dit project is een initiatief  van Inclusive Design Research Centre, OCAD University, dat deel uitmaakt van  een EnAbling Change Partnership project met Government of Ontario en UNESCO  (United Nations Educational, Scientific and Cultural Organization).</p>
+<h2><a name="_Toc396113736">Verantwoording</a></h2>
+<p>De  gebruikte benamingen en de presentatie van het materiaal in deze publicatie  drukken geenszins een opinie van de UNESO uit, aangaande de rechtspositie van  een land, grondgebied of stad of van zijn autoriteiten op het vlak van de  afbakening van grenzen.<br /><br />
+  De auteur is verantwoordelijk voor de keuze en presentatie van de inhoudelijke  topics en opinies in dit document, die niet noodzakelijk de opinie van UNESCO  is.<br /><br />
+  Deze publicatie werd gerealiseerd onder de verantwoordelijkheid van het AnySurfer-project van Blindenzorg Licht en Liefde vzw. Blindenzorg Licht en Liefde is volledig  verantwoordelijk voor de kwaliteit van de vertaling naar het Nederlands. Hoewel we deze vertaling met grote zorg hebben uitgevoerd, kunnen we  eventuele vertaalfouten niet uitsluiten. Mocht u toch fouten vinden in dit  document, dan kan u dit steeds melden op <a href="mailto:info@anysurfer.be">info@anysurfer.be</a>.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Accessible Digital Office Documents (ADOD) Project</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="index.html" property="cc:attributionName" rel="cc:attributionURL">Inclusive Design Research Centre (IDRC)</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
+<p>Updated: <strong>19 Aug 2013</strong></p>
+</div>
+  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+      </div>
+
+</div>
+          </div>
+                    <div id="footer">Copyright 2010, IDRC</div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+    </body>
+</html>

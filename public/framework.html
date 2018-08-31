@@ -1,0 +1,948 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="misc/favicon.ico" type="image/x-icon" />
+
+    <title>Assessment Framework | Accessible Digital Office Document (ADOD) Project</title>
+    <link type="text/css" rel="stylesheet" media="all" href="sites/adod.idrc.ocad.ca/files/css/css_f227edaa08468efc78f9ba2d884f9b5e.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/adod.idrc.ocad.ca/files/css/css_24d907fbbd309d49286f16c0b240a2d1.css" />
+        <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/themes/garland/fix-ie.css" />    <![endif]-->
+  </head>
+  <body>
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="index.html" title="Accessible Digital Office Document (ADOD) Project"><span>Accessible Digital Office Document (ADOD) Project</span></a></h1>        </div>
+
+                                                    
+      </div> <!-- /header -->
+
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="index.html">Home</a></div>                              <h2>Assessment Framework</h2>                                                  <div class="clear-block">
+            <div id="node-18" class="node">
+
+
+
+  
+  <div class="content clear-block">
+    <p>Version: Dec. 2010</p>
+<h2><a name="_Toc280180406" id="_Toc280180406"></a><a name="_Toc280180255" id="_Toc280180255">Important&nbsp;Note</a></h2>
+<p><strong>This  is a technical document intended for use in performing product assessments.  More user-friendly guidance is provided by the various support documents provided  on the Accessible Digital Office Document (ADOD) Project website:&nbsp; http://adod.idrc.ocad.ca/.</strong></p>
+<h2><a name="_Toc280180407" id="_Toc280180407"></a><a name="_Toc280180256" id="_Toc280180256">Abstract</a></h2>
+<p>The Accessible Digital Office Documents  (ADOD) Assessment Framework is a mechanism, based primarily on the WCAG 2.0 and  ATAG 1.0 Recommendations of the W3C, for assessing various aspects of office  documents and office applications related to accessibility.</p>
+<h2>Contents </h2>
+<p><a href="framework.html#_Toc280180406">Important Note</a> <br />
+  <a href="framework.html#_Toc280180407">Abstract</a> <br />
+  <a href="framework.html#_Toc280180408">Scope</a> <br />
+  <a href="framework.html#_Toc280180409">Relationship between ADOD and WCAG 2.0/ATAG 1.0</a> <br />
+  <a href="framework.html#_Toc280180410">Conformance</a> <br />
+  <a href="framework.html#_Toc280180411">ADOD Assessment Framework</a> <br />
+  <a href="framework.html#_Toc280180412">Part 1:   [ADOD-Office-Documents] Assessing the accessibility of office documents</a> <br />
+  <a href="framework.html#_Toc280180413">Part 2:   [ADOD-Office-Formats] Assessing the accessibility of office document formats</a> <br />
+  <a href="framework.html#_Toc280180414">Part 3:   [ADOD-Office-Applications-UI] Assessing the accessibility of office   application user interfaces</a> <br />
+  <a href="framework.html#_Toc280180415">Part 4: [ADOD-Office-Applications-Supports]   Assessing the provision by office applications of support for authoring   accessible office documents</a> <br />
+  <a href="framework.html#_Toc280180416">Glossary of ADOD-Specific Terms</a> <br />
+  <a href="framework.html#_Toc280180417">References</a> <br />
+  <a href="framework.html#_Toc280180418">W3C Recommendations:</a> <br />
+  <a href="framework.html#_Toc280180419">Other Resources   Consulted:</a> <br />
+  <a href="framework.html#_Toc280180420">Appendices</a> <br />
+  <a href="framework.html#_Toc280180421">Appendix A: Rationale for   inclusion of success criteria in &ldquo;Part 1: [ADOD-Office-Documents] Assessing   the accessibility of office documents&rdquo;</a> <br />
+  <a href="framework.html#_Toc280180422">Appendix B: Rationale for   inclusion of success criteria in &ldquo;Part 2: [ADOD-Office-Formats] Assessing the   accessibility of office documents formats&rdquo;</a> <br />
+  <a href="framework.html#_Toc280180423">Appendix C: Rationale for   inclusion of success criteria in &ldquo;Part 3: [ADOD-Office-Applications-UI]   Assessing the accessibility of office application user interfaces&rdquo;</a> <br />
+  <a href="framework.html#_Toc280180424">Appendix D: Rationale for   inclusion of success criteria in &ldquo;Part 4: [ADOD-Office-Applications-Supports]   Assessing the provision by office applications of support for authoring   accessible office documents&rdquo;</a> <br />
+  <a href="framework.html#_Toc280180425">Appendix E: Comparison   between ADOD and Section 508 Regulations (2001)</a> <br />
+  <a href="framework.html#_Toc280180426">Accessibility of Office   Documents (Part 1 [ADOD-Office-Documents] Assessing the accessibility of   office documents)</a> <br />
+  <a href="framework.html#_Toc280180427">Accessibility of Office   Document Formats (Part 2 [ADOD-Office-Formats] Assessing the accessibility of   office document formats)</a> <br />
+  <a href="framework.html#_Toc280180428">Accessibility of Office   Application User Interfaces (Part 3 [ADOD-Office-Applications-UI] Assessing   the accessibility of office application user interfaces)</a> <br />
+  <a href="framework.html#_Toc280180429">Support for Authoring   Accessible Office Documents (Part 4 [ADOD-Office-Applications-Supports]   Assessing the provision by office applications of support for authoring   accessible office documents)</a> <br />
+  <a href="framework.html#_Toc280180430">Acknowledgments</a> </p>
+<h2><a name="_Toc280180408" id="_Toc280180408"></a><a name="_Toc280180257" id="_Toc280180257">Scope</a></h2>
+<p>The ADOD Assessment Framework applies  specifically to <strong><em>office documents</em></strong>, which are defined as computer  documents that are: </p>
+<ul>
+<li><strong>Intended to be used by  people </strong>(i.e., not computer code),</li>
+<li><strong>Text-based</strong> (i.e., not simply images, although they may contain images),</li>
+<li><strong>Fully printable </strong>(i.e., where dynamic features are limited to automatic page  numbering, table of contents, etc. and do not include audio, video, or embedded  interactivity)<strong>,</strong></li>
+<li><strong>Self-contained</strong> (i.e., without hyperlinks to other resources unlike web content),  and </li>
+<li><strong>Typical of office-style  workflows </strong>(Reports, letters, memos, budgets,  presentations, etc.).</li>
+</ul>
+<p>The ADOD Assessment Framework does not  simply apply to any document produced by an office application using an office  document format. This is an important distinction because office document formats  and office applications have been extended over the years to allow the creation  of content with many of the same dynamic and interactive features as <strong><em>web  content technologies</em></strong> offer (e.g., hyperlinking to other resources,  multimedia support, and programmability). <strong>When office document formats are  used to create dynamic and/or interactive content (whether or not for the Web),  WCAG 2.0 rather than the ADOD Assessment Framework should be consulted to  assess accessibility.</strong><br />
+  Since full inclusion includes allowing  everyone to be both consumers and producers of content, the ADOD Assessment  Framework addresses the question of office document accessibility from several  perspectives:</p>
+<p><strong>Accessibility of office documents </strong></p>
+<ul>
+<li><strong>Part 1  ([ADOD-Office-Documents] Assessing the accessibility of office documents)</strong> addresses the accessibility of complete office documents, ready for  sharing with other users. This section is based on WCAG 2.0.</li>
+</ul>
+<p><strong>Accessibility of Office  Document Formats</strong></p>
+<ul>
+<li><strong>Part 2  ([ADOD-Office-Formats] Assessing the accessibility of office document formats)</strong> addresses the accessibility of the underlying office document  formats, regardless of how they are presented to users in the various office  applications. This section is based on a subset of [ADOD-Office-Documents], above.</li>
+</ul>
+<p><strong>Accessibility of Office Application  User Interfaces </strong></p>
+<ul>
+<li><strong>Part 3  ([ADOD-Office-Applications-UI] Assessing the accessibility of office  application user interfaces)</strong> addresses the  accessibility to users with disabilities of the user interfaces provided by  office applications. This section is based on ATAG 1.0 Guideline 7 (&ldquo;Ensure  that the authoring tool is accessible to authors with disabilities.&rdquo;)</li>
+</ul>
+<p><strong>Support for Authoring Accessible  Office Documents</strong></p>
+<ul>
+<li><strong>Part 4  ([ADOD-Office-Applications-Supports] Assessing the provision by office  applications of support for authoring accessible office documents)</strong> addresses the features that office applications provide to all  users to support and encourage production of accessible office documents. This  section is based on ATAG 1.0 Guidelines 1-6.</li>
+</ul>
+<p><em>Note re: Presentations:</em> Of the three types of office documents, presentations are the most  likely to make use of dynamic or interactive content (e.g., audio, video,  multimedia, animations, hyperlinks to other resources, etc.). When this is the  case, WCAG 2.0 should be used to assess accessibility, rather than ADOD&rsquo;s  Assessment Framework.</p>
+<p><em>Note re: Document editing is not  considered &ldquo;dynamic/interactive&rdquo; content:</em> One of  the typical features of office documents is that they are often editable and  during editing, a certain amount of interactivity and dynamism may occur (e.g.,  the document updates to reflect the user&rsquo;s last entry, when the use updates a  spreadsheet cell other cells may also update). <strong>However, the ADOD Assessment  Framework does not consider changes caused by editing an office document to  constitute interactive/dynamic content.</strong> </p>
+<h2><a name="_Toc280180409" id="_Toc280180409"></a><a name="_Toc280180258" id="_Toc280180258">Relationship between ADOD and WCAG 2.0/ATAG 1.0</a></h2>
+<p><strong>The W3C-WAI Web Content  Accessibility Guidelines (WCAG 2.0) and W3C-WAI Authoring Tool Accessibility  Guidelines (ATAG 1.0*) provide open, comprehensive and respected guidance on  how to develop accessible web content and accessible web content authoring tools.</strong> <strong>The ADOD Assessment Framework is an attempt to usefully apply  these guidelines to the context of office documents/application with as little &ldquo;adjustment&rdquo;  as possible. </strong></p>
+<p>The adjustments are necessary  because simply applying WCAG 2.0 and ATAG 1.0 to  the context of office documents/applications has several drawbacks: </p>
+<ul>
+<li><strong>Vocabulary confusion:</strong> ATAG 1.0 and WCAG 2.0 both make frequent use of terms such as &ldquo;web  content&rdquo; and &ldquo;authoring tool&rdquo; that need to be re-mapped to be applicable to  office documents and office applications. Creating adjusted sets of success  criteria for the ADOD Assessment Framework allowed the office document-specific  terms to be inserted </li>
+<li><strong>Numerous non-applicable success criteria: </strong>Because ADOD focuses specifically on office documents without dynamic  or interactive content, many WCAG 2.0 success criteria are not applicable.  Creating an adjusted set of office document accessibility success criteria for the  ADOD Assessment Framework allowed the non-applicable success criteria to be  dropped. </li>
+<li><strong>Multiple conformance levels: </strong>In  formulating an easy-to-use assessment framework for office documents it was  judged that the multiple conformance levels were an unnecessary complication.  Creating adjusted sets of success criteria for the ADOD Assessment Framework at  WCAG 2.0 Level AA meant that the level identifiers could be removed.</li>
+<li><strong>ATAG 1.0 references WCAG 1.0: </strong>ATAG 1.0 references WCAG 1.0, rather than the  current W#C Recommendation, WCAG 2.0. Creating adjusted  sets of success criteria for the ADOD Assessment Framework meant that the references  could be changed to WCAG 2.0.</li>
+<li><strong>ATAG 1.0 is prioritized differently that WCAG 2.0: </strong>In WCAG 2.0, &ldquo;success criteria&rdquo;  are assigned a &ldquo;Level&rdquo; between Level A and Level AA. In ATAG 1.0, &ldquo;checkpoints&rdquo;  are assigned a &ldquo;Priority&rdquo; between priority 1 and priority 3. &ldquo;Relative  Priority&rdquo; items take their priority level from the WCAG content in question. Creating adjusted sets of success criteria for the ADOD Assessment  Framework meant that common wording could be employed.</li>
+</ul>
+<p>At the same time, in order to reduce the  risk of &ldquo;fragmenting&rdquo; the guidance provided to office application developers,  who have only a limited budget for maintaining and improving of accessibility  features, the ADOD Assessment Framework:</p>
+<ul>
+<li><strong>Uses the W3C-WAI numbering  schemes</strong> and </li>
+<li><strong>Uses the original W3C-WAI  wording except where vocabulary adjustments are indentified with square  brackets</strong>.</li>
+</ul>
+<p>* At  the time of writing, ATAG 1.0 is the current Recommendation of W3C; ATAG 2.0 is  under development.</p>
+<h2><a name="_Toc280180410" id="_Toc280180410"></a><a name="_Toc280180259" id="_Toc280180259">Conformance</a></h2>
+<p>Since the ADOD Assessment Framework is  essentially a &ldquo;view&rdquo; of WCAG 2.0 and ATAG 1.0 that is specific to office  documents and office applications, an ADOD-specific conformance model is  unnecessary. Instead, official conformance claims should be made to WCAG 2.0  (for office documents) and ATAG 1.0 (for office applications), noting that any  Web-specific wording has been interpreted for an office document/application  context. </p>
+<p>If the document or application meets the  criteria for being an office document or office application under the ADOD  definition (i.e., used by people, text-based, fully printable, self-contained,  and is typical of office-style workflows) then &ldquo;Not Applicable&rdquo; can be entered  for all of the WCAG 2.0/ATAG 1.0 success criteria that are left out of the ADOD  Assessment Framework.</p>
+<h2><a name="_Toc280180411" id="_Toc280180411"></a><a name="_Toc280180260" id="_Toc280180260">ADOD Assessment Framework</a></h2>
+<h3><a name="_Toc280180412" id="_Toc280180412"></a><a name="_Toc280180261" id="_Toc280180261">Part 1: [ADOD-Office-Documents] Assessing the  accessibility of office documents</a></h3>
+<p>These success criteria relate to assessing  the accessibility of office documents to users with disabilities. They are  based largely on WCAG 2.0 up to Level AA (see &ldquo;Relationship between ADOD and  WCAG 2.0/ATAG 1.0&rdquo; for more information).</p>
+<ul>
+<li><strong>Note: This part of the  framework does not cover office documents that contain dynamic or interactive  content (e.g., audio, video, multimedia, animations, hyperlinks to other  resources, forms, etc.). In these cases, refer instead to WCAG 2.0.</strong></li>
+<li>See Appendix A for:
+<ul>
+<li>The original WCAG 2.0 success  criteria wording (certain Web-specific terms and references have been adjusted  to apply to office documents and applications). In [ADOD-Office-Documents] the  adjusted terms or references are marked with &ldquo;[ ]&rdquo;.</li>
+<li>The rationale for inclusion or  exclusion of success criteria.</li>
+</ul>
+</li>
+<li>For clarity, the WCAG 2.0 numbering  scheme has been maintained with the added prefix &ldquo;[ADOD-Office-Documents]&rdquo;.</li>
+</ul>
+<p><strong>[ADOD-Office-Documents  1.1.1] Non-text Content:</strong> All non-text content that is presented to  the user has a text alternative that serves the equivalent purpose, except for  the situations listed below.</p>
+<ul>
+<li><strong>Test: </strong>If non-text content is a test or exercise that would be invalid if  presented in text, then text alternatives at least provide descriptive  identification of the non-text content. </li>
+<li><strong>Sensory: </strong>If non-text content is primarily intended to create a specific sensory  experience, then text alternatives at least provide descriptive identification  of the non-text content. </li>
+<li><strong>Decoration, Formatting, Invisible: </strong>If non-text  content is pure decoration, is used only for visual formatting, or is not  presented to users, then it is implemented in a way that it can be ignored by  assistive technology. </li>
+</ul>
+<p><strong>[ADOD-Office-Documents 1.3.1] Info and Relationships:</strong> Information, structure, and relationships conveyed through presentation can be  programmatically determined or are available in text.</p>
+<p><strong>[ADOD-Office-Documents 1.3.2] Meaningful Sequence:</strong> When the  sequence in which content is presented affects its meaning, a correct reading  sequence can be programmatically determined.</p>
+<p><strong>[ADOD-Office-Documents 1.3.3] Sensory Characteristics:</strong> Instructions provided for understanding and operating content do not rely  solely on sensory characteristics of components such as shape, size, visual  location, orientation, or sound. <em>Note: </em>For  requirements related to color, refer to Guideline 1.4.</p>
+<p><strong>[ADOD-Office-Documents 1.4.1] Use of Color:</strong> Color is  not used as the only visual means of conveying information, indicating an  action, prompting a response, or distinguishing a visual element. <em>Note: </em>This success criterion addresses color perception specifically.  Other forms of perception are covered in Guideline 1.3 including programmatic  access to color and other visual presentation coding.</p>
+<p><strong>[ADOD-Office-Documents  1.4.3] Contrast (Minimum):</strong> The visual presentation of text and images  of text has a contrast ratio of at least 4.5:1, except for the following:&nbsp; </p>
+<ul>
+<li><strong>Large Text: </strong>Large-scale text and images of large-scale text have a contrast ratio  of at least 3:1;</li>
+<li><strong>Incidental: </strong>Text or images of text that are part of an inactive user interface  component, that are pure decoration, that are not visible to anyone, or that  are part of a picture that contains significant other visual content, have no  contrast requirement.</li>
+<li><strong>Logotypes: </strong>Text that is part of a logo or brand name has no minimum contrast  requirement.</li>
+</ul>
+<p><strong>[ADOD-Office-Documents  1.4.5] Images of Text:</strong> If the technologies being used can achieve  the visual presentation, text is used to convey information rather than images  of text except for the following: <em>Note: </em>Logotypes (text that is part of a logo or  brand name) are considered essential.</p>
+<ul>
+<li><strong>Customizable:</strong> The image of text can be visually customized to the user's  requirements;</li>
+<li><strong>Essential:</strong> A particular presentation of text is essential to the information  being conveyed.</li>
+</ul>
+<p><strong>[ADOD-Office-Documents 2.4.1] Bypass Blocks: A mechanism  is available to bypass blocks of content [in office documents]. </strong></p>
+<p><strong>[ADOD-Office-Documents 2.4.2] Page Titled: [Office  documents] have titles that describe topic or purpose. </strong></p>
+<p><strong>[ADOD-Office-Documents 2.4.3] Focus Order: If [an  office document] can be navigated sequentially and the navigation sequences  affect meaning or operation, focusable components receive focus in an order  that preserves meaning and operability. </strong></p>
+<p><strong>[ADOD-Office-Documents 2.4.4] Link Purpose (In Context): The purpose  of each link can be determined from the link text alone or from the link text  together with its programmatically determined link context, except where the  purpose of the link would be ambiguous to users in general. </strong></p>
+<p><strong>[ADOD-Office-Documents 2.4.6] Headings and Labels: Headings  and labels describe topic or purpose. </strong></p>
+<p><strong>[ADOD-Office-Documents 3.1.1] Language of Page: The default  human language of each [office document] can be programmatically determined. </strong></p>
+<p><strong>[ADOD-Office-Documents 3.1.2] Language of Parts: The human  language of each passage or phrase in the content can be programmatically  determined except for proper names, technical terms, words of indeterminate  language, and words or phrases that have become part of the vernacular of the  immediately surrounding text. </strong></p>
+<p><strong>[ADOD-Office-Documents 3.2.4] Consistent Identification: Components  that have the same functionality within a set of [office documents] are  identified consistently.</strong></p>
+<h3><a name="_Toc280180413" id="_Toc280180413"></a><a name="_Toc280180262" id="_Toc280180262">Part 2: [ADOD-Office-Formats] Assessing the  accessibility of office document formats</a></h3>
+<p>These success criteria relate to assessing  the intrinsic accessibility supports provided by office document formats (<strong>not </strong>the accessibility of actual office documents created by authors - for this,  see Part 1, above). <br />
+  Essentially, each [ADOD-Office-Formats]  success criterion refers to the office formats ability to support any  functionality pre-supposed by the [ADOD-Office-Documents] success criterion of  the same number. For example, &ldquo;[ADOD-Office-Formats 1.1.1] The office format  provides mechanism(s) for short and long text alternatives for non-text content  and the ability to indicate that non-text content should be ignored by  assistive technology.&rdquo; tests the ability of the format to be used to create  office documents that meet &ldquo;[ADOD-Office-Documents 1.1.1] Non-text Content: All  non-text content that is presented to the user has a text alternative&hellip;&rdquo;<br />
+  <strong>Note: This part of the framework does  not cover the use of office formats to create office documents that contain  dynamic or interactive content (e.g., audio, video, multimedia, animations,  hyperlinks to other resources, forms, etc.).</strong></p>
+<ul>
+<li>See Appendix B for:
+<ul>
+<li>The rationale for inclusion or  exclusion of success criteria.</li>
+</ul>
+</li>
+<li>For clarity, the WCAG 2.0 numbering  scheme has been maintained with the added prefix &ldquo;[ADOD-Office-Formats]&rdquo;.</li>
+</ul>
+<p><strong>[ADOD-Office-Formats  1.1.1] The office format provides mechanism(s) for short and long text alternatives for non-text content and the ability to indicate  that non-text content should be ignored by assistive technology.</strong></p>
+<p><strong>[ADOD-Office-Formats  1.3.1] The office format provides mechanism(s) for providing information, structure, and relationships programmatically.</strong></p>
+<p><strong>[ADOD-Office-Formats  1.3.2] The office format provides mechanism(s) for encoding reading sequences.</strong></p>
+<p><strong>[ADOD-Office-Formats  2.4.1] The office format provides mechanism(s) for bypassing blocks of content.</strong></p>
+<p><strong>[ADOD-Office-Formats  2.4.2] The office format provides mechanism(s) for document title.</strong></p>
+<p><strong>[ADOD-Office-Formats  2.4.3] The office format provides mechanism(s)  for specifying navigation sequences.</strong></p>
+<p><strong>[ADOD-Office-Formats  2.4.4] If the office format supports  hyperlinking, it provides mechanism(s) for specifying the purpose of links  (e.g., the link text).</strong></p>
+<p><strong>[ADOD-Office-Formats  2.4.6] The office format provides mechanism(s) for headings and labels.</strong></p>
+<p><strong>[ADOD-Office-Formats  3.1.1] The office format provides mechanism(s) for setting the default human language of office documents.</strong></p>
+<p><strong>[ADOD-Office-Formats  3.1.2] The office format provides mechanism(s) for setting the default human language of parts of office documents.</strong></p>
+<h3><a name="_Toc280180414" id="_Toc280180414"></a><a name="_Toc280180263" id="_Toc280180263">Part 3: [ADOD-Office-Applications-UI] Assessing  the accessibility of office application user interfaces</a></h3>
+<p>These success criteria relate to assessing  the accessibility of office applications to users with disabilities. They are  based largely on ATAG 1.0 Guideline 7 up to Priority 2 (see &ldquo;Relationship between  ADOD and WCAG 2.0/ATAG 1.0&rdquo; for more information).</p>
+<ul>
+<li>See Appendix C for:
+<ul>
+<li>The original ATAG 1.0 Guideline  7 wording (certain Web-specific terms and references have been adjusted to  apply to office documents and applications). In [ADOD-Office-Applications-UI]  the adjusted terms or references are marked with &ldquo;[ ]&rdquo;.</li>
+<li>The rationale for inclusion or  exclusion of success criteria.</li>
+</ul>
+</li>
+<li>For clarity, the ATAG 1.0 numbering  scheme has been maintained with the added prefix  &ldquo;[ADOD-Office-Applications-UI]&rdquo;.</li>
+</ul>
+<p><strong>[ADOD-Office-Applications-UI </strong><strong>7.1] Use all applicable  operating system and accessibility standards and conventions that are important  or essential to accessibility. The techniques for this checkpoint include  references to checklists and guidelines for a number of platforms and to  general guidelines for accessible applications.</strong><br />
+    <em>ADOD  Note: The Checkpoint is very general, and includes: Supporting relevant  accessibility API(s); Web-based tools conforming to WCAG; Keyboard access;  Providing keyboard shortcuts where recommended for a platform; Respecting  platform settings (such as &ldquo;high contrast&rdquo; modes); and Providing documentation.</em></p>
+<p><strong>[ADOD-Office-Applications-UI </strong><strong>7.2] Allow the author to  change the presentation within editing views without affecting the [office  document]. This allows the author to edit the document according to personal  requirements, without changing the way the document is rendered when published.</strong></p>
+<p><strong>[ADOD-Office-Applications-UI </strong><strong>7.3] Allow the author to  edit all properties of each element and object in an accessible fashion.</strong></p>
+<p><strong>[ADOD-Office-Applications-UI </strong><strong>7.4] Ensure that the  editing view allows navigation via the structure of the document in an  accessible fashion.</strong></p>
+<p><strong>[ADOD-Office-Applications-UI </strong><strong>7.5] Enable editing of  the structure of the document in an accessible fashion.</strong></p>
+<p><strong>[ADOD-Office-Applications-UI </strong><strong>7.6] Allow the author to  search within editing views.</strong><a name="sc_a324" id="sc_a324"></a><a name="sc_a331" id="sc_a331"></a></p>
+<h3><a name="_Toc280180415" id="_Toc280180415"></a><a name="_Toc280180264" id="_Toc280180264">Part 4: [ADOD-Office-Applications-Supports]  Assessing the provision by office applications of support for authoring  accessible office documents</a></h3>
+<p>These guidelines relate to determining the  degree to which office applications support all users in the production of  office documents that are accessible to users with disabilities. They are based  largely on ATAG 1.0 Guidelines 1-6 up to Priority 2 (see &ldquo;Relationship between  ADOD and WCAG 2.0/ATAG 1.0&rdquo; for more information).</p>
+<ul>
+<li>See Appendix D for:
+<ul>
+<li>The original ATAG 2.0 Part B  success criteria wording (certain Web-specific terms and references have been  adjusted to apply to office documents and applications). In [ADOD-Office-Applications-Supports]  the adjusted terms or references are marked with &ldquo;[ ]&rdquo;.</li>
+<li>The rationale for inclusion or  exclusion of success criteria.</li>
+</ul>
+</li>
+<li>For clarity, the ATAG 2.0 numbering  scheme has been maintained with the added prefix  &ldquo;[ADOD-Office-Applications-Supports]&rdquo;.</li>
+</ul>
+<p><strong>[ADOD-Office-Applications-Supports  1.1] Ensure that the author can produce accessible [office document] content in  the [office formats] supported by the [office application].</strong></p>
+<p><strong>[ADOD-Office-Applications-Supports  1.2] Ensure that the [office application] preserves all accessibility  information during authoring, transformations, and conversions.</strong></p>
+<p><strong>[ADOD-Office-Applications-Supports  1.3] Ensure that when the [office application] automatically generates  [content] it conforms to [ADOD-Office-Documents].</strong></p>
+<p><strong>[ADOD-Office-Applications-Supports  1.4] Ensure that templates provided by the [office application] conform to the  [ADOD-Office-Documents].</strong><strong>[ADOD-Office-Applications-Supports  2.2] Ensure that the [office application] automatically generates valid [office  documents].</strong></p>
+<p><strong>[ADOD-Office-Applications-Supports  3.1] Prompt the author to provide equivalent alternative information (e.g.,  captions, auditory descriptions, and collated text transcripts for video).</strong><br />
+  <strong>Note:  Some checkpoints in the [ADOD-Office-Documents] may not apply.</strong></p>
+<p><strong>[ADOD-Office-Applications-Supports  3.2] Help the author create structured content and separate information from  its presentation.</strong><br />
+  <strong>Note:  Some checkpoints in [ADOD-Office-Documents] may not apply.</strong></p>
+<p><strong>[ADOD-Office-Applications-Supports  3.3] Ensure that prepackaged [office document] content conforms to the  [ADOD-Office-Documents].</strong><br />
+  <strong>For  example, include captions, an auditory description, and a collated text  transcript with prepackaged movies.</strong></p>
+<p><strong>[ADOD-Office-Applications-Supports  3.4] Do not automatically generate equivalent alternatives. Do not reuse  previously authored alternatives without author confirmation, except when the  function is known with certainty.</strong><br />
+  <strong>For  example, prompt the author for a text equivalent of an image. If the author has  already provided a text equivalent for the same image used in another document,  offer to reuse that text and prompt the author for confirmation.</strong></p>
+<p><strong>[ADOD-Office-Applications-Supports  4.1] Check for and inform the author of accessibility problems.</strong><br />
+  <strong>Note:  Accessibility problems should be detected automatically where possible. Where  this is not possible, the [office application] may need to prompt the author to  make decisions or to manually check for certain types of problems.</strong></p>
+<p><strong>[ADOD-Office-Applications-Supports  4.2] Assist authors in correcting accessibility problems.</strong><br />
+  <strong>At  a minimum, provide context-sensitive help with the accessibility checking  required by checkpoint 4.1</strong></p>
+<p><strong>[ADOD-Office-Applications-Supports 5.1] Ensure  that functionality related to accessible authoring practices is naturally  integrated into the overall look and feel of the [office application].</strong></p>
+<p><strong>[ADOD-Office-Applications-Supports  5.2] Ensure that accessible authoring practices supporting  [ADOD-Office-Documents] checkpoints are among the most obvious and easily  initiated by the author.</strong></p>
+<p><strong>[ADOD-Office-Applications-Supports  A] Document all features that promote the production of accessible [office  documents].</strong></p>
+<p><strong>[ADOD-Office-Applications-Supports  B] Ensure that creating accessible [office documents] is a naturally integrated  part of the documentation, including examples.</strong></p>
+<h2><a name="_Toc280180416" id="_Toc280180416"></a><a name="_Toc280180265" id="_Toc280180265"></a><a name="sc_b343" id="sc_b343"></a>Glossary of ADOD-Specific Terms</h2>
+<p>Terms specific to WCAG 2.0 and ATAG 1.0 are  defined in those Recommendations.</p>
+<dl>
+<dt><strong>office documents (digital office  documents)</strong></dt>
+<dd>Computer files encoded in <strong>office document formats </strong>that are:
+<ul>
+<li>Intended to be used by people  (i.e., are not computer code),</li>
+<li>Text-based (i.e., are not  simply images, although they may contain images),</li>
+<li>Fully printable (i.e., dynamic  features are limited to automatic page numbering, table of contents, etc. not  audio, video, and embedded interactivity),</li>
+<li>Self-contained (i.e., without  links to other resources as is common with web content), and </li>
+<li>Typical of office-style  workflows (Reports, letters, memos, budgets, presentations, etc.).</li>
+</ul>
+<p>    <em>Note:</em> This  purposefully excludes most documents making use of dynamic and interactive  content (audio, video, hyperlinks to other resources, forms, programmability,  etc.), since the accessibility of these are better assessed using WCAG 2.0.  ADOD does, however, cover some dynamic content (animations, audio and video) in  the context of presentations. </p></dd>
+<dt><strong>office document formats (digital office  document formats)</strong></dt>
+<dd>Computer file formats that are produced and viewed  primarily by <strong>office applications</strong>, such as word processor formats (e.g.,  Microsoft Word (*.doc, *.docx), OpenDocument Text (*.odt)), spreadsheet formats  (Microsoft Excel (*.xls, *.xlsx) and OpenDocument Spreadsheet (*.ods)), and  presentation formats (e.g., Microsoft Powerpoint (*.ppt, *.pptx) and OpenDocument Presentation (*.odp)).</dd>
+<dt><strong>office applications (digital office  applications)</strong></dt>
+<dd>Computer programs that are used to create <strong>office  documents</strong>. Office applications are available for desktop platforms,  mobile devices, web-based etc.</dd>
+<dt><strong>office application suite</strong></dt>
+<dd>A set of <strong>office applications</strong> that are  distributed together. The applications that make up a suite often share  relatively consistent user interfaces and the ability for enhanced interaction  between them (e.g., the ability to paste a spreadsheet directly into a word processing  document). ADOD covers the typical core members of most office suites: word  processors, spreadsheet applications, and presentation applications. In  addition, some suites include note-takers, flow-chart editors, image editors,  formula editors, etc.</dd>
+</dl>
+<h2><a name="_Toc280180417" id="_Toc280180417"></a><a name="_Toc280180266" id="_Toc280180266">References</a></h2>
+<h3><a name="_Toc280180418" id="_Toc280180418"></a><a name="_Toc280180267" id="_Toc280180267">W3C Recommendations:</a></h3>
+<ul>
+<li>&quot;Authoring Tool Accessibility  Guidelines 1.0&quot;, J. Treviranus, C. McCathieNevile, I. Jacobs, and J.  Richards, eds., 3 February 2000. This W3C Recommendation is available at  <a href="http://www.w3.org/TR/2000/REC-ATAG10-20000203/" title="http://www.w3.org/TR/2000/REC-ATAG10-20000203/">http://www.w3.org/TR/2000/REC-ATAG10-20000203/</a>.</li>
+<li>&quot;Web Content Accessibility Guidelines  1.0,&quot; W. Chisholm, G. Vanderheiden, and I. Jacobs, eds., 5 May 1999. This  Recommendation is <a href="http://www.w3.org/TR/1999/WAI-WEBCONTENT-19990505" title="http://www.w3.org/TR/1999/WAI-WEBCONTENT-19990505">http://www.w3.org/TR/1999/WAI-WEBCONTENT-19990505</a>. The latest  version of the Web Content Accessibility Guidelines 1.0&quot; is available at  <a href="http://www.w3.org/TR/WCAG10/" title="http://www.w3.org/TR/WCAG10/">http://www.w3.org/TR/WCAG10/</a>.</li>
+</ul>
+<h3><a name="_Toc280180419" id="_Toc280180419"></a><a name="_Toc280180268" id="_Toc280180268">Other Resources Consulted:</a></h3>
+<ul>
+<li>Adobe Accessibility Best Practices -  <a href="http://www.adobe.com/accessibility/products/acrobat/pdf/A9-access-best-practices.pdf" title="http://www.adobe.com/accessibility/products/acrobat/pdf/A9-access-best-practices.pdf">http://www.adobe.com/accessibility/products/acrobat/pdf/A9-access-best-p...</a>
+  </li>
+<li>Adobe Accessibility Overview -  <a href="http://www.adobe.com/accessibility/?promoid=DJGVE" title="http://www.adobe.com/accessibility/?promoid=DJGVE">http://www.adobe.com/accessibility/?promoid=DJGVE</a>
+  </li>
+<li>Adobe PDF Accessibility -  <a href="http://www.adobe.com/accessibility/products/acrobat/pdf/A9-pdf-accesibility-overview.pdf" title="http://www.adobe.com/accessibility/products/acrobat/pdf/A9-pdf-accesibility-overview.pdf">http://www.adobe.com/accessibility/products/acrobat/pdf/A9-pdf-accesibil...</a>
+  </li>
+<li>Apple Accessibility Overview -  <a href="http://www.apple.com/accessibility/" title="http://www.apple.com/accessibility/">http://www.apple.com/accessibility/</a>
+  </li>
+<li>Apple Accessible Application Design Guide -  <a href="http://developer.apple.com/mac/library/documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXDeveloping/OSXAXDeveloping.html#//apple_ref/doc/uid/TP40001078-Ch307-BABGJCGG" title="http://developer.apple.com/mac/library/documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXDeveloping/OSXAXDeveloping.html#//apple_ref/doc/uid/TP40001078-Ch307-BABGJCGG">http://developer.apple.com/mac/library/documentation/Accessibility/Conce...</a>
+  </li>
+<li>Authoring accessible PDF guide -  <a href="http://www.adobe.com/accessibility/products/acrobat/training.html" title="http://www.adobe.com/accessibility/products/acrobat/training.html">http://www.adobe.com/accessibility/products/acrobat/training.html</a>
+  </li>
+<li>Corel WordPerfect Accessibility -  <a href="http://www.corel.com/servlet/Satellite/us/en/Content/1153321168236" title="http://www.corel.com/servlet/Satellite/us/en/Content/1153321168236">http://www.corel.com/servlet/Satellite/us/en/Content/1153321168236</a>
+  </li>
+<li>GAWDS Writing Better Alt Text - <a href="http://www.gawds.org/show.php?contentid=28" title="http://www.gawds.org/show.php?contentid=28">http://www.gawds.org/show.php?contentid=28</a>
+  </li>
+<li>Google Accessibility Overview -  <a href="http://www.google.com/accessibility/" title="http://www.google.com/accessibility/">http://www.google.com/accessibility/</a>
+  </li>
+<li>Google Docs Keyboard Shortcuts -  <a href="http://docs.google.com/support/bin/answer.py?hl=en&amp;answer=66280" title="http://docs.google.com/support/bin/answer.py?hl=en&amp;answer=66280">http://docs.google.com/support/bin/answer.py?hl=en&amp;answer=66280</a>
+  </li>
+<li>Google Docs with Screen Reader -  <a href="http://docs.google.com/support/bin/answer.py?hl=en&amp;answer=152439" title="http://docs.google.com/support/bin/answer.py?hl=en&amp;answer=152439">http://docs.google.com/support/bin/answer.py?hl=en&amp;answer=152439</a>
+  </li>
+<li>Guide for creating accessible documents  with Lotus Symphony - <a href="http://www-03.ibm.com/able/events/downloads/CSUN_2009_paper_Utilizing_Lotus_Symphony_to_Create_and_Test_Open_and_Accessible_Documents_Cragun_Keohane_Li.pdf" title="http://www-03.ibm.com/able/events/downloads/CSUN_2009_paper_Utilizing_Lotus_Symphony_to_Create_and_Test_Open_and_Accessible_Documents_Cragun_Keohane_Li.pdf">http://www-03.ibm.com/able/events/downloads/CSUN_2009_paper_Utilizing_Lo...</a>
+  </li>
+<li>IBM Accessibility Overview -  <a href="http://www-03.ibm.com/able/index.html" title="http://www-03.ibm.com/able/index.html">http://www-03.ibm.com/able/index.html</a>
+  </li>
+<li>IBM Software Accessibility Checklist - <a href="http://www-03.ibm.com/able/guidelines/software/accesssoftware.html" title="http://www-03.ibm.com/able/guidelines/software/accesssoftware.html">http://www-03.ibm.com/able/guidelines/software/accesssoftware.html</a>
+  </li>
+<li>KOffice Accessibility Report -  <a href="http://accessibility.kde.org/reports/koffice-1.4.1-accessibility-assessment.pdf" title="http://accessibility.kde.org/reports/koffice-1.4.1-accessibility-assessment.pdf">http://accessibility.kde.org/reports/koffice-1.4.1-accessibility-assessm...</a>
+  </li>
+<li>Microsoft Accessibility Development Center  - <a href="http://msdn.microsoft.com/en-ca/windows/bb735024.aspx" title="http://msdn.microsoft.com/en-ca/windows/bb735024.aspx">http://msdn.microsoft.com/en-ca/windows/bb735024.aspx</a>
+  </li>
+<li>Microsoft Accessibility Overview -  <a href="http://www.microsoft.com/enable/education/" title="http://www.microsoft.com/enable/education/">http://www.microsoft.com/enable/education/</a>
+  </li>
+<li>Microsoft Office 2007 Accessibility -  <a href="http://www.microsoft.com/enable/products/office2007/default.aspx" title="http://www.microsoft.com/enable/products/office2007/default.aspx">http://www.microsoft.com/enable/products/office2007/default.aspx</a>
+  </li>
+<li>Microsoft Office 2010 Accessibility - <a href="http://www.microsoft.com/enable/products/office2010/default.aspx" title="http://www.microsoft.com/enable/products/office2010/default.aspx">http://www.microsoft.com/enable/products/office2010/default.aspx</a>
+  </li>
+<li>Novell Accessibility Guidelines -  <a href="http://ocw.novell.com/help/accessibility-guidelines" title="http://ocw.novell.com/help/accessibility-guidelines">http://ocw.novell.com/help/accessibility-guidelines</a>
+  </li>
+<li>OASIS Document-centric Applications -  <a href="http://www.oasis-open.org/committees/tc_cat.php?cat=doccent" title="http://www.oasis-open.org/committees/tc_cat.php?cat=doccent">http://www.oasis-open.org/committees/tc_cat.php?cat=doccent</a>
+  </li>
+<li>OASIS OpenDocument Accessibility  Sub-committee -  <a href="http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office-accessibility" title="http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office-accessibility">http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office-access...</a>
+  </li>
+<li>OASIS OpenDocument FAQs -  <a href="http://opendocument.xml.org/accessibility-faq" title="http://opendocument.xml.org/accessibility-faq">http://opendocument.xml.org/accessibility-faq</a>
+  </li>
+<li>ODF Accessibility Overview -  <a href="http://www.opendocumentfellowship.com/introduction/accessibility" title="http://www.opendocumentfellowship.com/introduction/accessibility">http://www.opendocumentfellowship.com/introduction/accessibility</a>
+  </li>
+<li>ODF and Government -  <a href="http://www.opendocumentfellowship.com/government" title="http://www.opendocumentfellowship.com/government">http://www.opendocumentfellowship.com/government</a>
+  </li>
+<li>OpenOffice.org 3 Writer Guide - <a href="http://documentation.openoffice.org/manuals/userguide3/0200WG3-WriterGuide.pdf" title="http://documentation.openoffice.org/manuals/userguide3/0200WG3-WriterGuide.pdf">http://documentation.openoffice.org/manuals/userguide3/0200WG3-WriterGui...</a>
+  </li>
+<li>OpenOffice.org Accessibility Project - <a href="http://wiki.services.openoffice.org/wiki/Accessibility" title="http://wiki.services.openoffice.org/wiki/Accessibility">http://wiki.services.openoffice.org/wiki/Accessibility</a>
+  </li>
+<li>OpenOffice.org Document Representation  Guidelines - <a href="http://ui.openoffice.org/accessibility/docrep-guidelines.html" title="http://ui.openoffice.org/accessibility/docrep-guidelines.html">http://ui.openoffice.org/accessibility/docrep-guidelines.html</a>
+  </li>
+<li>OpenOffice.org Presentation Accessibility  Guidelines - <a href="http://ui.openoffice.org/accessibility/proposal-impress.html" title="http://ui.openoffice.org/accessibility/proposal-impress.html">http://ui.openoffice.org/accessibility/proposal-impress.html</a>
+  </li>
+<li>OpenOffice.org Spreadsheet Accessibility  Guidelines - <a href="http://ui.openoffice.org/accessibility/proposal-calc.html" title="http://ui.openoffice.org/accessibility/proposal-calc.html">http://ui.openoffice.org/accessibility/proposal-calc.html</a>
+  </li>
+<li>OpenOffice.org StarOffice Modules -  <a href="http://api.openoffice.org/docs/common/ref/com/sun/star/text/module-ix.html" title="http://api.openoffice.org/docs/common/ref/com/sun/star/text/module-ix.html">http://api.openoffice.org/docs/common/ref/com/sun/star/text/module-ix.html</a>
+  </li>
+<li>OpenOffice.org Writer Accessibility  Guidelines - <a href="http://ui.openoffice.org/accessibility/proposal-writer.html" title="http://ui.openoffice.org/accessibility/proposal-writer.html">http://ui.openoffice.org/accessibility/proposal-writer.html</a>
+  </li>
+<li>PDF/UA, AIIM Committee -  <a href="http://pdf.editme.com/pdfua" title="http://pdf.editme.com/pdfua">http://pdf.editme.com/pdfua</a>
+  </li>
+<li>WebAIM Microsoft Powerpoint Techniques <a href="http://webaim.org/techniques/powerpoint" title="http://webaim.org/techniques/powerpoint">http://webaim.org/techniques/powerpoint</a>
+  </li>
+<li>WebAIM Microsoft Word Techniques <a href="http://webaim.org/techniques/word/" title="http://webaim.org/techniques/word/">http://webaim.org/techniques/word/</a>
+  </li>
+<li>WebAIM OpenOffice Techniques - <a href="http://webaim.org/techniques/ooo/" title="http://webaim.org/techniques/ooo/">http://webaim.org/techniques/ooo/</a>
+  </li>
+<li>Word to DTBook -  <a href="http://www.daisy.org/daisypedia/convert-word-document-dtbook" title="http://www.daisy.org/daisypedia/convert-word-document-dtbook">http://www.daisy.org/daisypedia/convert-word-document-dtbook</a>
+  </li>
+<li>Word to DTBook -  <a href="http://www.daisy.org/daisypedia/how-convert-microsoft-word-document-full-text-full-audio-daisy-book" title="http://www.daisy.org/daisypedia/how-convert-microsoft-word-document-full-text-full-audio-daisy-book">http://www.daisy.org/daisypedia/how-convert-microsoft-word-document-full...</a></li>
+</ul>
+<h2><a name="_Toc280180420" id="_Toc280180420"></a><a name="_Toc280180269" id="_Toc280180269">Appendices</a></h2>
+<h3><a name="_Toc280180421" id="_Toc280180421"></a><a name="_Toc280180270" id="_Toc280180270">Appendix A: Rationale for inclusion of success  criteria in &ldquo;Part 1: [ADOD-Office-Documents] Assessing the accessibility of office  documents&rdquo;</a></h3>
+<p>These success criteria relate to assessing  the accessibility of office documents to users with disabilities.<br />
+  &nbsp;<strong>WCAG  2.0 (Level A and Level AA Success Criteria) has been used as a basis for [ADOD-Office-Documents] </strong>(see &ldquo;Relationship between ADOD and WCAG 2.0/ATAG 2.0&rdquo;), with the following  exceptions:</p>
+<ul>
+<li>Some terminology and references need to be interpreted differently:
+<ul>
+<li><strong>* Web-specific terms.</strong> These should be  interpreted in the context of office documents and office applications (see &ldquo;Relationship  between ADOD and WCAG 2.0/ATAG 2.0&rdquo;)
+<ul>
+<li>&nbsp;&ldquo;web page(s)&rdquo; is to be interpreted as &ldquo;office  document(s)&rdquo;</li>
+<li>&nbsp;&ldquo;(web) content&rdquo; is to be interpreted as  &ldquo;(office document) content&rdquo;</li>
+<li>&nbsp;&ldquo;web content technology&rdquo; is to be interpreted  as &ldquo;office document format&rdquo;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Some success criteria are not applicable. The reasons for this  include:
+<ul>
+<li><em>(interactive/dynamic)</em>: The success  criterion refers to a level of interactivity or dynamism (e.g., &ldquo;live audio&rdquo;)  exceeding that typically found in word processor, spreadsheet or presentation documents.</li>
+<li><em>(application responsibility)</em>: The  success criterion is typically handled by the viewing functionality of office  applications (e.g., focus indicator, parsing, etc.)</li>
+</ul>
+</li>
+<li>Some Level A success criteria are superseded by other level AA  success criteria.
+<ul>
+<li><strong>[WCAG 2.0 2.4.1] Bypass  Blocks: A mechanism is available to bypass blocks of content that are repeated  on multiple Web pages*. (Level A)</strong> is adjusted  somewhat more than the other requirements. Instead of simply switching the  vocabulary, the requirement is changed to refer to bypassing blocks of content  within a document, not just when the block appear on multiple documents (i.e., &ldquo;<strong>[ADOD-Office-Documents 2.4.1] Bypass  Blocks: A mechanism is available to bypass blocks of content [in office  documents].</strong>&rdquo;) The reason for this is that office documents are typically  more self-contained than Web documents and provide more built-in navigation  mechanisms (e.g., table of contents, page numbering).</li>
+</ul>
+</li>
+</ul>
+<table border="1" cellspacing="0" cellpadding="0">
+<tr>
+<th width="50%" valign="top" align="center">WCAG 2.0 Success Criteria (Level A and AA)</th>
+<th width="50%" valign="top" align="center">ADOD Applicability and/or Modifications</th>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 1.1.1] Non-text Content:</strong> All non-text    content* that is presented to the user has a text alternative that serves the    equivalent purpose, except for the situations listed below. (Level A)
+<ul>
+<li><strong>Controls, Input: </strong>If    non-text content is a control or accepts user input, then it has a name that    describes its purpose. (Refer to Guideline 4.1 for additional requirements    for controls and content that accepts user input.) </li>
+<li><strong>Time-Based Media: </strong>If    non-text content is time-based media, then text alternatives at least provide    descriptive identification of the non-text content. (Refer to Guideline 1.2    for additional requirements for media.) </li>
+<li><strong>Test: </strong>If non-text content* is a test or exercise that    would be invalid if presented in text, then text alternatives at least    provide descriptive identification of the non-text content*. </li>
+<li><strong>Sensory: </strong>If non-text content* is primarily intended to    create a specific sensory experience, then text alternatives at least provide    descriptive identification of the non-text content*. </li>
+<li><strong>CAPTCHA: </strong>If the purpose of non-text    content is to confirm that content is being accessed by a person rather than    a computer, then text alternatives that identify and describe the purpose of    the non-text content are provided, and alternative forms of CAPTCHA using    output modes for different types of sensory perception are provided to    accommodate different disabilities.</li>
+<li><strong>Decoration, Formatting, Invisible: </strong>If non-text content* is    pure decoration, is used only for visual formatting, or is not presented to    users, then it is implemented in a way that it can be ignored by assistive    technology.</li>
+</ul>
+</td>
+<td valign="top">The    following exceptions are not applicable <em>(interactive/dynamic)</em>:
+<ul>
+<li>Controls, Input</li>
+<li>Time-Based Media</li>
+<li>CAPTCHA</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 1.2.1]    Audio-only and Video-only (Prerecorded):</strong> For    prerecorded audio-only and prerecorded video-only media, the following are    true, except when the audio or video is a media alternative for text and is    clearly labeled as such: (Level A)
+<ul>
+<li><strong>Prerecorded Audio-only: </strong>An    alternative for time-based media is provided that presents equivalent    information for prerecorded audio-only content*.</li>
+<li><strong>Prerecorded Video-only: </strong>Either an    alternative for time-based media or an audio track is provided that presents    equivalent information for prerecorded video-only content*.</li>
+</ul>
+</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 1.2.2]    Captions (Prerecorded):</strong> Captions are provided for    all prerecorded audio content in synchronized media, except when the media is    a media alternative for text and is clearly labeled as such. (Level A)</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 1.2.3]    Audio Description or Media Alternative (Prerecorded):</strong> An alternative for time-based media or audio description of the prerecorded    video content* is provided for synchronized media, except when the media is a    media alternative for text and is clearly labeled as such. (Level A)</td>
+<td valign="top">Superseded    by [WCAG 2.0 1.2.5]</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 1.2.4]    Captions (Live):</strong> Captions are provided for all live    audio content in synchronized media. (Level AA)</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 1.2.5]    Audio Description (Prerecorded):</strong> Audio    description is provided for all prerecorded video content in synchronized    media. (Level AA)</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 1.3.1] Info and    Relationships:</strong> Information, structure, and relationships    conveyed through presentation can be programmatically determined or are    available in text. (Level A)</td>
+<td valign="top">For    ADOD this includes using the default &ldquo;named styles&rdquo; since these facilitate    content transformations (e.g., to HTML) and automated table of contents    generation.</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 1.3.2] Meaningful    Sequence:</strong> When the sequence in which content* is presented affects its    meaning, a correct reading sequence can be programmatically determined.    (Level A)</td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 1.3.3] Sensory    Characteristics:</strong> Instructions provided for understanding and    operating content* do not rely solely on sensory characteristics of    components such as shape, size, visual location, orientation, or sound.    (Level A) <em>Note: </em>For    requirements related to color, refer to Guideline 1.4.</td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 1.4.1] Use of Color:</strong> Color is not    used as the only visual means of conveying information, indicating an action,    prompting a response, or distinguishing a visual element. (Level A) <em>Note: </em>This success criterion addresses color    perception specifically. Other forms of perception are covered in Guideline    1.3 including programmatic access to color and other visual presentation    coding.</td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 1.4.2]    Audio Control:</strong> If any audio on a Web page plays    automatically for more than 3 seconds, either a mechanism is available to    pause or stop the audio, or a mechanism is available to control audio volume    independently from the overall system volume level. (Level A) <em>Note: </em>Since any    content that does not meet this success criterion can interfere with a user's    ability to use the whole page, all content on the Web page (whether or not it    is used to meet other success criteria) must meet this success criterion. See    Conformance Requirement 5: Non-Interference.</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 1.4.3] Contrast    (Minimum):</strong> The visual presentation of text and images of    text has a contrast ratio of at least 4.5:1, except for the following: (Level    AA)
+<ul>
+<li><strong>Large Text: </strong>Large-scale text and images of large-scale text    have a contrast ratio of at least 3:1;</li>
+<li><strong>Incidental: </strong>Text or images of text that are part of an    inactive user interface component, that are pure decoration, that are not    visible to anyone, or that are part of a picture that contains significant    other visual content*, have no contrast requirement.</li>
+<li><strong>Logotypes: </strong>Text that is part of a logo or brand name has    no minimum contrast requirement.</li>
+</ul>
+</td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 1.4.4] Resize text:</strong> Except for captions and  images of text, text can be resized without assistive technology up to 200  percent without loss of content or functionality. (Level AA)</td>
+<td valign="top">Not  applicable (<em>application responsibility</em>).  Office applications typically include magnification options.</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 1.4.5] Images of Text:</strong> If the    technologies being used can achieve the visual presentation, text is used to    convey information rather than images of text except for the following:    (Level AA) <em>Note: </em>Logotypes (text    that is part of a logo or brand name) are considered essential.
+<ul>
+<li><strong>Customizable:</strong> The image of text can be visually customized    to the user's requirements;</li>
+<li><strong>Essential:</strong> A particular presentation of text is essential    to the information being conveyed.</li>
+</ul>
+</td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 2.1.1]    Keyboard:</strong> All functionality of the content is operable through a    keyboard interface without requiring specific timings for individual    keystrokes, except where the underlying function requires input that depends    on the path of the user's movement and not just the endpoints. (Level A) <em>Note 1: </em>This    exception relates to the underlying function, not the input technique. For    example, if using handwriting to enter text, the input technique    (handwriting) requires path-dependent input but the underlying function (text    input) does not. <em>Note    2: </em>This does not forbid and should not discourage    providing mouse input or other input methods in addition to keyboard    operation.</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 2.1.2] No    Keyboard Trap:</strong> If keyboard focus can be moved to a    component of the page using a keyboard interface, then focus can be moved    away from that component using only a keyboard interface, and, if it requires    more than unmodified arrow or tab keys or other standard exit methods, the    user is advised of the method for moving focus away. (Level A)&nbsp; <em>Note: </em>Since any content that does not meet    this success criterion can interfere with a user's ability to use the whole    page, all content on the Web page (whether it is used to meet other success    criteria or not) must meet this success criterion. See Conformance    Requirement 5: Non-Interference.</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 2.2.1]    Timing Adjustable:</strong> For each time limit that is set by    the content, at least one of the following is true: (Level A) <em>Note: </em>This success    criterion helps ensure that users can complete tasks without unexpected    changes in content or context that are a result of a time limit. This success    criterion should be considered in conjunction with Success Criterion 3.2.1,    which puts limits on changes of content or context as a result of user    action.
+<ul>
+<li><strong>Turn off: </strong>The user    is allowed to turn off the time limit before encountering it; or </li>
+<li><strong>Adjust: </strong>The user    is allowed to adjust the time limit before encountering it over a wide range    that is at least ten times the length of the default setting; or</li>
+<li><strong>Extend: </strong>The user    is warned before time expires and given at least 20 seconds to extend the    time limit with a simple action (for example, &quot;press the space    bar&quot;), and the user is allowed to extend the time limit at least ten    times; or</li>
+<li><strong>Real-time Exception: </strong>The time    limit is a required part of a real-time event (for example, an auction), and    no alternative to the time limit is possible; or</li>
+<li><strong>Essential Exception: </strong>The time    limit is essential and extending it would invalidate the activity; or </li>
+<li><strong>20 Hour Exception: </strong>The time    limit is longer than 20 hours. </li>
+</ul>
+</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 2.2.2]    Pause, Stop, Hide:</strong> For moving, blinking, scrolling, or    auto-updating information, all of the following are true: (Level A) <em>Note 1: </em>For    requirements related to flickering or flashing content, refer to Guideline    2.3. <em>Note 2: </em>Since    any content that does not meet this success criterion can interfere with a    user's ability to use the whole page, all content on the Web page (whether it    is used to meet other success criteria or not) must meet this success    criterion. See Conformance Requirement 5: Non-Interference. <em>Note 3: </em>Content*    that is updated periodically by software or that is streamed to the user    agent is not required to preserve or present information that is generated or    received between the initiation of the pause and resuming presentation, as    this may not be technically possible, and in many situations could be    misleading to do so. <em>Note    4: </em>An animation that occurs as part of a preload phase or    similar situation can be considered essential if interaction cannot occur    during that phase for all users and if not indicating progress could confuse    users or cause them to think that content was frozen or broken.
+<ul>
+<li><strong>Moving, blinking, scrolling: </strong>For any    moving, blinking or scrolling information that (1) starts automatically, (2)    lasts more than five seconds, and (3) is presented in parallel with other    content, there is a mechanism for the user to pause, stop, or hide it unless    the movement, blinking, or scrolling is part of an activity where it is    essential; and</li>
+<li><strong>Auto-updating: </strong>For any    auto-updating information that (1) starts automatically and (2) is presented    in parallel with other content*, there is a mechanism for the user to pause,    stop, or hide it or to control the frequency of the update unless the    auto-updating is part of an activity where it is essential.</li>
+</ul>
+</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 2.3.1]    Three Flashes or Below Threshold:</strong> Web pages    do not contain anything that flashes more than three times in any one second    period, or the flash is below the general flash and red flash thresholds.    (Level A) <em>Note: </em>Since    any content that does not meet this success criterion can interfere with a    user's ability to use the whole page, all content on the Web page (whether it    is used to meet other success criteria or not) must meet this success    criterion. See Conformance Requirement 5: Non-Interference.</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 2.4.1] Bypass Blocks:</strong> A mechanism is    available to bypass blocks of content that are repeated on multiple Web    pages*. (Level A)</td>
+<td valign="top">For    ADOD this is taken to refer to navigation mechanisms for bypassing blocks of    content in general, including providing a table of contents for documents    with multiple headings.</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 2.4.2] Page Titled:</strong> Web pages<strong>*</strong> have titles that describe topic or purpose. (Level A)</td>
+<td valign="top">Especially    relevant to presentation slide titles.</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 2.4.3] Focus Order:</strong> If a Web page*    can be navigated sequentially and the navigation sequences affect meaning or    operation, focusable components receive focus in an order that preserves    meaning and operability. (Level A)</td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 2.4.4] Link Purpose (In    Context):</strong> The purpose of each link can be determined from the link text alone    or from the link text together with its programmatically determined link    context, except where the purpose of the link would be ambiguous to users in    general. (Level A)</td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 2.4.5]    Multiple Ways:</strong> More than one way is available to    locate a Web page within a set of Web pages except where the Web Page is the    result of, or a step in, a process. (Level AA)</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 2.4.6] Headings and    Labels:</strong> Headings and labels describe topic or purpose. (Level AA)</td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 2.4.7]    Focus Visible:</strong> Any keyboard operable user    interface has a mode of operation where the keyboard focus indicator is    visible. (Level AA)</td>
+<td valign="top">Not    applicable <em>(application responsibility)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 3.1.1] Language of Page:</strong> The default    human language of each Web page<strong>*</strong> can be programmatically determined.    (Level A)</td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 3.1.2] Language of    Parts:</strong> The human language of each passage or phrase in the content* can be    programmatically determined except for proper names, technical terms, words    of indeterminate language, and words or phrases that have become part of the    vernacular of the immediately surrounding text. (Level AA)</td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 3.2.1] On    Focus:</strong> When any component receives focus, it does not    initiate a change of context. (Level A)</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 3.2.2] On    Input:</strong> Changing the setting of any user interface component    does not automatically cause a change of context unless the user has been    advised of the behavior before using the component. (Level A)</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 3.2.3]    Consistent Navigation:</strong> Navigational mechanisms that are    repeated on multiple Web pages within a set of Web pages occur in the same    relative order each time they are repeated, unless a change is initiated by    the user. (Level AA)</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 3.2.4] Consistent    Identification:</strong> Components that have the same functionality    within a set of Web pages<strong>*</strong> are identified consistently. (Level AA)</td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 3.3.1]    Error Identification:</strong> If an input error is automatically    detected, the item that is in error is identified and the error is described    to the user in text. (Level A)</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 3.3.2]    Labels or Instructions:</strong> Labels or instructions are    provided when content requires user input. (Level A)</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 3.3.3]    Error Suggestion:</strong> If an input error is automatically    detected and suggestions for correction are known, then the suggestions are    provided to the user, unless it would jeopardize the security or purpose of    the content. (Level AA)</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 3.3.4]    Error Prevention (Legal, Financial, Data):</strong> For Web    pages that cause legal commitments or financial transactions for the user to    occur, that modify or delete user-controllable data in data storage systems,    or that submit user test responses, at least one of the following is true:    (Level AA)
+<ul>
+<li><strong>Reversible: </strong>Submissions    are reversible.</li>
+<li><strong>Checked: </strong>Data    entered by the user is checked for input errors and the user is provided an    opportunity to correct them.</li>
+<li><strong>Confirmed: </strong>A    mechanism is available for reviewing, confirming, and correcting information    before finalizing the submission.</li>
+</ul>
+</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 4.1.1]    Parsing:</strong> In content implemented using markup languages,    elements have complete start and end tags, elements are nested according to    their specifications, elements do not contain duplicate attributes, and any    IDs are unique, except where the specifications allow these features. (Level    A) <em>Note: </em>Start    and end tags that are missing a critical character in their formation, such    as a closing angle bracket or a mismatched attribute value quotation mark are    not complete.</td>
+<td valign="top">Not    applicable <em>(application responsibility)</em> </td>
+</tr>
+<tr>
+<td valign="top"><strong>[WCAG 2.0 4.1.2]    Name, Role, Value:</strong> For all user interface components    (including but not limited to: form elements, links and components generated    by scripts), the name and role can be programmatically determined; states,    properties, and values that can be set by the user can be programmatically    set; and notification of changes to these items is available to user agents,    including assistive technologies. (Level A) <em>Note: </em>This success criterion is primarily    for Web authors who develop or script their own user interface components.    For example, standard HTML controls already meet this success criterion when    used according to specification.</td>
+<td valign="top">Not    applicable <em>(interactive/dynamic)</em></td>
+</tr>
+</table>
+<h3><a name="_Toc280180422" id="_Toc280180422"></a><a name="_Toc280180271" id="_Toc280180271">Appendix B: Rationale for inclusion of success  criteria in &ldquo;Part 2: [ADOD-Office-Formats] Assessing the accessibility of  office documents formats&rdquo;</a> </h3>
+<p>These success criteria relate to assessing  the intrinsic accessibility features and supports provided by various office  document formats, <em>not</em> the accessibility of actual office documents created  by authors (for this, see Part 1: [ADOD-Office-Documents], above). </p>
+<p> Essentially, each success criterion refers  to the office formats ability to support any functionality pre-supposed by the  [ADOD-Office-Documents] success criterion of the same number. Some success  criteria numbers have been omitted removed because they apply at the content  level rather than the format level (e.g. colour contrast requirements).</p>
+<p><em>Note:</em> In addition, the XML Accessibility  Guidelines (XAG) Working Draft (3 October 2002) [http://www.w3.org/TR/xag] was  consulted. This Working Draft had been intended to provide guidance on  designing XML formats to better support accessibility. It did not become a full  W3C Recommendation.</p>
+<table border="1" cellspacing="0" cellpadding="0">
+<tr>
+<th width="50%" valign="top" align="center">[ADOD-office-documents] success criteria</th>
+<th width="50%" valign="top" align="center">ADOD Applicability and/or Modifications</th>
+</tr>
+<tr>
+<td valign="top"><strong>[ADOD-Office-Documents 1.1.1]    Non-text Content:</strong> All non-text content that is presented to the    user has a text alternative that serves the equivalent purpose, except for    the situations listed below.
+<ul>
+<li><strong>Test: </strong>If    non-text content is a test or exercise that would be invalid if presented in    text, then text alternatives at least provide descriptive identification of    the non-text content. </li>
+<li><strong>Sensory: </strong>If    non-text content is primarily intended to create a specific sensory    experience, then text alternatives at least provide descriptive    identification of the non-text content. </li>
+<li><strong>Decoration, Formatting, Invisible: </strong>If non-text content is    pure decoration, is used only for visual formatting, or is not presented to    users, then it is implemented in a way that it can be ignored by assistive    technology.</li>
+</ul>
+</td>
+<td valign="top">i.e.,    what text alternative mechanisms does the format include (e.g., encapsulated    in media file)?<br />
+      From    a format perspective, the exceptions are irrelevant, except to note that a    format must be present to have the non-text content ignored by assistive    technologies.</td>
+</tr>
+<tr>
+<td valign="top"><strong>[ADOD-Office-Documents 1.3.1] Info    and Relationships:</strong> Information, structure, and relationships    conveyed through presentation can be programmatically determined or are available    in text.</td>
+<td valign="top">i.e.,    what programmatic information/structure/relationship mechanisms does the    format include (e.g., default named styles)?</td>
+</tr>
+<tr>
+<td valign="top"><strong>[ADOD-Office-Documents 1.3.2]    Meaningful Sequence:</strong> When the sequence in which content is presented    affects its meaning, a correct reading sequence can be programmatically    determined. </td>
+<td valign="top">i.e.,    what reading sequence mechanisms does the format include?</td>
+</tr>
+<tr>
+<td valign="top"><strong>[ADOD-Office-Documents</strong><strong> 1.3.3] Sensory    Characteristics:</strong> Instructions provided for    understanding and operating content do not rely solely on sensory    characteristics of components such as shape, size, visual location,    orientation, or sound. <em>Note: </em>For requirements related to color, refer to Guideline 1.4.</td>
+<td valign="top">Not    applicable (<em>applies at content-level, not format-level</em>)</td>
+</tr>
+<tr>
+<td valign="top"><strong>[ADOD-Office-Documents</strong><strong> 1.4.1] Use of Color:</strong> Color is not used as the only visual means of conveying information,    indicating an action, prompting a response, or distinguishing a visual    element. <em>Note: </em>This    success criterion addresses color perception specifically. Other forms of    perception are covered in Guideline 1.3 including programmatic access to    color and other visual presentation coding.</td>
+<td valign="top">Not    applicable (<em>applies at content-level, not format-level</em>)</td>
+</tr>
+<tr>
+<td valign="top"><strong>[ADOD-Office-Documents</strong><strong> 1.4.3] Contrast    (Minimum):</strong> The visual presentation of text and    images of text has a contrast ratio of at least 4.5:1, except for the    following:&nbsp;
+<ul>
+<li><strong>Large Text: </strong>Large-scale    text and images of large-scale text have a contrast ratio of at least 3:1;</li>
+<li><strong>Incidental: </strong>Text or    images of text that are part of an inactive user interface component, that    are pure decoration, that are not visible to anyone, or that are part of a    picture that contains significant other visual content, have no contrast    requirement.</li>
+<li><strong>Logotypes: </strong>Text that    is part of a logo or brand name has no minimum contrast requirement.</li>
+</ul>
+</td>
+<td valign="top">Not    applicable (<em>applies at content-level, not format-level</em>)</td>
+</tr>
+<tr>
+<td valign="top"><strong>[ADOD-Office-Documents</strong><strong> 1.4.5] Images of Text:</strong> If the technologies being used can achieve the visual presentation, text is    used to convey information rather than images of text except for the    following: <em>Note: </em>Logotypes    (text that is part of a logo or brand name) are considered essential.
+<ul>
+<li><strong>Customizable:</strong> The image    of text can be visually customized to the user's requirements;</li>
+<li><strong>Essential:</strong> A    particular presentation of text is essential to the information being    conveyed.</li>
+</ul>
+</td>
+<td valign="top">Not    applicable (<em>applies at content-level, not format-level</em>)</td>
+</tr>
+<tr>
+<td valign="top"><strong>[ADOD-Office-Documents 2.4.1]    Bypass Blocks:</strong> A mechanism is available to bypass blocks of    content [in office documents].</td>
+<td valign="top">i.e.,    what navigation mechanisms does the format include that support bypassing    blocks of content?</td>
+</tr>
+<tr>
+<td valign="top"><strong>[ADOD-Office-Documents 2.4.2] Page    Titled:</strong> [Office documents] have titles that describe topic or purpose.</td>
+<td valign="top">i.e.,    what titling mechanisms does the format include?</td>
+</tr>
+<tr>
+<td valign="top"><strong>[ADOD-Office-Documents 2.4.3]    Focus Order:</strong> If [an office document] can be navigated    sequentially and the navigation sequences affect meaning or operation,    focusable components receive focus in an order that preserves meaning and    operability.</td>
+<td valign="top">i.e.,    what focus navigation sequence mechanisms does the format support?</td>
+</tr>
+<tr>
+<td valign="top"><strong>[ADOD-Office-Documents 2.4.4] Link    Purpose (In Context):</strong> The purpose of each link can be determined from    the link text alone or from the link text together with its programmatically determined    link context, except where the purpose of the link would be ambiguous to    users in general.</td>
+<td valign="top">i.e.,    what mechanisms are provided for setting the link purpose (e.g., link text,    title, etc.)?</td>
+</tr>
+<tr>
+<td valign="top"><strong>[ADOD-Office-Documents 2.4.6]    Headings and Labels:</strong> Headings and labels describe topic or purpose.</td>
+<td valign="top">i.e.,    what heading and labeling mechanisms does the format include?</td>
+</tr>
+<tr>
+<td valign="top"><strong>[ADOD-Office-Documents 3.1.1]    Language of Page:</strong> The default human language of each [office    document] can be programmatically determined.</td>
+<td valign="top">i.e.,    can human language be set for the whole document?</td>
+</tr>
+<tr>
+<td valign="top"><strong>[ADOD-Office-Documents 3.1.2]    Language of Parts:</strong> The human language of each passage or phrase in    the content can be programmatically determined except for proper names,    technical terms, words of indeterminate language, and words or phrases that    have become part of the vernacular of the immediately surrounding text.</td>
+<td valign="top">i.e.,    can human language be set for parts of a document?</td>
+</tr>
+<tr>
+<td valign="top"><strong>[ADOD-Office-Documents</strong><strong> 3.2.4] Consistent    Identification:</strong> Components that have the same    functionality within a set of [office documents] are identified consistently. </td>
+<td valign="top">Not    applicable (<em>applies at content-level, not format-level</em>)</td>
+</tr>
+</table>
+<p><br clear="all" /></p>
+<p><strong>&nbsp;</strong></p>
+<h3><a name="_Toc280180423" id="_Toc280180423"></a><a name="_Toc280180272" id="_Toc280180272">Appendix C: Rationale for inclusion of success  criteria in &ldquo;Part 3: [ADOD-Office-Applications-UI] Assessing the accessibility  of office application user interfaces&rdquo;</a></h3>
+<p>These guidelines relate to determining the accessibility  of office applications to users with disabilities (see &ldquo;Scope&rdquo;).<br />
+    <strong>ATAG 1.0 Guideline 7 (Priority 1 and 2  Checkpoints) has been used as a basis for [ADOD-Office-Applications-UI] </strong>(see &ldquo;Relationship between ADOD and WCAG 2.0/ATAG 1.0&rdquo;), with the following  exceptions:</p>
+<ul>
+<li>Some terminology and references need to be interpreted differently  as follows:
+<ul>
+<li><strong>* Web-specific terms.</strong> These should be  interpreted in the context of office documents and office applications (see &ldquo;Relationship  between ADOD and WCAG 2.0/ATAG 2.0&rdquo;)
+<ul>
+<li>&ldquo;document markup&rdquo; is to be  interpreted as &ldquo;office document&rdquo;</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<table border="1" cellspacing="0" cellpadding="0">
+<tr>
+<th width="50%" valign="top" align="center">ATAG 1.0 Guideline 7 Checkpoints (Priority 1 and 2)</th>
+<th width="50%" valign="top" align="center">AADOD Applicability and/or Modifications</th>
+</tr>
+<tr>
+<td valign="top"><strong>7.1 Use all applicable operating    system and accessibility standards and conventions (Priority 1 for standards    and conventions that are essential to accessibility; Priority 2 for those    that are important to accessibility; Priority 3 for those that are beneficial to    accessibility). The techniques for this checkpoint include references    to checklists and guidelines for a number of platforms and to general    guidelines for accessible applications.</strong></td>
+<td valign="top">The    priority 3 clause is not applicable.<br />
+      The Checkpoint is very general, and includes:<br />
+<ul type="disc">
+<li>Supporting relevant accessibility API(s)</li>
+<li>Web-based tools conforming to WCAG</li>
+<li>Keyboard access</li>
+<li>Providing keyboard shortcuts where recommended for a platform</li>
+<li>Respecting platform settings (such as &ldquo;high contrast&rdquo; modes)</li>
+<li>Providing documentation</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td valign="top"><strong>7.2 Allow the author to change the    presentation within editing views without affecting the document markup*.    [Priority 1] This allows the author to edit the document according to    personal requirements, without changing the way the document is rendered when    published.</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>7.3 Allow the author to edit all    properties of each element and object in an accessible fashion. [Priority 1]</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>7.4 Ensure that the editing view    allows navigation via the structure of the document in an accessible fashion.    [Priority 1]</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>7.5 Enable editing of the    structure of the document in an accessible fashion. [Priority 2]</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>7.6 Allow the author to search    within editing views. [Priority 2]</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+</table>
+<p><br clear="all" /></p>
+<p><strong>&nbsp;</strong></p>
+<h3><a name="_Toc280180424" id="_Toc280180424"></a><a name="_Toc280180273" id="_Toc280180273">Appendix D: Rationale for inclusion of success  criteria in &ldquo;Part 4: [ADOD-Office-Applications-Supports] Assessing the  provision by office applications of support for authoring accessible office  documents&rdquo;</a></h3>
+<p>These guidelines relate to determining the  degree to which all users are supported by office applications in the production  of accessible office documents.<br />
+    <strong>ATAG 1.0 Guidelines 1-6 (Priority 1 and  2 Checkpoints) has been used as a basis for [ADOD-Office-Applications-Supports]</strong> (see &ldquo;Relationship between ADOD and WCAG 2.0/ATAG 1.0&rdquo;), with the  following exceptions:</p>
+<ul>
+<li>Some terminology and references need to be interpreted differently  as follows:
+<ul>
+<li><strong>* Web-specific terms.</strong> These should be  interpreted in the context of office documents and office applications (see  &ldquo;Relationship between ADOD and WCAG 2.0/ATAG 2.0&rdquo;)
+<ul>
+<li>&ldquo;web page(s)&rdquo; is to be  interpreted as &ldquo;office document(s)&rdquo;</li>
+<li>&nbsp;&ldquo;(web) content&rdquo; is to be interpreted as  &ldquo;(office document) content&rdquo;</li>
+<li>&nbsp;&ldquo;markup languages&rdquo; is to be interpreted as  &ldquo;office document formats&rdquo;</li>
+<li>&ldquo;authoring tool&rdquo; is to be  interpreted as &ldquo;office application&rdquo;</li>
+</ul>
+</li>
+<li><strong>&dagger; References to WCAG 1.0.</strong> These should  be interpreted as references to [ADOD-Office-Documents] (Part 2).</li>
+<li><strong>&Dagger; References to ATAG 2.0 Part A.</strong> These  should be interpreted as references to [ADOD-Office-Applications-UI] (Part 3).</li>
+<li>Some success criteria are not applicable. The reasons for this  include:
+<ul>
+<li><em>(office applications are typically also the viewers)</em>: The success criterion is not relevant because office applications  are typically both the authoring and (pre)viewing applications for office  documents.</li>
+</ul>
+</li>
+</ul>
+<table border="1" cellspacing="0" cellpadding="0">
+<tr>
+<th width="50%" valign="top" align="center">ATAG 1.0 Guideline 1-6 Checkpoints (Priority 1 and 2)</th>
+<th width="50%" valign="top" align="center">ADOD Applicability     and/or Modifications</th>
+</tr>
+<tr>
+<td valign="top"><strong>1.1 Ensure that the author can    produce accessible content* in the markup language(s)* supported by the tool*.    [Priority 1]</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>1.2 Ensure that the tool*    preserves all accessibility information during authoring, transformations,    and conversions. [Priority 1]</strong></td>
+<td valign="top">e.g.,    when saving between office document formats</td>
+</tr>
+<tr>
+<td valign="top"><strong>1.3 Ensure that when the tool*    automatically generates markup* it conforms to the W3C's Web Content    Accessibility Guidelines 1.0 [WCAG10]</strong>&dagger;<strong>. [Relative Priority]</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>1.4 Ensure that templates provided    by the tool conform to the Web Content Accessibility Guidelines 1.0 [WCAG10]</strong> &dagger;<strong>. [Relative Priority]</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>2.1 Use the latest versions of W3C Recommendations when    they are available and appropriate for a task. [Priority 2]</strong><br />
+            <strong>W3C specifications have undergone review specifically to    ensure that they do not compromise accessibility, and where possible, they    enhance it.</strong></td>
+<td valign="top">Not    applicable (Web-specific)</td>
+</tr>
+<tr>
+<td valign="top"><strong>2.2 Ensure that the tool*    automatically generates valid markup*. [Priority 1]</strong><br />
+            <strong>This is necessary for user agents    to be able to render Web content in a manner appropriate to a particular    user's needs.</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>3.1 Prompt the author to provide    equivalent alternative information (e.g., captions, auditory descriptions,    and collated text transcripts for video). [Relative Priority]</strong><br />
+            <strong>Note: Some checkpoints in the Web    Content Accessibility Guidelines 1.0 [WCAG10]</strong> &dagger;<strong> may not apply.</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>3.2 Help the author create    structured content and separate information from its presentation. [Relative    Priority]</strong><br />
+            <strong>Note: Some checkpoints in Web    Content Accessibility Guidelines 1.0 [WCAG10]</strong> &dagger;<strong> may not apply.</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>3.3 Ensure that prepackaged    content* conforms to the Web Content Accessibility Guidelines 1.0 [WCAG10]</strong> &dagger;<strong>. [Relative Priority]</strong><br />
+            <strong>For example, include captions, an    auditory description, and a collated text transcript with prepackaged movies.</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>3.4 Do not automatically generate    equivalent alternatives. Do not reuse previously authored alternatives    without author confirmation, except when the function is known with    certainty. [Priority 1]</strong><br />
+            <strong>For example, prompt the author for    a text equivalent of an image. If the author has already provided a text    equivalent for the same image used in another document, offer to reuse that text    and prompt the author for confirmation. If the tool automatically generates a    &quot;Search&quot; icon, it would be appropriate to automatically reuse the    previously authored text equivalent for that icon. Refer also to checkpoint    3.3 and checkpoint 3.5.</strong><br />
+            <strong>Note: Human-authored equivalent alternatives may be    available for an object (for example, through checkpoint 3.5 and/or    checkpoint 3.3). It is appropriate for the tool to offer these to the author    as defaults.</strong></td>
+<td valign="top">Additional    support text is unnecessary and references a Checkpoint 3.5, which is    Priority 3.</td>
+</tr>
+<tr>
+<td valign="top"><strong>4.1 Check for and inform the    author of accessibility problems. [Relative Priority]</strong><br />
+            <strong>Note: Accessibility problems    should be detected automatically where possible. Where this is not possible,    the tool* may need to prompt the author to make decisions or to manually    check for certain types of problems.</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>4.2 Assist authors in correcting    accessibility problems. [Relative Priority]</strong><br />
+            <strong>At a minimum, provide    context-sensitive help with the accessibility checking required by checkpoint    4.1</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>4.3 Allow the author to preserve markup not recognized by    the tool. [Priority 2]</strong><br />
+            <strong>Note: The author may have included or imported markup    that enhances accessibility but is not recognized by the tool.</strong></td>
+<td valign="top">Not    applicable (Web specific).</td>
+</tr>
+<tr>
+<td valign="top"><strong>5.1 Ensure that functionality    related to accessible authoring practices is naturally integrated into the    overall look and feel of the tool*. [Priority 2]</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>5.2 Ensure that accessible    authoring practices supporting Web Content Accessibility Guidelines 1.0    [WCAG10] Priority 1</strong>&dagger;<strong> checkpoints are among the most    obvious and easily initiated by the author. [Priority 2]</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>A Document all features that    promote the production of accessible content*. [Priority 1]</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td valign="top"><strong>B Ensure that creating accessible    content* is a naturally integrated part of the documentation, including    examples. [Priority 2]</strong></td>
+<td valign="top">&nbsp;</td>
+</tr>
+</table>
+<p><br clear="all" /></p>
+<p>&nbsp;</p>
+<h3><a name="_Toc280180425" id="_Toc280180425"></a><a name="_Toc280180274" id="_Toc280180274">Appendix E: Comparison between ADOD and Section  508 Regulations (2001)</a></h3>
+<p>During the Public Review, the issue of  harmonization with the U.S. Section 508 Regulations (Electronic and Information  Technology) was raised. While the ADOD Assessment Framework is based on WCAG  2.0/ATAG 1.0, it is useful to consider how they compare with Section 508.</p>
+<h4><a name="_Toc280180426" id="_Toc280180426"></a><a name="_Toc280180275" id="_Toc280180275"><strong>Accessibility of Office Documents (</strong>Part 1 [ADOD-Office-Documents] Assessing the accessibility of office  documents)</a></h4>
+<p>This part of the ADOD Assessment Framework  is based on WCAG 2.0 and is most similar to &ldquo;1194.22 Web-based Intranet and  Internet Information and Applications&rdquo; of the Section 508 Regulations (2001).&nbsp; The table below identifies how ADOD requirements  compare with the Section 508 criteria. <strong>Note: The Section 508 Regulations  are currently being updated and there are indications that the new regulations  will be more closely harmonized with WCAG 2.0 and therefore with this Part of  the ADOD Assessment Framework.</strong></p>
+<table border="1" cellspacing="0" cellpadding="0">
+<tr>
+<th width="50%" valign="top" align="center">Section 508 Criteria</th>
+<th width="50%" valign="top" align="center">[ADOD-Office-Documents] Assessing the accessibility of office documents</th>
+</tr>
+<tr>
+<td valign="top">1194.22(a)    A text equivalent for every non-text element shall be provided (for example    via alt or longdesc attributes, or in element content)</td>
+<td valign="top"><strong>[ADOD-Office-Documents 1.1.1] Non-text Content:</strong> All non-text content that is presented to the    user has a text alternative that serves the equivalent purpose, except for    the situations listed below.
+<ul>
+<li><strong>Test: </strong>If non-text content is a test or exercise that would be invalid if    presented in text, then text alternatives at least provide descriptive    identification of the non-text content. </li>
+<li><strong>Sensory: </strong>If non-text content is primarily intended to create a specific    sensory experience, then text alternatives at least provide descriptive    identification of the non-text content. </li>
+<li><strong>Decoration,    Formatting, Invisible: </strong>If non-text content is pure decoration, is    used only for visual formatting, or is not presented to users, then it is    implemented in a way that it can be ignored by assistive technology. </li>
+</ul>
+</td>
+</tr>
+<tr>
+<td valign="top">1194.22(b)    Equivalent alternatives for any multimedia presentation shall be synchronized    with the presentation.</td>
+<td valign="top">Not    applicable (<em>interactive/dynamic</em>)</td>
+</tr>
+<tr>
+<td valign="top">1194.22(c)    Web pages shall be designed so that all information conveyed with color is    also available without color, for example from context or markup.</td>
+<td valign="top"><strong>[ADOD-Office-Documents 1.4.1] Use of Color:</strong> Color is    not used as the only visual means of conveying information, indicating an    action, prompting a response, or distinguishing a visual element. <em>Note: </em>This success criterion addresses color    perception specifically. Other forms of perception are covered in Guideline    1.3 including programmatic access to color and other visual presentation    coding.<br />
+            <strong>[ADOD-Office-Documents 1.4.3] Contrast (Minimum):</strong> The visual presentation of text and images of    text has a contrast ratio of at least 4.5:1, except for the following:&nbsp;
+<ul>
+<li><strong>Large Text: </strong>Large-scale text and images of large-scale text have a contrast    ratio of at least 3:1;</li>
+<li><strong>Incidental: </strong>Text or images of text that are part of an inactive user interface    component, that are pure decoration, that are not visible to anyone, or that    are part of a picture that contains significant other visual content, have no    contrast requirement.</li>
+<li><strong>Logotypes: </strong>Text that is part of a logo or brand name has no minimum contrast    requirement.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td valign="top">1194.22(d)    Documents shall be organized so they are readable without requiring an    associated style sheet.</td>
+<td valign="top">Not    applicable (<em>Web content specific</em>)</td>
+</tr>
+<tr>
+<td valign="top">1194.22(e)    Redundant text links shall be provided for each active region of a    server-side image map.</td>
+<td valign="top">Not    applicable (<em>interactive/dynamic</em>)</td>
+</tr>
+<tr>
+<td valign="top">1194.22(f)    Client-side image maps shall be provided instead of server-side image maps    except where the regions cannot be defined with an available geometric shape.</td>
+<td valign="top">Not    applicable (<em>interactive/dynamic</em>)</td>
+</tr>
+<tr>
+<td valign="top">1194.22(g)    Row and column headers shall be identified for data tables.</td>
+<td valign="top"><strong>[ADOD-Office-Documents 1.3.1] Info and Relationships:</strong> Information, structure, and relationships conveyed through presentation can    be programmatically determined or are available in text.</td>
+</tr>
+<tr>
+<td valign="top">1194.22(h)    Markup shall be used to associate data cells and header cells for data tables    that have two or more logical levels of row or column headers.</td>
+<td valign="top"><strong>[ADOD-Office-Documents 1.3.1] Info and Relationships:</strong> Information, structure, and relationships conveyed through presentation can    be programmatically determined or are available in text.</td>
+</tr>
+<tr>
+<td valign="top">1194.22(i)    Frames shall be titled with text that facilitates frame identification and    navigation.</td>
+<td valign="top">Not    applicable (<em>Web content specific</em>)</td>
+</tr>
+<tr>
+<td valign="top">1194.22(j)    Pages shall be designed to avoid causing the screen to flicker with a    frequency greater than 2 Hz and lower than 55 Hz.</td>
+<td valign="top">Not    applicable (<em>interactive/dynamic</em>)</td>
+</tr>
+<tr>
+<td valign="top">1194.22(k)    A text-only page, with equivalent information or functionality, shall be    provided to make a web site comply with the provisions of this part, when    compliance cannot be accomplished in any other way. The content of the    text-only page shall be updated whenever the primary page changes.</td>
+<td valign="top">Not    applicable (<em>interactive/dynamic</em>)</td>
+</tr>
+<tr>
+<td valign="top">1194.22(l)    When pages utilize scripting languages to display content, or to create    interface elements, the information provided by the script shall be    identified with functional text that can be read by assistive technology.</td>
+<td valign="top">Not    applicable (<em>interactive/dynamic</em>)</td>
+</tr>
+<tr>
+<td valign="top">1194.22(m)    When a web page requires that an applet, plug-in or other application be    present on the client system to interpret page content, the page must provide    a link to a plug-in or applet that complies with paragraphs 1194.21(a)    through (l).</td>
+<td valign="top">Not    applicable (<em>interactive/dynamic</em>)</td>
+</tr>
+<tr>
+<td valign="top">1194.22(n)    When electronic forms are designed to be completed on-line, the form shall    allow people using assistive technology to access the information, field    elements, and functionality required for completion and submission of the    form, including all directions and cues.</td>
+<td valign="top">Not    applicable (<em>interactive/dynamic</em>)</td>
+</tr>
+<tr>
+<td valign="top">1194.22(o) A method shall be provided that permits users to skip repetitive navigation    links.</td>
+<td valign="top"><strong>[ADOD-Office-Documents 2.4.1] Bypass Blocks:</strong> A    mechanism is available to bypass blocks of content [in office documents]. </td>
+</tr>
+<tr>
+<td valign="top">1194.22(p) When a timed response is required, the user shall be alerted and given    sufficient time to indicate more time is required.</td>
+<td valign="top">Not applicable (<em>interactive/dynamic</em>)</td>
+</tr>
+</table>
+<h4>&nbsp;<a name="_Toc280180427" id="_Toc280180427"></a><a name="_Toc280180276" id="_Toc280180276">Accessibility of Office Document Formats (Part 2  [ADOD-Office-Formats] Assessing the accessibility of office document formats)</a> </h4>
+<p>Not specifically addressed by the Section  508 Regulations (2001).</p>
+<h4><a name="_Toc280180428" id="_Toc280180428"></a><a name="_Toc280180277" id="_Toc280180277">Accessibility of Office Application User  Interfaces (Part 3 [ADOD-Office-Applications-UI] Assessing the accessibility of  office application user interfaces)</a></h4>
+<p>This part of the ADOD Assessment Framework  is based on ATAG 1.0 and is most similar to &ldquo;1194.21 Software Applications and  Operating Systems&rdquo; of the Section 508 Regulations (2001). This part of ADOD  begins with the general requirement to &ldquo;[u]se all applicable operating system  and accessibility standards and conventions that are important or essential to  accessibility&hellip;&rdquo;. This would seem to include 1194.21 (in the U.S. market). <br />
+  In addition, there are five other  requirements that are specific to authoring interfaces that the Section 508  Regulations (2001) do not directly address.</p>
+<h4><a name="_Toc280180429" id="_Toc280180429"></a><a name="_Toc280180278" id="_Toc280180278">Support for Authoring Accessible Office  Documents (Part 4 [ADOD-Office-Applications-Supports] Assessing the provision  by office applications of support for authoring accessible office documents)</a></h4>
+<p>Not specifically addressed by the Section  508 Regulations (2001).</p>
+<h2><a name="_Toc280180430" id="_Toc280180430"></a><a name="_Toc280180279" id="_Toc280180279"></a><a name="_Toc280129258" id="_Toc280129258">Acknowledgments</a></h2>
+<p>This document was produced as part of the Accessible  Digital Office Document (ADOD) Project (<a href="index.html">http://adod.idrc.ocad.ca/</a>).</p>
+<p>This project has been developed by the <a href="http://idrc.ocad.ca/">Inclusive Design Research Centre, OCAD University</a> as part of an <a href="http://www.accesson.ca/en/mcss/programs/accessibility/EnablingChange/index.aspx">EnAbling Change Partnership</a> project with the <a href="http://www.ontario.ca/">Government of Ontario</a> and <a href="http://www.unesco.org/">UNESCO (United Nations Educational, Scientific and Cultural Organization)</a>.</p>
+<p><img src="sites/adod.idrc.ocad.ca/files/partners.png" alt="Partner logos: UNESCO-United Nations Educational, Scientific and Cultural Organization, the Government of Ontario and the Inclusive Design Research Centre (OCAD University)" width="626" height="166" /></p>
+<p>Copyright &copy; 2010 Inclusive Design Research Centre,  OCAD University<br />
+  This material may be reproduced and distributed in  print or electronic format only as long as: <br />
+  (a) it is offered at no cost to the  recipients; and<br />
+  (b) full credit is given to the Inclusive Design Research Centre, OCAD  University; and <br />
+  (c) the copyright notice is preserved (e.g., &quot;Copyright &copy; Inclusive Design  Research Centre, OCAD University&rdquo;).</p>
+</li></ul>  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+      </div>
+
+</div>
+          </div>
+                    <div id="footer">Copyright 2010, IDRC</div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+    </body>
+</html>

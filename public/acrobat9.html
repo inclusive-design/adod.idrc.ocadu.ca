@@ -1,0 +1,378 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="misc/favicon.ico" type="image/x-icon" />
+
+    <title>Authoring Techniques for Accessible Office Documents: Adobe Acrobat 9 Pro | Accessible Digital Office Document (ADOD) Project</title>
+    <link type="text/css" rel="stylesheet" media="all" href="sites/adod.idrc.ocad.ca/files/css/css_f227edaa08468efc78f9ba2d884f9b5e.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/adod.idrc.ocad.ca/files/css/css_24d907fbbd309d49286f16c0b240a2d1.css" />
+        <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/themes/garland/fix-ie.css" />    <![endif]-->
+  </head>
+  <body>
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="index.html" title="Accessible Digital Office Document (ADOD) Project"><span>Accessible Digital Office Document (ADOD) Project</span></a></h1>        </div>
+
+                                                    
+      </div> <!-- /header -->
+
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="index.html">Home</a></div>                              <h2>Authoring Techniques for Accessible Office Documents: Adobe Acrobat 9 Pro</h2>                                                  <div class="clear-block">
+            <div id="node-28" class="node">
+
+
+
+  
+  <div class="content clear-block">
+    <h2>Quick Reference </h2>
+<ul>
+<li><a href="acrobat9.html#usage-notes">Usage Notes </a> </li>
+<li><a href="acrobat9.html#tech1">Technique 1. Use Accessible Source Documents</a> </li>
+<li><a href="acrobat9.html#tech2">Technique 2. Test for Accessibility Compliance</a></li>
+<li><a href="acrobat9.html#tech3">Technique 3. Add and Edit Tags</a></li>
+<li><a href="acrobat9.html#tech4">Technique 4. Provide Alternative Text</a></li>
+<li><a href="acrobat9.html#tech5">Technique 5. Set a Logical Reading Order</a></li>
+<li><a href="acrobat9.html#tech6">Technique 6. Set Document Properties</a></li>
+<li><a href="acrobat9.html#tech7">Technique 7. Adjust Security Settings</a></li>
+<li><a href="acrobat9.html#tech8">Technique 8. Set Bookmarks</a></li>
+<li><a href="acrobat9.html#access-help">Accessibility Help</a></li>
+<li><a href="acrobat9.html#acc-support-tools">Accessibility Support Tools</a></li>
+<li><a href="acrobat9.html#references">References and Resources</a></li>
+<li><a href="acrobat9.html#ack">Acknowledgments</a></li>
+</ul>
+<h2><a name="usage-notes" id="usage-notes"></a>Usage Notes</h2>
+<p>At the time of testing (January 19, 2011), Acrobat  9 Pro (Windows) enables the  production of accessible digital office documents. Acrobat 9 Pro includes an  accessibility checking feature.</p>
+<p style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Note: </em>While PDF accessibility has improved over the years, accessibility support for PDF by authoring tools, viewers and assistive technologies (e.g. screen readers) is not as widespread as for HTML documents. <strong>We recommend considering HTML instead of or in addition to PDF where appropriate.</strong></p>
+<h3>Should I use ADOD or WCAG 2.0?</h3>
+<p>These techniques can help you to use Acrobat 9 Pro to create documents  that are: </p>
+<ul>
+<li><strong>Intended  to be used by people</strong> (i.e. not computer code),</li>
+<li><strong>Text-based</strong> (i.e. not simply images,  although they may contain images),</li>
+<li><strong>Fully  printable</strong> (i.e.  where dynamic features are limited to automatic page numbering, table of  contents, etc. and do not include audio, video, or embedded interactivity),</li>
+<li><strong>Self-contained</strong> (i.e. without hyperlinks to  other documents, unlike web content), and </li>
+<li><strong>Typical  of office-style workflows</strong> (Reports, letters, memos, budgets, presentations, etc.).</li>
+</ul>
+<p style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Note: </em>If you are creating forms, web pages,  applications, or other dynamic and/or interactive content, these you should also consult the <a href="http://www.w3.org/WAI/intro/wcag.php">W3C-WAI Web Content  Accessibility Guidelines (WCAG 2.0)</a>. The WCAG working group has provided <a href="http://www.w3.org/WAI/GL/WCAG20-TECHS/pdf.html">PDF Techniques for WCAG 2.0</a>.</p>
+<h3>File Formats </h3>
+<p>The  default file format for Acrobat 9 Pro is <strong>Adobe Portable Document Format (PDF)</strong>. Several other word processor and web format saving  options are also offered, but these have not been checked for accessibility.</p>
+<h3>Document Conventions</h3>
+<p>We have tried to write  these techniques so that they are useful to all authors, regardless of whether  they use a mouse. However, for clarity there are several instances where  mouse-only language is used. Below are the mouse-only terms and their keyboard  alternatives:</p>
+<ul>
+<li><strong><a name="right-click" id="right-click"></a>*Right-click:</strong> To right-click with the keyboard, select the object using the  Shift+Arrow keys and then press either (1) the &ldquo;Right-Click&rdquo; key (some keyboard  have this to the right of the spacebar) or (2) Shift+F10.</li>
+<li><strong><a name="drag" id="drag"></a>*Drag:</strong> Unfortunately, there is no keyboard alternative for several operations that require dragging.</li>
+</ul>
+<h3>Disclaimer and Testing Details:</h3>
+<ul>
+<li><strong>Following these  techniques will increase the accessibility of your documents, but it does not  guarantee accessibility to any specific disability groups</strong>. In cases where more  certainty is required, it is recommended that you test the office documents  with end users with disabilities, including screen reader users.</li>
+<li>The  application-specific steps and screenshots in this document were created using Adobe  Acrobat 9 Pro (ver.9.0.0, Windows 7, Jan. 2011) while creating a PDF  document.</li>
+<li>Tasks completed in <a href="acrobat9.html#tech3">Technique 3</a>, <a href="acrobat9.html#tech4">Technique 4</a>, and<a href="acrobat9.html#ttech5"> Technique 5</a> cannot be undone. It is recommended that you save your PDF document before and after you make significant changes. </li>
+<li>This document is provided for  information purposes only and is neither a recommendation nor a guarantee of  results. </li>
+<li>If errors are found, please report them to: <a href="mailto:adod-comments@idrc.ocad.ca">adod-comments@idrc.ocad.ca</a></li>
+</ul>
+<h2><a name="tech1" id="tech1"></a>Technique 1. Use  Accessible Source Documents </h2>
+<p>In the Adobe Acrobat 9 Pro workflow, all PDF  documents start with a source document created in an office document authoring  application, such as Microsoft Word or OpenOffice.org Writer. Because source documents provide the  starting-point for the PDF documents, accessibility is very important.</p>
+<h4>To create an accessible  source document</h4>
+<ol>
+<li>Create a new document  in the authoring application (from the default blank template or from one of  the prepackaged templates)</li>
+<li>Ensure that you  follow the <strong>ADOD  Authoring Techniques</strong> provided for the authoring  application (available at: <a href="http://inclusivedesign.ca/accessible-office-documents">http://inclusivedesign.ca/accessible-office-documents</a>)</li>
+<li>When you are  finished, you should also check the accessibility of the document (see &ldquo;Accessibility  Checking&rdquo; in the Authoring Techniques for the authoring application)</li>
+</ol>
+<p>Once you have completed the above steps, you are ready to convert your document to PDF using Adobe Acrobat 9.</p>
+<h4>To convert single source documents to PDF</h4>
+<ol>
+<li>Go to the menu item: <strong>File &gt; Create PDF &gt; From file...</strong></li>
+<li>Locate and select your source document and select the <strong>Open</strong> button, Acrobat will then proceed to convert the file.</li>
+</ol>
+<p style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Note:</em> A batch conversion process is also available from the menu item: <strong>File &gt; Create PDF &gt; Batch Create Multiple Files</strong></p>
+<h3>Scanned Content</h3>
+<p>If you created a PDF from a  scanned document, then it will be inherently inaccessible to screen readers and  other assistive technologies.The document will be less useful  because graphic representations of text cannot be selected, edited or searched.</p>
+<p>In this case, it is necessary that you  convert the scanned images of text to searchable content using Acrobat's <strong>optical  character recognition (OCR)</strong> feature before addressing the accessibility features of the  document.</p>
+<h2><a name="tech2" id="tech2"></a>Technique 2. Check Accessibility </h2>
+<p>The most basic requirement for a PDF document to be accessible is for it to be <strong>&quot;tagged&quot;</strong> with hidden labels (&quot;tags&quot;) that describes the structure of the document (e.g. that text should be interpreted as a header, paragraph, table cell, etc.). Screen readers can then use these tags to convey the document's information effectively to people with visual disabilities. </p>
+<p>The other requirements for a PDF document to be accessible (e.g. alternate text, logical reading order, etc.) can only all apply once the document is tagged.</p>
+<p style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Caution!:</em> The &quot;Quick Check&quot; feature is <strong>not recommended</strong> because it misses some important accessibility issues. Always perform a &quot;Full Check&quot; instead.</p>
+<h4>To perform a &quot;Full Check&quot;</h4>
+<ol>
+<li>Go to menu item: <strong>Advanced &gt; Accessibility &gt; Full check</strong></li>
+<li>Under <strong>Report and Comment Options</strong>, select how you would like to  view the results</li>
+<li>If you would like to do a full check  on individual sections of a document, under <strong>Page Range</strong>, select a page range  (when you have a large document, running a full check on one  section at a time can be more efficient.)</li>
+<li>Under <strong>Checking Options</strong>, select an accessibility  standard from the <strong>Name</strong> drop-down list</li>
+<li>Under <strong>Checking Options</strong>, select <strong>Select All</strong> to run a complete accessibility  check</li>
+<li>Select <strong>Start Checking<br />
+    <img src="sites/adod.idrc.ocad.ca/files/Acrobat9Pro_4.png" alt="Image demonstrates location of page range option, format option, Select All button and Start Checking button." width="480" height="555" /></strong></li>
+</ol>
+<h2><a name="tech3" id="tech3"></a>Technique 3. Add and Edit Tags</h2>
+<p style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Caution!:</em> Actions taken using the TouchUp Reading Order tool and Order Panel cannot be undone. Remember to save your work frequently. If you frequently create PDF files you might consider using one of these <a href="acrobat9.html#acc-support-tools">accessible PDF support tools</a>.</p>
+<p>If tags are missing, then they must be added. When tags are present, they should still be checked for correctness. Acrobat's Help text describes the tags as follows:</p>
+<dl>
+<dt><strong><a name="tag-types" id="tag-types"></a>Text</strong></dt>
+<dd>Tags the selection as text.</dd>
+<dt><strong>Figure</strong></dt>
+<dd>Tags the selection as a figure. <em>Text contained within a figure tag is defined as part of the image and is not read by screen readers, though alternate text defined for the figure is read out.</em> <span style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Note:</em> An effective way of handling very complex tex constructs (e.g. flow charts) is to group it all as a figure and provide alt text.</span></dd>
+<dt><strong>Form Field</strong></dt>
+<dd>Tags the selection as a form field.</dd>
+<dt><strong>Figure/Caption</strong></dt>
+<dd>Tags a selected figure and caption as a single tag. Any text contained in the tag is defined as a caption. Useful for tagging photos and captions and preventing caption text from being incorrectly added to adjacent text blocks. <span style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Note:</em> Unless the caption actually describes the image, the figures will still require alternate text.</span></dd>
+<dt><strong>Heading 1, Heading 2, Heading 3</strong></dt>
+<dd>Tags the selection as a first, second, third, fourth, fifth, or sixth level heading tag. You can convert heading tags to bookmarks to help users navigate the document. </dd>
+<dt><strong>Table</strong></dt>
+<dd>Tags the selection as a table. When this selection is made, Acrobat analyzes the selection to determine the location of headings, columns, and rows. <span style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Note:</em> Table editing can be especially challenging. Try to keep them as simple as possible in the source document.</span></dd>
+<dt><strong>Cell</strong></dt>
+<dd>Tags the selection as a table or header cell. Use this option to merge cells that are incorrectly split. <span style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Note:</em> Table editing can be especially challenging. Try to keep them as simple as possible in the source document.</span></dd>
+<dt><strong>Formula</strong></dt>
+<dd>Tags the selection as a formula. <span style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Note:</em> Because speech software may handle formula tags differently from normal text, you should still add alternate text.</span></dd>
+<dt><strong>Background</strong></dt>
+<dd>Tags the selection as a background element, or artifact, removing the item from the tag tree so that it does not appear in the reflowed document and is not read by screen readers.</dd>
+</dl>
+<h4>To add tags automatically</h4>
+<p style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Note:</em> The automatic tagging feature may work for simple layouts, but it sometimes misinterprets the structure and reading order of complex page elements (e.g. closely spaced columns, irregular text alignment, and tables without borders). Therefore, you should still manually check the tags as explained below.</p>
+<ol>
+<li>Go to menu item: <strong>Advanced &gt; Accessibility &gt; Add  Tags To Document</strong><br />
+<div style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Note: </em>This command removes any tags  that were in the document before the command was run. If any potential problems were encountered,  an Add Tags Report appears in the navigation pane.</div>
+</li>
+</ol>
+<h4>To add/edit tags manually</h4>
+<ol>
+<li>Go to menu item: <strong>Advanced &gt; Accessibility &gt;  TouchUp Reading Order&hellip;</strong><br />
+  In most cases, it will help to have the three checkboxes checked (<strong>Show page content order</strong>, <strong>Show table cells</strong>, <strong>Show tables and figures</strong>)</li>
+<li>Using the <strong>TouchUp Reading Order</strong> tool, <a href="acrobat9.html#drag">drag*</a> within  the document pane to select a region of the page that contains one type of  content (e.g. a text block)</li>
+<li>To add more page  content to the current selection, <strong>Shift  + drag*</strong></li>
+<li>To remove page  content from the current selection, <strong>Ctrl  + drag*</strong></li>
+<li>Select the  appropriate button in the <strong>TouchUp  Reading Order</strong> dialog to specify the tag type, a box should now encapsulate the element (<a href="acrobat9.html#tag-types">the tags are explained above</a>)<br />
+  <img src="sites/adod.idrc.ocad.ca/files/Acrobat9Pro_8.png" alt="Image demonstrates the location of the buttons for selecting the tag type." width="274" height="477" /></li>
+</ol>
+<div style="background-color:#FFC; border:gray solid 1px; padding: 0em 0.5em 0em 0.5em;">
+<h4>Tips for Tagging:</h4>
+<ul>
+<li>A good place to start is tagging &quot;Background&quot; content, since this will reduce the number of tags to deal with. Background content should include:
+<ul>
+<li>empty boxes, </li>
+<li>visible or invisible textbox borders (especially in busy areas where they overlap with text), </li>
+<li>visuals that are decorative or redundant (e.g. backgrounds, illustrations), whose content is described adequately in the text .</li>
+</ul>
+</li>
+<li>If you are having difficulty tagging complex content (e.g. a complex table), consider either:
+<ul>
+<li>Editing the source document to simplify it, or</li>
+<li>Selecting the complex content and tagging it as a figure for which you must then add alternative text that properly conveys all of the information    in the new figure</li>
+</ul>
+</li>
+</ul>
+</div>
+<h4>To change the tag for a region</h4>
+<ol>
+<li>With the <strong>TouchUp Reading Order</strong> tool...</li>
+<li>In the document  pane, drag* to select a highlight region or select the number of the highlighted  region (or select from the <strong>Order Panel</strong>)<br />
+<div style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Note:</em> If you drag* over part of an already tagged element, the element is sometimes split up. This is helpful when splitting larger elements to ensure correct reading over of sub-elements.</div>
+</li>
+<li>Select the  appropriate button in the <strong>TouchUp  Reading Order</strong> dialog to specify the tag (<a href="acrobat9.html#tag-types">the tags are explained here</a>)
+  </li>
+</ol>
+<h2><a name="tech4" id="tech4"></a>Technique 4. Provide Alternative Text</h2>
+<p>When  using images, it is  important to ensure that the information you intend to   convey by the image is  also conveyed to people who cannot see the   image. This can be accomplished by adding concise  alternative text to each image. If the image is purely decorative, mark it as background.</p>
+<div style="background-color:#FFC; border:gray solid 1px; padding: 0em 0.5em 0em 0.5em;">
+<h3>Tips for writing alternative text</h3>
+<ul type="disc">
+<li>Try to answer the question &quot;what information is the image conveying?&quot; </li>
+<li>If the image does not convey any useful information, leave the alternative text blank (e.g. Background images should generally have no alt text, other decorative images should only have alt text if they form a crucial part of the content, message, and purpose of the document)</li>
+<li>If the image contains meaningful text, ensure all of the text is replicated </li>
+<li>For logos, the alternative text should be the organization name</li>
+<li>For groups of logos, one logo can be chosen to represent the group</li>
+<li>Sometimes text is included as part of a logo or footer image (e.g. the image might contain a phone number), this text should be set as the alternative text of the image</li>
+<li>Alternative text should be fairly short, usually a sentence or less and rarely more than two sentences </li>
+<li>If more description is required (e.g. for a chart or graph), provide a short description in the alternative text (e.g. a summary of the trend) and more detail in the long description, see below </li>
+<li>Test by having others review the document with the images replaced by the alternative text</li>
+</ul>
+<h3>Tips for writing longer  descriptions</h3>
+<ul type="disc">
+<li>Long descriptions should be used when text alternatives (see above) are insufficient to answer the question &quot;what information is the image conveying?&quot; </li>
+<li>In some situations, the information being conveyed will be how an image looks (e.g. an artwork, architectural detail, etc.). In these cases, try to describe the image without making too many of your own assumptions. </li>
+<li>One approach is to imagine you are describing the image to a person over the phone </li>
+<li>Ensure that you still provide concise alternative text to help readers decide if they are interested in the longer description.</li>
+<li>Alternatively,  you can include the same information conveyed by the image within the body of  the document, providing the images as an alternate to the text. In that case,  the images should be marked as background and you do not have to provide alternate text within the image.</li>
+</ul>
+</div>
+<h4>To add alternative text using the Navigation Panel</h4>
+<ol>
+<li>Go to menu item: <strong>View &gt; Navigation Panels &gt; Tags</strong></li>
+<li>In the <strong>Tags</strong> tab, select the element</li>
+<li><a href="acrobat9.html#right-click">Right-click*</a> the  element and select <strong>Properties&hellip;</strong></li>
+<li>In the <strong>Tag</strong> tab, fill in the alternative text in the <strong>Alternative Text</strong> box <br />
+    <img style="padding-bottom: 1em;" src="sites/adod.idrc.ocad.ca/files/Acrobat9Pro_11.png" alt="Image demonstrates location of Tag tab and Alternate text box in the TouchUp Properties dialog." width="426" height="373" /></li>
+<li>Select <strong>Close</strong> </li>
+</ol>
+<div style="background-color:#FFC; border:gray solid 1px; padding: 0em 0.5em 0em 0.5em;">
+<p><em>Tip: </em>If you have a number of images arranged together, pick the main image and assign alternative text to it that describes the whole. Then, mark the secondary images as Background to be ignored (i.e. untag them)</p>
+</div>
+<h4>To add alternative text directly to the element</h4>
+<ol>
+<li>Right-click* the  element and select <strong>Edit  Alternate Text&hellip;</strong></li>
+<li>Enter  the alternative text in the <strong>Alternate  Text</strong> box </li>
+<li>Select <strong>OK</strong> </li>
+</ol>
+<h4>To add alternative text to  links</h4>
+<ol>
+<li>In the tag tree, select the <strong>Link</strong> tag for the link</li>
+<li>Select <strong>Options &gt; Properties</strong></li>
+<li>In the <strong>TouchUp Properties</strong> dialog, select the <strong>Tag</strong> tab</li>
+<li>Type alternative text for the  link</li>
+<li>Select <strong>Close</strong></li>
+</ol>
+<h4>Correcting visual side-effects of tagging</h4>
+<p>Sometimes tagging can result in unexpected visual side effects, such as text disappearing behind background images. The following steps can be taken to correct such side-effects:
+</p>
+<ol>
+<li>Open <strong>Content</strong> panel (this is another option in the same location as the <strong>Order</strong> panel)</li>
+<li>Move any &lt;Artifact&gt; elements to the top (this places them behind all other elements). </li>
+<li><em>See if this fixes the problem. If not, continue: </em></li>
+<li>Click <strong>Gears</strong> icon &gt; <strong>Highlight Content </strong></li>
+<li>Drag* mouse over unwanted element or the area where missing element should be </li>
+<li>Click <strong>Gears</strong> icon &gt; <strong>&quot;Find content from selection&quot;</strong> to locate selection in Content tree </li>
+<li>In the Content panel tree, click on the &quot;Container&quot; node of the selected element and then adjacent nodes. </li>
+<li>As you click, note which element is highlighted on screen. When you have found the element you want to correct, continue: </li>
+<li>If you found text that is hidden behind another element, move the hidden element DOWN within the Content panel tree (this moves it above other elements). </li>
+<li>If you found an element that should not be there, move it UP within the Content panel tree (this moves in behind other elements) or delete it if necessary (remember to Save beforehand) </li>
+</ol>
+<p style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Note: </em>The order of items in the Content panel tree indicates their layer order in the document. If item A is lower in the tree than item B, then if item A and B overlap in the document, A will be in front. Some people find this confusing, so a good way to remember how this works is to imagine putting documents in a pile and noting their names in a list. The last document placed will be on top of the pile, covering the others, and its name will be on the bottom of the list.</p>
+<h2><a name="tech5" id="tech5"></a>Technique 5. Set  a Logical Reading Order</h2>
+<p>The  order in which elements in a document are read by assistive software is  determined by the reading order. Each  section of page content appears as a separate highlighted region and is  numbered according to its placement in the reading order. You can change the reading order of the  highlighted regions without changing the actual appearance of the PDF. For example, by reordering highlighted regions  on the page, you can make a figure and caption read at the specific point that  they are referenced in the text without actually moving the elements on the  page.</p>
+<h4>To correct the reading order:</h4>
+<ol>
+<li>Go to menu item: <strong>Advanced &gt; Accessibility &gt;  TouchUp Reading Order&hellip;</strong></li>
+<li>Select <strong>Show Order Panel</strong></li>
+<li>In the <strong>Order</strong> tab, navigate through the list  of highlighted regions that appear in the document pane<br />
+  <img src="sites/adod.idrc.ocad.ca/files/Acrobat9Pro_14.png" alt="Image demonstrates the relationship between the numbered items in the order panel tree and the numbered items in the document pane." />  </li>
+<li>If a highlighted region is  misplaced, right-click* and select <strong>Cut</strong></li>
+<li>Navigate to the location where  the region should be placed, right-click* the item above the location in the  list and select <strong>Paste</strong>. After you drag* an item to a new location, the highlighted regions are renumbered accordingly.<br />
+<div style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Note: </em>You can also complete steps 4 and 5 by dragging* the tag for the region to the location you want. As well, you can select and move multiple adjacent regions at once.</div>
+</li>
+</ol>
+<h4>To test the reading order</h4>
+<p>Sometimes it may not be clear by looking at content, what would be the most logical aural reading order. In these cases, it is recommended to preview the reading order.</p>
+<p style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Caution!:</em> The &quot;Read Out Loud&quot; feature is <strong>not recommended</strong> for checking the aural order because it will provide an inaccurate .</p>
+<p>One method for testing the reading order of your document is called &quot;reflowing&quot;, which temporarily presents it as a single column that is the width of the  document pane. Only readable text  appears in the reflow view. </p>
+<p>If the tagged PDF does not reflow the way you  want, it means that the content order or reading order of the PDF contains  inconsistencies. If this is the case, in  addition to correcting the reading order, it may also  be helpful to edit the document tags.</p>
+<ol>
+<li>Go to menu item: <strong>View &gt; Zoom &gt; Reflow</strong></li>
+<li>To return to regular view, go to  menu item: <strong>View  &gt; Zoom &gt; Reflow</strong></li>
+</ol>
+<p>Another way to test the aural accessibility of a document is to attempt to access the  document with the screen readers that your readers will use (e.g. NVDA or JAWS on Windows, VoiceOver on Mac OS).</p>
+<h2><a name="tech6" id="tech6">Technique 6. Set  Document Properties</a> </h2>
+<h3>6.1 Document Language</h3>
+<p>It is important to set up the PDF correctly in order for assistive technologies (e.g. screen readers) to be able to present your document accurately. </p>
+<h4>To change the default language</h4>
+<ol>
+<li>Go to menu item: <strong>File  &gt; Properties</strong> </li>
+<li>Select the <strong>Advanced </strong>tab</li>
+<li>In the <strong>Reading  Options</strong> section, select the language  from the <strong>Language</strong> drop-down list</li>
+<li>Select <strong>OK</strong> </li>
+</ol>
+<h4>To apply a language directly to selected element </h4>
+<ol>
+<li>Go to menu item: <strong>View &gt; Navigation Panels &gt; Tags</strong> </li>
+<li>In the <strong>Tags </strong>tab,  select the element</li>
+<li>Right-click*  the element and select <strong>Properties&hellip;</strong> </li>
+<li>In the <strong>Tag</strong> tab,  select the language from the <strong>Language</strong> drop-down list</li>
+<li>Select <strong>Close</strong> </li>
+</ol>
+<h3>6.2 Document Title</h3>
+<p>In  case the document is ever converted into HTML, it should be given a descriptive  and meaningful title. </p>
+<h4>To change the title of the current document </h4>
+<ol>
+<li>Go to  menu item: <strong> File &gt; Properties</strong> </li>
+<li>Select  the <strong>Description</strong> tab</li>
+<li>Enter  a descriptive title in the <strong>Title</strong> box. It is also helpful to enter  descriptive information in the text boxes that follow (<strong>Author</strong>, <strong>Subject</strong>, <strong>Keywords</strong> or  select <strong>Additional  Metadata</strong>)</li>
+<li>Select <strong>OK</strong> </li>
+</ol>
+<h2><a name="tech7" id="tech7"></a>Technique 7. Adjust  Security Settings </h2>
+<p>It  is possible to specify that no part of an accessible PDF is to be copied,  printed, extracted, commented on, or edited. This can be accomplished by encrypting the document with password  security. However, this could interfere  with a screen reader&rsquo;s ability to read the document, because screen readers  must be able to copy or extract the document&rsquo;s text in order to convert it to  speech. In Acrobat 9 Pro, it is possible to maintain high-encryption-level security while at the same time providing the necessary access to assistive technologies.</p>
+<h4>To allow assistive  technologies access to content</h4>
+<ol>
+<li>Go to menu item: <strong>Advanced &gt; Security &gt; Show Security Properties</strong></li>
+<li>Set the<strong> Security Method</strong> field to &quot;No Security&quot; or enable &quot;Content Copying for Accessibility&quot; in the Document Restrictions</li>
+<li>Go to menu item: <strong>Advanced &gt; Security &gt; Encrypt  with Password</strong> </li>
+<li>In the <strong>Password Security - Settings</strong> dialog, under <strong>Permissions</strong>, select <strong>Restrict editing and printing of the  document</strong> </li>
+<li>For low-encryption-level security, select <strong>Enable copying of text, images, and other content</strong></li>
+<li>For high-encryption-level security, select <strong>Enable text access for screen reader  devices for the visually impaired</strong> (this overrides  the document&rsquo;s security settings only for the purpose of giving assistive  software, such as screen readers, access to the content)</li>
+<li>Select <strong>OK</strong><br />
+    <img src="sites/adod.idrc.ocad.ca/files/Acrobat9Pro_12.png" alt="Image demonstrates location of Restrict editing and printing option, Enable copying of text option, and Enable text access for screen readers option in the Password Security - Settings dialog." width="559" height="448" /></li>
+</ol>
+<h2><a name="tech8" id="tech8"></a>Technique 8. Set Bookmarks</h2>
+<p>A bookmark is a type of link  with representative text in the <strong>Bookmarks </strong>panel in the navigation pane. Each bookmark goes to a different view or page  in the document. In Acrobat 9 Pro, you can use bookmarks to mark a  place in the PDF to which you want to return, or to jump to a destination in  the PDF, another document, or a web page.</p>
+<p style="border: 1px gray solid; padding:0.3em; background-color:#DDFFFF"><em>Note: </em>An Acrobat user can  only add bookmarks to a document only if the security settings allow it.</p>
+<h4>To create a bookmark</h4>
+<ol>
+<li>Select text to bookmark</li>
+<li>Type <strong>Ctrl+B</strong></li>
+<li>Type a name the bookmark (or leave the default text)</li>
+<li>To create a bookmark without keyboard shortcuts</li>
+</ol>
+<h4>To delete a bookmark</h4>
+<ol>
+<li>In the <strong>Bookmarks</strong> pane, *right-click on the  bookmark</li>
+<li>Select <strong>Delete</strong></li>
+</ol>
+<h4>To create a bookmark hierarchy</h4>
+<ol>
+<li>In the <strong>Bookmarks</strong> pane, *right-click on the  bookmark to move</li>
+<li>Select <strong>Cut</strong></li>
+<li>*right-click on the  new bookmark you would like the moved bookmark to appear under</li>
+<li>Select <strong>Paste  Under Selected Bookmark</strong></li>
+</ol>
+<h2><a name="acc-support-tools" id="acc-support-tools"></a>Accessibility Support Tools</h2>
+<ul>
+<li><strong><a href="http://www.axespdf.com">axesPDF</a>:</strong> A plug-in for Microsoft Word 2007/2010 that makes it easier to create accessible PDFs (free public beta program); </li>
+<li><strong><a href="http://www.commonlook.com/CommonLook-office">CommonLook Office</a>:</strong> A plug-in for Microsoft Word 2007/2010 and PowerPoint 22007/010 that makes it easier to create accessible  PDFs. </li>
+<li><strong><a href="http://www.net-centric.com/products/cl_s508_adobe.aspx">CommonLook PDF</a>:</strong> A plug-in for Adobe Acrobat that helps identify, report and correct accessibility problems.</li>
+<li><strong><a href="http://www.axaio.com/doku.php/en:products:madetotag">MadeToTag</a>:</strong> A plug-in for for Adobe InDesign that makes it easier to create accessible PDF from InDesign documents. </li>
+<li><strong><a href="http://www.callassoftware.com/callas/doku.php/en:products:pdfgohtml">PDFGoHTML</a>: </strong>A free Adobe Acrobat plug-in that converts tagged PDF into HTML, which can be useful in debugging tagging structures.</li>
+</ul>
+<h2><a name="references" id="references"></a>References and  Resources </h2>
+<ol>
+<li><a href="http://www.adobe.com/accessibility/products/acrobat/pdf/A9-pdf-accesibility-overview.pdf">Adobe Acrobat 9 Pro Pro Accessbility Guide</a></li>
+<li><a href="http://www.w3.org/WAI/GL/WCAG20-TECHS/pdf.html">PDF Techniques for WCAG 2.0</a></li>
+<li><a href="http://www.gawds.org/show.php?contentid=28"></a><a href="http://webaim.org/techniques/acrobat/acrobat7to9">WebAIM PDF Accessibility: Acrobat 7-9 and Accessibility</a></li>
+<li><a href="http://www.gawds.org/show.php?contentid=28">GAWDS Writing  Better Alt Text</a></li>
+</ol>
+<h2><a name="ack" id="ack"></a>Acknowledgments</h2>
+<p><strong>Authors:</strong> Jan Richards, Sabrina Ruplall</p>
+<p>This document was produced as part of the  Accessible Digital Office Document (ADOD) Project (<a href="http://inclusivedesign.ca/accessible-office-documents">http://inclusivedesign.ca/accessible-office-documents</a>). This project has been developed by the  Inclusive Design Research Centre, OCAD University as part of an EnAbling Change  Partnership project with the Government of Ontario and UNESCO (United Nations  Educational, Scientific and Cultural Organization).</p>
+<p><img src="sites/adod.idrc.ocad.ca/files/partners.png" alt="Partner logos: UNESCO-United Nations Educational, Scientific and Cultural Organization, the Government of Ontario and the Inclusive Design Research Centre (OCAD University)" width="626" height="166" /> </p>
+<p>Substantial contributions have also been made to the project by <a href="http://www.anysurfer.be/en/index.html">AnySurfer</a>, the <a href="http://www.toronto.ca/">City of Toronto</a>, and <a href="https://adod.idrc.ocadu.ca/www.ocadu.ca">OCAD University</a>.</p>
+<p><img src="sites/adod.idrc.ocad.ca/files/anysurfer_logo.png" alt="AnySurfer logo" /> <img src="sites/adod.idrc.ocad.ca/files/logo_city_toronto.png" alt="City of Toronto logo" /> <img src="sites/adod.idrc.ocad.ca/files/ocad_logo.png" alt="OCAD University logo" width="104" height="86" /></p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />
+  Authoring Techniques for Accessible Documents: Acrobat Pro 9 is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+</p>
+<p>Updated: <strong>18 July 2014</strong></p>
+  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+      </div>
+
+</div>
+          </div>
+                    <div id="footer">Copyright 2010, IDRC</div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+    </body>
+</html>

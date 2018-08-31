@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="misc/favicon.ico" type="image/x-icon" />
+
+    <title>Authoring Techniques for Accessible Office Documents: iWork Numbers &#039;09 | Accessible Digital Office Document (ADOD) Project</title>
+    <link type="text/css" rel="stylesheet" media="all" href="sites/adod.idrc.ocad.ca/files/css/css_f227edaa08468efc78f9ba2d884f9b5e.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/adod.idrc.ocad.ca/files/css/css_24d907fbbd309d49286f16c0b240a2d1.css" />
+        <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/themes/garland/fix-ie.css" />    <![endif]-->
+  </head>
+  <body>
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="index.html" title="Accessible Digital Office Document (ADOD) Project"><span>Accessible Digital Office Document (ADOD) Project</span></a></h1>        </div>
+
+                                                    
+      </div> <!-- /header -->
+
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="index.html">Home</a></div>                              <h2>Authoring Techniques for Accessible Office Documents: iWork Numbers &#039;09</h2>                                                  <div class="clear-block">
+            <div id="node-10" class="node">
+
+
+
+  
+  <div class="content clear-block">
+    <p>Date of Current Version: <strong>04 Feb 2011</strong><br />
+  Latest Version (HTML): <a href="http://inclusivedesign.ca/accessible-office-documents">http://inclusivedesign.ca/accessible-office-documents/numbers</a> 
+</p>
+<h2><strong>Quick Reference</strong></h2>
+<ul>
+<li><a href="numbers.html#_Toc284495506">Usage Notes</a> </li>
+<li><a href="numbers.html#_Toc284495507">Technique 1. Use Accessible Templates</a> </li>
+<li><a href="numbers.html#_Toc284495508">Technique 2. Set Document Language</a> </li>
+<li><a href="numbers.html#_Toc284495509">Technique 3. Provide Text Alternatives for Images and Graphical Objects</a></li>
+<li><a href="numbers.html#_Toc284495511">Technique 4. Format Your Cells</a> </li>
+<li><a href="numbers.html#_Toc284495512">Technique 5. Use Cell Addressing</a> </li>
+<li><a href="numbers.html#_Toc284495513">Technique 6. Create Accessible Charts</a> </li>
+<li><a href="numbers.html#_Toc279402215">Technique 7. Provide Structure for  Tables</a> </li>
+<li><a href="numbers.html#_Toc279402216">Technique 8. Use Other Content Structuring Features</a> </li>
+<li><a href="numbers.html#_Toc279402217">Technique 9. Make Content Easier to See</a> </li>
+<li><a href="numbers.html#_Toc284495517">Technique 10. Make Content Easier to Understand</a> </li>
+<li><a href="numbers.html#_Toc282436952">Technique 11. Check Accessibility</a> </li>
+<li><a href="numbers.html#_Toc282436953">Technique 12. Use Accessibility Features when Saving/Exporting to Other  Formats</a> </li>
+<li><a href="numbers.html#_Toc282426592">Technique 13. Consider Using Accessibility Support Applications/Plugins</a> </li>
+<li><a href="numbers.html#_Toc284495521">Accessibility Help</a> </li>
+<li><a href="numbers.html#_Toc284495522">References and Resources</a> </li>
+<li><a href="numbers.html#_Toc284495523">Acknowledgements</a></li>
+</ul>
+<h2><a name="_Toc284495506" id="_Toc284495506">Usage  Notes</a></h2>
+<p>At the time of testing (September 30, 2010),  Numbers &lsquo;09 lacks several features that enable accessible office document  authoring, most notably: the ability to add alternative text to images and  objects, the ability to indicate nature language, and programmatically  determined named styles, cell naming, image and object anchoring, or change  tracking features. As a result, some of the other features that might otherwise  support accessibility, such as its extensive templates are not as effective. In  addition, Numbers &lsquo;09 does not include an accessibility checking feature, which  is a more advanced accessibility feature.</p>
+<h3>What&rsquo;s an &ldquo;Office Document&rdquo;?</h3>
+<p>You should use  these techniques when you are using Numbers &lsquo;09 to create documents that are: </p>
+<ul>
+<li><strong>Intended to be used by people </strong>(i.e., not computer code),</li>
+<li><strong>Text-based</strong> (i.e., not simply images, although they may contain images),</li>
+<li><strong>Fully printable </strong>(i.e., where dynamic features are limited to  automatic page numbering, table of contents, etc. and do not include audio,  video, or embedded interactivity)<strong>,</strong></li>
+<li><strong>Self-contained</strong> (i.e., without hyperlinks to other documents, unlike web content), and </li>
+<li><strong>Typical of office-style workflows </strong>(Reports, letters, memos, budgets, presentations,  etc.).</li>
+</ul>
+<p><strong>If you are creating forms, web pages,  applications, or other dynamic and/or interactive content, these techniques  will still be useful to you, but you should also consult the </strong><a href="http://www.w3.org/WAI/intro/wcag.php"><strong>W3C-WAI Web Content  Accessibility Guidelines (WCAG 2.0)</strong></a><strong>because these are specifically  designed to provide guidance for highly dynamic and/or interactive content. </strong></p>
+<h3>File Formats</h3>
+<p>The default file  format for Numbers &lsquo;09 is the native <strong>iWork  format</strong>. <br />
+  In addition, Numbers  &lsquo;09 offers many other spreadsheet processor and web format saving options. Most  of these have not been checked for accessibility, but some information and/or  instructions are available for the following formats in <a href="numbers.html#_Toc282426592">Technique 13</a>: </p>
+<ul>
+<li>MS Excel</li>
+<li>PDF </li>
+<li>HTML</li>
+</ul>
+<h3>Document Conventions</h3>
+<p>We have tried to formulate these techniques  so that they are useful to all authors, regardless of whether they use a mouse.  However, for clarity there are several instances where mouse-only language is  used. Below are the mouse-only terms and their keyboard alternatives:</p>
+<ul>
+<li><strong>*Right-click:</strong> To right-click with the keyboard, select the object using the  Shift+Arrow keys and then press either (1) the &ldquo;Right-Click&rdquo; key (some keyboard  have this to the right of the spacebar) or Shift+F10.</li>
+</ul>
+<h3>Disclaimer and Testing Details:</h3>
+<p><strong>Following these techniques will  increase the accessibility of your documents, but it does not guarantee  accessibility to any specific disability groups</strong>. In cases where more  certainty is required, it is recommended that you test the office documents  with end users with disabilities, including screen reader users.<br />
+  The  application-specific steps and screenshots in this document were created using  iWork Numbers &lsquo;09 (ver.2.0.3 (332), Mac OS X, Sept. 2010) while producing a  document in the proprietary file format. Files are also easily saved as other file formats (see <a href="numbers.html#_Toc282426592">Technique 13</a>). </p>
+<h2><a name="_Toc284495507" id="_Toc284495507">Technique 1. Use Accessible Templates</a> </h2>
+<p>All office documents start with a template, which can be as simple as a  blank standard-sized page or as complex as a nearly complete document with  text, graphics and other content. For example, a &ldquo;Meeting Minutes&rdquo; template  might include headings for information relevant to a business meeting, such as  &ldquo;Actions&rdquo; above a table with rows to denote time and columns for actions of the  meeting.<br />
+  Because templates provide the starting-point for so many documents,  accessibility is critical. If you are unsure whether a template is accessible,  you should check a sample document produced when the template is used (see <a href="numbers.html#_Toc282436953">Technique  12</a>). <br />
+  The default  template for new documents in Numbers &lsquo;09 is a blank spreadsheet, which is accessible  by virtue of being blank. </p>
+<h4>To create an  accessible template</h4>
+<ol>
+<li>Go  to menu item: <strong>File &gt; New</strong> or <strong>File &gt; New from Template Chooser&hellip; </strong>(Shift+Apple+N) </li>
+<li>In  the <strong>Template Chooser</strong> dialog, select  the <strong>Blank template </strong>or select one of  the other existing template designs</li>
+<li>A  new document in your selected template style will open</li>
+<li>Ensure  that you follow the techniques in this document</li>
+<li>When  you are finished you should also check the accessibility of the document (see <a href="numbers.html#_Toc282436953">Technique  12</a>)</li>
+<li>Go  to menu item: <strong>File &gt; Save as Template&hellip;</strong> </li>
+<li>In  the <strong>Export As</strong> box, type a  name for the template. Using a  descriptive template name (e.g. &ldquo;Accessible Memo Template&rdquo;) will increase the  prominence of the accessibility status.</li>
+<li>In  the <strong>Where</strong> drop-down list,  specify a folder in which to save your template. <br />
+    Note: By default, your template will be saved in the home folder in <strong>Library/Application Sup</strong><strong>port/iWork/Numbers/Templates/My </strong><strong>Templates</strong> pane of the <strong>Template Chooser</strong>. To  save the template in a different location than the default, create a new folder  in the <strong>Templates </strong>folder. The folder name is then used as a template  category in the <strong>Template Chooser</strong>.
+<p>
+    <img src="sites/adod.idrc.ocad.ca/files/Numbers09_1.png" alt="Image demonstrates location of Export As box and save location drop-down menu." width="340" height="267" />
+    </p>
+</li>
+<li>Click <strong>Save </strong></li>
+</ol>
+<h4>To select an  accessible template</h4>
+<p><em>Note:</em> Only use these steps if you have an accessible template available (e.g.  that you previously saved). Otherwise, simply open a new (blank) document.</p>
+<ol>
+<li>Go  to menu item: <strong>File &gt; New from Template Chooser&hellip; </strong>(Shift+Apple+N) </li>
+<li>In  the <strong>Template Chooser</strong> dialog, select <strong>My Templates</strong> from the left pane
+<p>
+    <img src="sites/adod.idrc.ocad.ca/files/Numbers09_2.png" alt="Image demonstrates location of My Templates option and template icons in Template Chooser dialog." width="274" height="271" />
+    </p>
+</li>
+<li>Select  your accessible template and click <strong>Choose</strong> </li>
+</ol>
+<h2><a name="_Toc284495508" id="_Toc284495508">Technique 2. Set Document Language</a> </h2>
+<p><strong>  </strong>At this time, it is not possible to manually  indicate the natural language for specific cells or blocks of cells in Numbers  &lsquo;09. As well, it is not possible to  change the natural language of the document itself from the default  language. <strong>[Tested: September 29th, 2010]</strong></p>
+<p>In order  for assistive technologies (e.g., screen readers) to be able to present your  document accurately, it is important to indicate the natural language of the  document. If a different natural  language is used for a paragraph or selected text, this also needs to be  clearly indicated.</p>
+<h2><a name="_Toc284495509" id="_Toc284495509">Technique 3. Provide Text Alternatives for Images  and Graphical Objects</a> </h2>
+<p><strong>  </strong>At this time, Numbers &rsquo;09 does not offer a mechanism which enables the  user to add alternative text descriptions to images or objects. <strong>[Tested: September 28, 2010]</strong></p>
+<p>When using  images or other graphical objects, such as charts and graphs, it is important  to ensure that the information you intend to convey by the image is also  conveyed to people who cannot see the image. This can be accomplished by adding concise alternative text to each  image. If an image is too complicated to concisely describe in the alternative  text alone (artwork, flowcharts, etc.), provide a short text alternative and a  longer description as well. </p>
+<div style="background-color:#FFC; border:gray solid 1px; padding: 0em 0.5em 0em 0.5em;">
+<p><h3>Tips for writing  alternative text</h3>
+<ul type="disc">
+<li>Try to answer the question &quot;what information is the       image conveying?&quot; </li>
+<li>If the image does not convey any useful information,       leave the alternative text blank </li>
+<li>If the image contains meaningful text, ensure all of the       text is replicated </li>
+<li>Alternative text should be fairly short, usually a       sentence or less and rarely more than two sentences </li>
+<li>If more description is required (e.g., for a chart or       graph), provide a short description in the alternative text (e.g., a       summary of the trend) and more detail in the long description, see below </li>
+<li>Test by having others review the document with the       images replaced by the alternative text </li>
+</ul>
+<h3>Tips for writing  longer descriptions</h3>
+<ul type="disc">
+<li>Long descriptions should be used when text alternatives       (see above) are insufficient to answer the question &quot;what information       is the image conveying?&quot; </li>
+<li>In some situations, the information being conveyed will       be how an image looks (e.g., an artwork, architectural detail, etc.). In       these cases, try to describe the image without making too many of your own       assumptions. </li>
+<li>One approach is to imagine you are describing the image       to a person over the phone </li>
+<li>Ensure that you still provide concise alternative text       to help readers decide if they are interested in the longer description </li>
+</ul>
+</p>
+</div>
+<p>Alternatively,  you can include the same information conveyed by the image within the body of  the document, providing the images as an alternate to the text. In that case,  you do not have to provide alternate text within the image.</p>
+<h2><a name="_Toc284495511" id="_Toc284495511">Technique 4. Format Your Cells</a> </h2>
+<p>As you begin  adding content, your spreadsheet will require structuring to bring meaning to  the data, make it easier to navigate, and help assistive technologies read it  accurately. One of the easiest ways to  do this is to ensure that you properly format the cells.</p>
+<h3>4.1 Named Styles</h3>
+<p><strong>  </strong>At this time, Numbers &rsquo;09 does not offer named styles that can be  applied to format and distinguish specific cells from the rest of your data. <strong>[Tested: September 29th, 2010]</strong></p>
+<p>You should make use of the named styles  that are included with the office application (e.g., &ldquo;Heading&rdquo;, &ldquo;Result&rdquo;, etc.)  before creating your own styles or using the character formatting tools  directly. Named styles help your readers  understand why something was formatted in a given way, which is especially  helpful when there are multiple reasons for the same formatting (e.g., it is  common to use italics for emphasis, Latin terms and species names).</p>
+<p><em>Note:</em> While office application  suites support headings in much the same way, the named styles often differ. </p>
+<p>Formatting  header and result cells brings order to the spreadsheet and makes it easier for  users to navigate effectively.  For  example, you can format header rows and columns using &ldquo;Heading&rdquo; styles to apply  bolded, enlarged, and italicized text (among other characteristics). You may also want to format cells containing  results of calculations to appear bold and underlined to help distinguish them  from the rest of your data.</p>
+<h3>4.2 Table Styles </h3>
+<p>Table styles are useful for applying  consistent formatting to tables. In  Numbers &rsquo;09, each template has one or more table style that formats various  characteristics of your tables. A table  style predefines the table background, the characteristics of cell borders,  header rows and columns, footer rows, and the background and text attributes of  cells. Table styles are useful for  distinguishing different types of information in your spreadsheet. <br />
+    <em>Note:</em> While the visual  characteristics may not necessarily be helpful for accessibility, identifying  the header rows and columns and pre-formatting text characteristics for these  columns is helpful.</p>
+<h4>To apply a table style</h4>
+<ol>
+<li>In the left pane, go to the <strong>Styles </strong>section</li>
+<li>Select the style of table from  the list<br />
+    Note: You can modify any  attribute of the table style and your modifications will remain even if you  decide to change to a different table style.
+<p>
+    <img src="sites/adod.idrc.ocad.ca/files/Numbers09_3.png" alt="Image demonstrates location of Styles section in the left pane." width="210" height="302" />
+    </p>
+</li>
+</ol>
+<h3>4.3 Other Cell Characteristics</h3>
+<p>Ensure your cells are formatted to properly  represent your data, including number and text attributes.</p>
+<h4>To format cell  characteristics</h4>
+<ol>
+<li>Highlight  the cells that you want to format<br />
+  Note: to format a row or column, select the row or column indicator and  follow the next steps</li>
+<li>In  the <strong>Toolbar</strong>,  select <strong>Inspector</strong> </li>
+<li>In  the <strong>Inspector</strong> dialog, select <strong>Cells inspector</strong> </li>
+<li>Select  the <strong>Cell Format</strong> drop-down list and choose the format</li>
+<li>Customize  the format options
+<p>
+      <img src="sites/adod.idrc.ocad.ca/files/Numbers09_4.png" alt="Image demonstrates location of Cell Format section in Inspector dialog." width="221" height="181" />
+    </p>
+<p>  <em>Note:</em> When formatting your spreadsheet, it is best to  avoid merging cells. At times, it may  seem easier to present your data by merging cells, but this can make it more  difficult for users of assistive technologies and people navigating your  spreadsheet using the keyboard. </p></li>
+</ol>
+<h2><a name="_Toc284495512" id="_Toc284495512">Technique 5. Use Cell Addressing</a> </h2>
+<h3>5.1 Define Names</h3>
+<p><strong>  </strong>At this time,  Numbers &rsquo;09 does not provide a mechanism for applying names to specific data  ranges. Rather, it advises authors that  they can use existing header row and column names to address cells within a  table. While this may be useful when  defining formulas, it does not provide the necessary support for accessibility. <strong>[Tested: September 29, 2010]</strong> </p>
+<p>Naming the  different data ranges within your spreadsheet makes it easier to navigate  through the document and find specific information. By associating a meaningful name to a data  range, you will be enhancing the readability of your document. These named ranges can be referenced in  multiple locations of your document and within calculations and equations.</p>
+<h2><a name="_Toc284495513" id="_Toc284495513">Technique 6. Create Accessible Charts</a> </h2>
+<p>Spreadsheet applications  support various types of charts, which can be used to display your spreadsheet  data in meaningful ways for your audience. It is important to ensure that your chart is as accessible as possible  to all members of your audience. All  basic accessibility considerations that are applied to the rest of your  document must also be applied to your charts and the elements within your  charts. For example, use shape and  color, rather than color alone, to convey information. As well, some further steps should be taken  to ensure that the contents are your chart are appropriate labeled to give  users reference points that will help to correctly interpret the information.</p>
+<h3>To create a chart</h3>
+<ol>
+<li>In the <strong>Toolbar</strong>, select <strong>Charts</strong> or go to menu item: <strong>Insert  &gt; Chart</strong> </li>
+<li>Select the chart type</li>
+<li>In the <strong>Toolbar</strong>, select <strong>Inspector</strong> </li>
+<li>In the <strong>Inspector </strong>dialog, select the <strong>Chart  inspector</strong> </li>
+<li>Format the chart type and chart colors by selecting <strong>Choose a chart type</strong> and <strong>Chart  Colors&hellip;</strong> options</li>
+<li>Select <strong>Chart</strong> </li>
+<li>In the <strong>Chart</strong> section, select the <strong>Show  Title</strong> and <strong>Show  Legend</strong> check boxes</li>
+<li>Select <strong>Axis</strong> </li>
+<li>In the <strong>Axis</strong> section, select <strong>Choose  Axis Options</strong> for both <strong>Value Axis (Y)</strong> and <strong>Category  Axis (X)</strong> <br />
+  Note: It is a good idea to &ldquo;show&rdquo; as many title and  labeling elements as possible (e.g. <strong>Show  Axis</strong>, <strong>Show  Title</strong>, <strong>Show  Categories</strong>, <strong>Show Series Names</strong>, etc.)</li>
+</ol>
+<h3>Other Chart  Considerations</h3>
+<ul>
+<li>When creating line charts,  use the formatting options to create different types of dotted lines to  facilitate legibility for users who are color blind</li>
+<li>Change the default colors  to a color safe or gray-scale palette</li>
+<li>Use the formatting options  to change predefined colors, ensuring that they align with sufficient contrast  requirements (see <a href="numbers.html#_Toc284495517">Technique 10</a>) </li>
+</ul>
+<h2><a name="_Toc279402215" id="_Toc279402215">Technique 7. Provide  Structure for Tables</a></h2>
+<h4>To add a table with headers</h4>
+<ol>
+<li>Go to menu item: <strong>Insert &gt; Table</strong></li>
+<li>Select  table style</li>
+<li>In  the <strong>Toolbar</strong>,  select <strong>Inspector</strong></li>
+<li>In  the <strong>Inspector</strong> dialog, select the <strong>Table inspector</strong></li>
+<li>In  the <strong>Name</strong> box,  enter a name for the table</li>
+<li>In the <strong>Headers &amp; Footer</strong> section,  select the number of header rows and columns using the drop-down menus (Note:  It is recommended to keep your tables simple by using only one header row and  column).</li>
+</ol>
+<h2><a name="_Toc279402216" id="_Toc279402216">Technique 8. Use Other Content Structuring Features</a> </h2>
+<p>While cell  formatting is the most common method of structuring documents, other content  structuring features should be used where appropriate:</p>
+<h3>8.1 Document  Title</h3>
+<p>In case the document is ever converted into HTML, it should be given a  descriptive and meaningful title. </p>
+<h4>To change the  title of the current document </h4>
+<ol>
+<li>In  the <strong>Toolbar</strong>, select <strong>Inspector</strong> </li>
+<li>In  the <strong>Inspector</strong> dialog, select  the <strong>Document inspector</strong> button </li>
+<li>In the <strong>Spotlight</strong> section, type a descriptive name for the document  in the <strong>Title </strong>box<strong><br />
+  </strong><em>Note:</em> The <strong>Title</strong> defined in the properties is different than the file name. It is also unrelated  to the template name, discussed above. 
+<p>
+  <img src="sites/adod.idrc.ocad.ca/files/Numbers09_5.png" alt="Image demonstrates location of Title box in Document section of Inspector dialog." width="165" height="309" /></p></li>
+</ol>
+
+<h3>8.2 Avoid &ldquo;Floating&rdquo; Elements</h3>
+<p>Avoid  &quot;floating&quot; elements (other than charts) such as floating images, objects, tables or text  boxes.</p>
+<p>Similarly, avoid  placing drawing objects directly into the document (e.g., as borders, to create  a diagram). Instead, create borders with page layout tools and insert complete  graphical objects.</p>
+<h2><a name="_Toc279402217" id="_Toc279402217">Technique 9. </a>Make Content Easier to See </h2>
+<h3><a name="_Toc270691600" id="_Toc270691600">9.1  Format of Text</a> </h3>
+<p>When formatting  text, especially when the text is likely to be printed, try to:</p>
+<ul type="disc">
+<li>Use font sizes between 12 and 18 points       for cell contents.</li>
+<li>Use fonts of normal weight, rather than       bold or light weight fonts. If you       do choose to use bold fonts for emphasis, use them sparingly. </li>
+<li>Use standard fonts with clear spacing       and easily recognized upper and lower case characters. Sans serif fonts       (e.g., Arial, Verdana) may sometimes be easier to read than serif fonts       (e.g., Times New Roman, Garamond).</li>
+<li>Avoid large amounts of text set all in       caps, italic or underlined.</li>
+<li>Use normal or expanded character       spacing, rather than condensed spacing.</li>
+<li>Avoid animated or scrolling text.</li>
+</ul>
+<p><strong>But  can&rsquo;t users just zoom in?</strong>Office  applications do typically include accessibility features such as the ability to  magnify documents and support for high contrast modes. However, because  printing is an important aspect of many workflows and changing font sizes  directly will change documents details such the pagination, the layout of  tables, etc., it is best practice to always format text for a reasonable degree  of accessibility.</p>
+<h3>9.2 Use Sufficient Contrast</h3>
+<p>The visual presentation of text and images of text should have a  contrast ration of at least 4.5:1. To help you determine the contrast, here are  some examples on a white background:</p>
+<ul type="disc">
+<li>Very good contrast       (Foreground=black, Background=white, Ratio=21:1)</li>
+<li>Acceptable       contrast (Foreground=#767676, Background=white, Ratio=4.54:1) </li>
+<li>Unacceptable       contrast (Foreground=#AAAAAA, Background=white, Ratio=2.32:1) </li>
+</ul>
+<p>Also, always use a single solid color for a text background rather than  a pattern.<br />
+  In order to determine whether the colors in your document have  sufficient contrast, you can consult an online contrast checker, such as: </p>
+<ul>
+<li><a href="http://juicystudio.com/services/luminositycontrastratio.php">Juicy Studio: Luminosity Color Contrast Ratio Analyzer</a> </li>
+<li><a href="http://www.joedolson.com/color-contrast-tester.php">Joe  Dolson Color Contrast Spectrum Tester</a> </li>
+<li><a href="http://www.joedolson.com/color-contrast-compare.php">Joe  Dolson Color Contrast Comparison</a> </li>
+</ul>
+<h3>9.3  Avoid Using Color Alone</h3>
+<p>Color should not be used as the only visual means of conveying  information, indicating an action, prompting a response, or distinguishing a  visual element. In order to spot where  color might be the only visual means of conveying information, you can create a  screenshot of the document and then view it with online gray-scale converting  tools, such as:</p>
+<ul>
+<li><a href="http://graybit.com/main.php">GrayBit v2.0: Grayscale  Conversion Contrast Accessibility Tool</a> </li>
+</ul>
+<h3>9.4 Avoid Relying on Sensory  Characteristics</h3>
+<p>The  instructions provided for understanding and operating content should not rely  solely on sensory characteristics such as the color or shape of content  elements. Here are two examples:</p>
+<ul type="disc">
+<li>Do not track changes by simply changing the       color of text you have edited and noting the color. Instead use the applications       revision tracking feature to track changes. </li>
+<p> At this time, Numbers &rsquo;09 does not offer a  mechanism to track changes in its documents. <strong>[Tested: September 29th, 2010]</strong> 
+</p></ul>
+<ul type="disc">
+<li>Do not distinguish between images by referring       to their appearance (e.g. &ldquo;the bigger one&rdquo;). Instead, label each image       with a figure number and use that for references.</li>
+</ul>
+<h3>9.5  Avoid Using Images of Text</h3>
+<p>Before you use  an image to control the presentation of text (e.g., to ensure a certain font or  color combination), consider whether you can achieve the same result by styling  &ldquo;real text&rdquo;. If this is not possible, as with logos containing stylized text,  make sure to provide alternative text for the image following the steps noted  in <a href="numbers.html#_Toc284495509">Technique 3</a>.</p>
+<h2><a name="_Toc284495517" id="_Toc284495517">Technique 10. Make Content Easier to Understand</a> </h2>
+<h3>10.1 Write Clearly</h3>
+<p>By taking the time to design your content in a consistent way, it will  be easier to access, navigate and interpret for all users:</p>
+<ul type="disc">
+<li>Whenever       possible, write clearly with short sentences.</li>
+<li>Introduce       acronyms and spell out abbreviations.</li>
+<li>Avoid       making the document too &ldquo;busy&rdquo; by using lots of whitespace and by avoiding       too many different colors, fonts and images.</li>
+<li>If content       is repeated on multiple pages within a document or within a set of       documents (e.g., headings, footings, etc.), it should occur consistently       each time it is repeated. </li>
+</ul>
+<h3>10.2  Navigational Instructions</h3>
+<p>Provide a  general description of the spreadsheet contents and instructions on how to  navigate the data effectively. The best  way to do this is to make a cell at the beginning of the data (e.g., A1) with  this information. It will be the first  cell accessed by assistive technologies. If you are using this cell for a label or data, you can attach a comment  note to the cell containing navigational instructions. </p>
+<h2><a name="_Toc282436952" id="_Toc282436952">Technique 11. Check Accessibility</a> </h2>
+<p><strong>  </strong>At this time, Numbers &rsquo;09 does not offer an accessibility checking  mechanism to identify potential accessibility errors prior to publishing. <strong>[Tested: September 30, 2010] </strong></p>
+<p>In order to get some  indication of the accessibility of your document or template (see <a href="numbers.html#_Toc284495507">Technique 1</a>), then you may consider saving the file into HTML or PDF in order to  perform an accessibility check in one of those formats, as described below.</p>
+<h4>To evaluate HTML  accessibility</h4>
+<p>If you wish to  check the accessibility of your document or template (see <a href="numbers.html#_Toc284495507">Technique 1</a>),  one option is to save it into HTML format and use one of the web accessibility  checkers available online. Such as:</p>
+<ul>
+<li><a href="http://achecker.ca/checker/index.php">AChecker</a> </li>
+<li><a href="http://wave.webaim.org/">WebAIM Wave Web  Accessibility Evaluation Tool</a><u> </u></li>
+</ul>
+<h4>To evaluate PDF  accessibility</h4>
+<p>If you saved your document in tagged PDF format, you can use the  following tools and steps to evaluate the accessibility of the PDF document:</p>
+<ul>
+<li>Adobe Acrobat Professional</li>
+<li><a href="http://www.access-for-all.ch/en/pdf-lab/pac-pdf-accessibility-checker.html">PDF Accessibility Checker (PAC)</a> &ndash; a free alternative provided by  &ldquo;Access for all&rdquo; </li>
+</ul>
+<h4>To evaluate PDF  accessibility in Adobe Acrobat Professional</h4>
+<ol>
+<li>Go to menu item:<strong> Advanced &gt; Accessibility &gt;  Full Check&hellip;</strong></li>
+<li>In the<strong> Full Check</strong> dialog, select all the checking  option</li>
+<li>Select the <strong>Start  Checking</strong> button</li>
+</ol>
+<h2><a name="_Toc282436953" id="_Toc282436953">Technique 12. Use Accessibility Features when  Saving/Exporting to Other Formats</a> </h2>
+<p>In some cases, additional steps must be taken in order to ensure  accessibility information is preserved when saving/exporting to formats other  than the default.</p>
+<h3>Alternate formats</h3>
+<ol>
+<li>Go  to menu item: <strong>Share &gt; Export&hellip;</strong> </li>
+<li>In  the dialog, select the type of file format you would like to export</li>
+<li>Customize  the export options for that file format</li>
+<li>Click <strong>Next</strong> </li>
+<li>In  the <strong>Save As</strong> box, enter a file name for your document</li>
+<li>In  the <strong>Where </strong>drop-down  menu, select the location you would like to save your document</li>
+<li>Click <strong>Export </strong></li>
+</ol>
+<h3>PDF</h3>
+<p>PDF documents are not always accessible. Accessible PDF documents are  often called &ldquo;Tagged PDF&rdquo; because they include &ldquo;tags&rdquo; that encode structural  information required for accessibility. To evaluate the accessibility of your PDF document, see <a href="numbers.html#_Toc282436952">Technique 11</a>.</p>
+<h4>To  clean up your HTML file</h4>
+<ul>
+<li>Remove  unnecessary styles, line breaks, etc.</li>
+<li>Remove unnecessary id, class,  and attributes</li>
+<li>Remove font tags</li>
+<li>Remove styles in the  &lt;head&gt; tag</li>
+<li>Ensure the &lt;th&gt; tags have  a scope attribute</li>
+<li>Remove &lt;p&gt; tags nested  inside &lt;th&gt; and &lt;td&gt; tags</li>
+<li>Check  for accessibility (see <a href="numbers.html#_Toc282436952">Technique 11</a>)<br />
+  <em>Note:</em> you  may wish to use HTML editors or utilities to help with this process.</li>
+</ul>
+<h2><a name="_Toc282426592" id="_Toc282426592">Technique 13. Consider Using Accessibility Support  Applications/Plugins</a> </h2>
+<p><em>Disclaimer:</em> This  list is provided for information purposes only. It is not exhaustive and  inclusion of an application or plug-in on the list does not constitute a  recommendation or guarantee of results.</p>
+<ul>
+<li><a href="http://www.apple.com/support/numbers/?cmp">iWork Numbers Support Page</a> </li>
+<li><a href="http://support.apple.com/kb/HT3348">Exporting a spreadsheet in Excel format</a> </li>
+</ul>
+<h2><a name="_Toc284495521" id="_Toc284495521">Accessibility Help</a> </h2>
+<p>If you are  interested in what features are provided to make using Numbers &lsquo;09 more  accessible to users, documentation is provided in the Help system: <strong></strong></p>
+<ol>
+<li>Go  to menu item: <strong>Help</strong> </li>
+<li>Enter  your search terms in the <strong>Search</strong> box</li>
+</ol>
+<h2><a name="_Toc284495522" id="_Toc284495522">References and Resources</a> </h2>
+<ol>
+<li>Numbers  &lsquo;09 Help</li>
+<li>GAWDS Writing Better Alt Text [<a href="http://www.gawds.org/show.php?contentid=28" target="_blank">http://www.gawds.org/show.php?contentid=28</a>]</li>
+</ol>
+<h2><a name="_Toc284495523" id="_Toc284495523">Acknowledgements</a></h2>
+<p>This document was produced as part of the Accessible  Digital Office Document (ADOD) Project (<a href="http://inclusivedesign.ca/accessible-office-documents">http://inclusivedesign.ca/accessible-office-documents</a>).<br />
+  This project has been developed by the Inclusive  Design Research Centre, OCAD University as part of an EnAbling Change  Partnership project with the Government of Ontario and UNESCO (United Nations  Educational, Scientific and Cultural Organization).</p>
+<p><img src="sites/adod.idrc.ocad.ca/files/partners.png" alt="Partner logos: UNESCO-United Nations Educational, Scientific and Cultural Organization, the Government of Ontario and the Inclusive Design Research Centre (OCAD University)" width="626" height="166" /> </p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Accessible Digital Office Documents (ADOD) Project</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="index.html" property="cc:attributionName" rel="cc:attributionURL">Inclusive Design Research Centre (IDRC)</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
+  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+      </div>
+
+</div>
+          </div>
+                    <div id="footer">Copyright 2010, IDRC</div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+    </body>
+</html>

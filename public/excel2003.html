@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="misc/favicon.ico" type="image/x-icon" />
+
+    <title>Authoring Techniques for Accessible Office Documents: Excel 2003 | Accessible Digital Office Document (ADOD) Project</title>
+    <link type="text/css" rel="stylesheet" media="all" href="sites/adod.idrc.ocad.ca/files/css/css_f227edaa08468efc78f9ba2d884f9b5e.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/adod.idrc.ocad.ca/files/css/css_24d907fbbd309d49286f16c0b240a2d1.css" />
+        <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/themes/garland/fix-ie.css" />    <![endif]-->
+  </head>
+  <body>
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="index.html" title="Accessible Digital Office Document (ADOD) Project"><span>Accessible Digital Office Document (ADOD) Project</span></a></h1>        </div>
+
+                                                    
+      </div> <!-- /header -->
+
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="index.html">Home</a></div>                              <h2>Authoring Techniques for Accessible Office Documents: Excel 2003</h2>                                                  <div class="clear-block">
+            <div id="node-19" class="node">
+
+
+
+  
+  <div class="content clear-block">
+    <p><strong>Version</strong><br />
+  Date of Current Version: 08 February  2011<br />
+  Latest Version (HTML): <a href="http://inclusivedesign.ca/accessible-office-documents/excel2003">http://inclusivedesign.ca/accessible-office-documents/excel2003</a> 
+  </p>
+<p><strong>Quick Reference</strong><br />
+  <a href="excel2003.html#_Toc284933357">Usage Notes</a> <br />
+  <a href="excel2003.html#_Toc284933358">Technique  1. Use Accessible Templates</a><br />
+  <a href="excel2003.html#_Toc284933359">Technique  2. Set Document Language</a><br />
+  <a href="excel2003.html#_Toc284933360">Technique  3. Provide Text Alternatives for Images and Graphical Objects</a><br />
+  <a href="excel2003.html#_Toc284933361">Technique  4. Format Your Cells</a><br />
+  <a href="excel2003.html#_Toc284933362">Technique  5. Use Cell Addressing</a><br />
+  <a href="excel2003.html#_Toc284933363">Technique  6. Create Accessible Charts</a><br />
+  <a href="excel2003.html#_Toc284933364">Technique  7. Provide  Structure for Tables</a><br />
+  <a href="excel2003.html#_Toc284933365">Technique  8. Use Other Content Structuring Features</a><br />
+  <a href="excel2003.html#_Toc284933366">Technique  9. Make Content Easier to See</a><br />
+  <a href="excel2003.html#_Toc284933367">Technique  10. Make Content Easier to Understand</a><br />
+  <a href="excel2003.html#_Toc284933368">Technique  11. Check Accessibility</a><br />
+  <a href="excel2003.html#_Toc284933369">Technique  12. Use Accessibility Features when Saving/Exporting to Other Formats</a><br />
+  <a href="excel2003.html#_Toc284933370">Technique  13. Consider Using Accessibility Support Applications/Plugins</a><br />
+  <a href="excel2003.html#_Toc284933371">Accessibility  Help</a><br />
+  <a href="excel2003.html#_Toc284933372">References  and Resources</a><br />
+  <a href="excel2003.html#_Toc284933373">Acknowledgments</a></p>
+<p></p>
+<h2><a name="_Toc284933357" id="_Toc284933357"><strong>Usage Notes</strong></a></h2>
+<h3><strong><strong>Overview</strong></strong><strong><strong> </strong></strong></h3>
+<p>At the time of testing (January 17, 2011), Excel  2003 provides a set of accessibility features that is sufficient to enable the  production of accessible digital office documents. However, Excel 2003 does not  include an accessibility checking feature. </p>
+<p></p>
+<h3><strong>What&rsquo;s an &ldquo;Office Document&rdquo;?</strong></h3>
+<p>You  should use these techniques when you are using Excel 2003 to create documents  that are: </p>
+<ul>
+<li><strong><strong>Intended  to be used by people</strong></strong><strong> </strong>(i.e., not computer code),</li>
+<li><strong><strong>Text-based</strong></strong> (i.e., not simply images,  although they may contain images),</li>
+<li><strong><strong>Fully  printable</strong></strong><strong> </strong>(i.e.,  where dynamic features are limited to automatic page numbering, table of  contents, etc. and do not include audio, video, or embedded interactivity)<strong>,</strong></li>
+<li><strong><strong>Self-contained</strong></strong> (i.e., without hyperlinks to  other documents, unlike web content), and </li>
+<li><strong><strong>Typical  of office-style workflows</strong></strong><strong> </strong>(Reports, letters, memos, budgets, presentations, etc.).</li>
+</ul>
+<p><strong> </strong><strong><strong>&nbsp;</strong></strong><strong><strong>If you are creating forms, web pages,  applications, or other dynamic and/or interactive content, these techniques  will still be useful to you, but you should also consult the </strong></strong><a href="http://www.w3.org/WAI/intro/wcag.php"><strong><strong>W3C-WAI Web Content  Accessibility Guidelines (WCAG 2.0)</strong></strong></a><strong><strong> because these are specifically designed to provide guidance  for highly dynamic and/or interactive content.</strong></strong><strong> </strong></p>
+<h3><a name="_Toc275959752" id="_Toc275959752"><strong>File Formats</strong></a> </h3>
+<p>The  default file format for Excel 2003 is <strong><strong>Microsoft Office Binary File Format (XLS)</strong></strong>. <br />
+  In  addition, Excel 2003 offers many other spreadsheet processor and web format  saving options. Most of these have not been checked for accessibility, but some  information and/or instructions are available for the following formats in Technique  12 (below): </p>
+<ul>
+<li>HTML</li>
+</ul>
+<h3><strong><strong>Document Conventions</strong></strong></h3>
+<p>We have tried to formulate  these techniques so that they are useful to all authors, regardless of whether  they use a mouse. However, for clarity there are several instances where  mouse-only language is used. Below are the mouse-only terms and their keyboard  alternatives:<br />
+    <strong>*Right-click:</strong> To right-click with the keyboard, select the object using the  Shift+Arrow keys and then press either (1) the &ldquo;Right-Click&rdquo; key (some keyboard  have this to the right of the spacebar) or Shift+F10.</p>
+<h3><strong><strong>Disclaimer and Testing Details:</strong></strong></h3>
+<p><strong><strong>Following these  techniques will increase the accessibility of your documents, but it does not  guarantee accessibility to any specific disability groups</strong></strong>.&nbsp; In cases where more  certainty is required, it is recommended that you test the office documents  with end users with disabilities, including screen reader users.<br />
+  The  application-specific steps and screenshots in this document were created using  Microsoft Excel 2003 (ver. 11.5612.5606, Windows 7, Jan. 2011) while creating a  XLS document.&nbsp; Files are also easily  saved as other file formats (see Technique 12, below).<br />
+  This document is provided for  information purposes only and is neither a recommendation nor a guarantee of  results. If errors are found, please report them to:  <a href="mailto:adod-comments@idrc.ocad.ca">adod-comments@idrc.ocad.ca</a>.</p>
+<h2><a name="_Toc284933358" id="_Toc284933358"><strong>Technique 1. Use  Accessible Templates</strong></a> </h2>
+<p>All office documents start with a template,  which can be as simple as a blank standard-sized page or as complex as a nearly  complete document with text, graphics and other content. For example, a  &ldquo;Meeting Minutes&rdquo; template might include headings for information relevant to a  business meeting, such as &ldquo;Actions&rdquo; above a table with rows to denote time and  columns for actions of the meeting.<br />
+  Because templates provide the starting-point  for so many documents, accessibility is critical. If you are unsure whether a  template is accessible, you should check a sample document produced when the  template is used (see Technique 11, below). <br />
+  Excel 2003&rsquo;s default template for new documents  is a blank page. The basic installation also includes other blank  office-related documents.&nbsp; These are all  accessible by virtue of being blank. <br />
+  It is possible to create your own accessible  templates from scratch in Excel 2003.&nbsp; As  well, you can edit and modify the existing prepackaged templates, ensuring  their accessibility as you do so and saving them as a new template.</p>
+<h3><a name="_Toc278376923" id="_Toc278376923"><strong>To create an  accessible template</strong></a> </h3>
+<ol>
+<li>Create a new document</li>
+<li>Ensure that you follow the techniques in this document</li>
+<li>When you are finished you should also check the accessibility of the  document (See Technique 11, below)</li>
+<li>Go to menu item: <strong><strong>File &gt; Save As</strong></strong> </li>
+<li>In the <strong><strong>Save as type</strong></strong> list, select <strong><strong>Excel Template</strong></strong> </li>
+<li>In the <strong><strong>File name</strong></strong> box, type a name for  the template. Using a descriptive <strong><strong>File  name</strong></strong> (e.g.,  &ldquo;Accessible Inventory Template&rdquo;) will increase the prominence of the  accessibility status. </li>
+<li>Select <strong><strong>Save</strong></strong><br />
+    <img src="sites/adod.idrc.ocad.ca/files/Excel2003_1.png" alt="Image demonstrates location of File name and Save as type box in the Save As dialog." width="473" height="304" /></li>
+</ol>
+<h3><a name="_Toc278376924" id="_Toc278376924"><strong>To select an  accessible template</strong></a> </h3>
+<p><em><em>Note:</em></em> Only use these steps if you have an accessible template available (e.g.  that you previously saved). Otherwise, simply open a new (blank) document.</p>
+<ol>
+<li>Go to menu item: <strong><strong>File &gt; New</strong></strong><strong><strong> </strong></strong></li>
+<li>In the <strong><strong>New Workbook</strong></strong> section, under <strong><strong>Templates</strong></strong>, select <strong><strong>On my computer&hellip;<br />
+      <img src="sites/adod.idrc.ocad.ca/files/Excel2003_2.png" alt="Image demonstrates location of On my computer... option, under Templates in the New Workbook section." width="571" height="425" /><br />
+  </strong></strong></li>
+<li>In the <strong><strong>Templates</strong></strong> dialog, select the <strong><strong>General</strong></strong> tab</li>
+<li>Select your accessible template from the gallery<br />
+    <img src="sites/adod.idrc.ocad.ca/files/Excel2003_3.png" alt="Image demonstrates location of General tab and an accessible template icon in the template gallery of the Templates dialog." width="580" height="343" /></li>
+<li>Select <strong><strong>OK</strong></strong> </li>
+<li>A new document  based on the template will be displayed. If you have chosen an accessible  template, the document will be accessible at this point. <strong><strong>As you add your  content (e.g., text, images, etc.), ensure that you consult the sections that  follow to preserve accessibility.</strong></strong></li>
+</ol>
+<h2><a name="_Toc284933359" id="_Toc284933359"><strong>Technique 2. Set  Document Language</strong></a> </h2>
+<p>In order for assistive technologies (e.g., screen readers) to be able  to present your document accurately, it is important to indicate the natural  language of the document.&nbsp; If a different  natural language is used for a paragraph or selected text, this also needs to  be clearly indicated.<br />
+    <strong> </strong><strong><strong>&nbsp;</strong></strong>&nbsp;At this time, it is not possible to indicate the natural language of  selected cells within an Excel 2003 workbook. [<strong><strong>Tested: Jan 17,  2011</strong></strong>] <strong><strong> </strong></strong></p>
+<h3><a name="_Toc278376926" id="_Toc278376926"><strong>To change the  default language for a workbook</strong></a> </h3>
+<ol>
+<li>Go to menu item: <strong><strong>Tools  &gt; Language</strong></strong> </li>
+<li>In the <strong><strong>Mark  select text as</strong></strong> box, select the language from  the list</li>
+<li>Select <strong><strong>Default&hellip;</strong></strong> </li>
+<li>Select <strong><strong>OK</strong></strong> </li>
+</ol>
+<h2><a name="_Toc284933360" id="_Toc284933360"><strong>Technique 3. Provide  Text Alternatives for Images and Graphical Objects</strong></a> </h2>
+<p>When  using images or other graphical objects, such as charts and graphs, it is  important to ensure that the information you intend to convey by the image is  also conveyed to people who cannot see the image.&nbsp; This can be accomplished by adding concise  alternative text to of each image. If an image is too complicated to concisely  describe in the alternative text alone (artwork, flowcharts, etc.), provide a  short text alternative and a longer description as well. </p>
+<h3><strong>Tips for writing  alternative text</strong></h3>
+<ul type="disc">
+<li>Try to answer the question &quot;what       information is the image conveying?&quot; </li>
+<li>If the image does not convey any useful       information, leave the alternative text blank </li>
+<li>If the image contains meaningful text, ensure       all of the text is replicated </li>
+<li>Alternative text should be fairly short,       usually a sentence or less and rarely more than two sentences </li>
+<li>If more description is required (e.g.,       for a chart or graph), provide a short description in the alternative text       (e.g., a summary of the trend) and more detail in the long description,       see below </li>
+<li>Test by having others review the       document with the images replaced by the alternative text </li>
+</ul>
+<h3><strong>Tips for writing longer  descriptions</strong></h3>
+<ul type="disc">
+<li>Long descriptions should be used when       text alternatives (see above) are insufficient to answer the question       &quot;what information is the image conveying?&quot; </li>
+<li>In some situations, the information       being conveyed will be how an image looks (e.g., an artwork, architectural       detail, etc.). In these cases, try to describe the image without making       too many of your own assumptions. </li>
+<li>One approach is to imagine you are       describing the image to a person over the phone </li>
+<li>Ensure that you still provide concise       alternative text to help readers decide if they are interested in the       longer description </li>
+</ul>
+<p>Alternatively,  you can include the same information conveyed by the image within the body of  the document, providing the images as an alternate to the text. In that case,  you do not have to provide alternate text within the image.</p>
+<h3><a name="_Toc278376930" id="_Toc278376930"><strong>To add  alternative text to images and graphical objects</strong></a> </h3>
+<ol>
+<li>Right-click* the object </li>
+<li>Select <strong><strong>Format Picture&hellip;</strong></strong> </li>
+<li>Select the <strong><strong>Web</strong></strong> tab </li>
+<li>Fill in the <strong><strong>Alternative text</strong></strong> box </li>
+<li>Select <strong><strong>OK</strong></strong><br />
+    <img src="sites/adod.idrc.ocad.ca/files/Excel2003_4.png" alt="Image demonstrates location of Web tab and Alternative text box in the Format Picture dialog." width="296" height="279" /></li>
+</ol>
+<p></p>
+<h2><a name="_Toc284933361" id="_Toc284933361"></a><a name="_Toc278376932" id="_Toc278376932"><strong>Technique 4. Format Your Cells</strong></a> </h2>
+<p>As you begin  adding content, your spreadsheet will require structuring to bring meaning to  the data, make it easier to navigate, and help assistive technologies read it  accurately.&nbsp; One of the easiest ways to  do this is to ensure that you properly format the cells.</p>
+<h3><a name="_Toc278376933" id="_Toc278376933"><strong>4.1 Named Styles</strong></a> </h3>
+<p>You should make use of the named styles that  are included with the office application (e.g., &ldquo;Heading&rdquo;, &ldquo;Result&rdquo;, etc.)  before creating your own styles or using the character formatting tools  directly.&nbsp; Named styles help your readers  understand why something was formatted in a given way, which is especially  helpful when there are multiple reasons for the same formatting (e.g., it is  common to use italics for emphasis, Latin terms and species names).<br />
+  For more information on formatting using  named styles, see Technique 9.<br />
+  <em><em>Note:</em></em> While office application suites  support headings in much the same way, the named styles often differ. <br />
+  Formatting  header and result cells brings order to the spreadsheet and makes it easier for  users to navigate effectively.&nbsp;&nbsp; For  example, you can format header rows and columns using &ldquo;Heading&rdquo; styles to apply  bolded, enlarged, and italicized text (among other characteristics).&nbsp; You may also want to format cells containing  results of calculations to appear bold and underlined to help distinguish them  from the rest of your data.<br />
+  At this time,  Word 2003 does not offer a Named Styles feature. <strong><strong>[Tested: January 17, 2011]</strong></strong> </p>
+<h3><a name="_Toc278376935" id="_Toc278376935"><strong><strong>4.2 Other Cell Characteristics</strong></strong></a><strong><strong> </strong></strong></h3>
+<p>Ensure your cells are formatted to properly  represent your data, including number and text attributes.</p>
+<h4><a name="_Toc278376936" id="_Toc278376936"><strong>To format cell characteristics</strong></a> </h4>
+<ol>
+<li>Highlight the cells that you want to format</li>
+<li>Go to menu item: <strong><strong>Format &gt; Cells&hellip;</strong></strong> </li>
+<li>In the relevant sections (e.g. <strong><strong>Numbers</strong></strong>, <strong><strong>Font</strong></strong>, etc.) make your adjustments<br />
+  <em><em>Note:</em></em> When formatting your spreadsheet, it is best to  avoid merging cells.&nbsp; At times, it may  seem easier to present your data by merging cells, but this can make it more  difficult for users of assistive technologies and people navigating your  spreadsheet using the keyboard. </li>
+</ol>
+<h2><a name="_Toc284933362" id="_Toc284933362"></a><a name="_Toc278376937" id="_Toc278376937"><strong>Technique 5. Use Cell  Addressing</strong></a> </h2>
+<h3><a name="_Toc278376938" id="_Toc278376938"><strong>5.1 Define Names</strong></a> </h3>
+<p>Naming the  different data ranges within your spreadsheet makes it easier to navigate  through the document and find specific information.&nbsp; By associating a meaningful name to a data  range, you will be enhancing the readability of your document.&nbsp; These named ranges can be referenced in  multiple locations of your document and within calculations and equations.</p>
+<h4><a name="_Toc278376939" id="_Toc278376939"><strong>To define a name</strong></a> </h4>
+<ol>
+<li>Highlight the cells you would like to name</li>
+<li>Go to menu item: <strong><strong>Insert &gt; Name &gt; Define&hellip;</strong></strong> </li>
+<li>In the <strong><strong>Define Name</strong></strong> dialog, enter the name for the data range in the <strong><strong>Name</strong></strong> text box</li>
+<li>Select <strong><strong>OK</strong></strong> </li>
+</ol>
+<h2><a name="_Toc284933363" id="_Toc284933363"></a><a name="_Toc278376940" id="_Toc278376940"><strong>Technique 6. Create  Accessible Charts</strong></a> </h2>
+<p>Charts  can be used to make data more understandable for some audiences.&nbsp; However,  it is important to ensure that your chart is as accessible as possible to all  members of your audience.&nbsp; All basic  accessibility considerations that are applied to the rest of your document must  also be applied to your charts and the elements within your charts.&nbsp; For  example, use shape and color, rather than color alone, to convey  information.&nbsp; As well, some further steps should be taken to ensure that  the contents are your chart are appropriate labeled to give users reference  points that will help them to correctly interpret the information. &nbsp;&nbsp;</p>
+<h3><strong>Tips for making charts more  accessible</strong></h3>
+<ul>
+<li>Follow the techniques for making content  easier to see (Technique 9) and understand (Technique 10). For example, use  shape and color, rather than color alone, to convey information.&nbsp; </li>
+<li>When creating line charts,  use the formatting options to create different types of dotted lines to  facilitate legibility for users who are color blind</li>
+<li>Change the default colors  to a color safe or gray-scale palette</li>
+<li>Use the formatting options  to change predefined colors, ensuring that they align with sufficient contrast  requirements (see Other Considerations, below) </li>
+<li>To help users interpret your chart, use as  many of the titles and label options as are relevant</li>
+<li>Consider placing a textual summary of the  chart adjacent to it in the spreadsheet. The summary will be required as  alternative text or longer descriptive text if the chart is ever exported to  another office application (e.g. word processor or presentation application).</li>
+<li>When you export your chart to another office  application, consider also including the data used to create the table in  tabular form.</li>
+</ul>
+<h3><strong>To create a chart</strong></h3>
+<ol>
+<li>Select the data that you  want to include in the chart</li>
+<li>Go to menu item: <strong><strong>Insert  &gt; Chart&hellip;</strong></strong> </li>
+<li>Follow the steps in the <strong><strong>Chart Wizard</strong></strong>, especially <strong><strong>Step  3 of 4</strong></strong> which allows you to add  titles and labels to the chart</li>
+</ol>
+<h3><strong>To add titles and labels</strong></h3>
+<ol>
+<li>Select the chart</li>
+<li>In the <strong><strong>Chart  Tools</strong></strong> menu section, go to menu  item: <strong><strong>Chart Options&hellip;</strong></strong> </li>
+<li>In the <strong><strong>Titles </strong></strong>section, select the type of title  or label you would like to define (e.g., <strong><strong>Chart Title, Axis Titles, Data Labels</strong></strong>)</li>
+</ol>
+<h3><strong>To apply a predefined Chart  Layout</strong></h3>
+<ol>
+<li>Select the chart</li>
+<li>Go to menu item: <strong><strong>Chart &gt; Chart Type&hellip;</strong></strong> </li>
+<li>In the <strong><strong>Chart  Type</strong></strong> dialog, select the <strong><strong>Standard Types</strong></strong> tab</li>
+<li>Select a <strong><strong>Chart type</strong></strong> from the scrolling list</li>
+<li>Select <strong><strong>OK</strong></strong> </li>
+</ol>
+<h3><strong>To change to a different predefined  Chart Type</strong></h3>
+<ol>
+<li>In the <strong><strong>Chart  Tools</strong></strong> menu section, go to menu  item: <strong><strong>Design</strong></strong> </li>
+<li>In the <strong><strong>Type</strong></strong> section, select the <strong><strong>Change Chart Type</strong></strong> icon</li>
+<li>In the <strong><strong>Change  Chart Type</strong></strong> dialog, select a chart  type from the left pane</li>
+<li>Select a <strong><strong>Chart  Design</strong></strong> from the right pane</li>
+<li>Select <strong><strong>OK</strong></strong> </li>
+</ol>
+<h2><a name="_Toc284933364" id="_Toc284933364"><strong>Technique 7. Provide Structure for Tables</strong></a></h2>
+<p><strong> </strong><strong><strong>&nbsp;</strong></strong>Excel 2003 includes a &ldquo;Data Chart&rdquo; feature, but  this meant for analyzing data by applying preformatted formulas within the data  chart.&nbsp; As such, it is not a structural  feature in the same way that tables are in Word 2010 and PowerPoint 2010.</p>
+<h2><strong>&nbsp;<a name="_Toc284933365" id="_Toc284933365">Technique 8. Use Other  Content Structuring Features</a></strong></h2>
+<p>While cell formatting is the  most common method of structuring documents, other content structuring features  should be used where appropriate:</p>
+<h3><strong>8.1 Document Title</strong></h3>
+<p>In  case the document is ever converted into HTML, it should be given a descriptive  and meaningful title. </p>
+<h4><a name="_Toc278376951" id="_Toc278376951"><strong>To change the title of the current document</strong></a> </h4>
+<ol>
+<li>Go to  menu item: <strong><strong>File &gt; Properties</strong></strong> </li>
+<li>Select the <strong><strong>Title </strong></strong>text box and enter the <strong><strong>Title</strong></strong><strong><br />
+    </strong><em><em>Note:</em></em> The <strong><strong>Title</strong></strong> defined in the properties is different than the  file name. It is also unrelated to the template name, discussed above. </li>
+</ol>
+<h3><strong>8.2 Avoid &ldquo;Floating&rdquo; Elements</strong></h3>
+<p>Avoid &quot;floating&quot;  elements (other than charts) such as floating images, objects, tables or text  boxes.<br />
+  Similarly, avoid placing  drawing objects directly into the document (e.g., as borders, to create a  diagram). Instead, create borders with page layout tools and insert complete  graphical objects.</p>
+<h2><a name="_Toc284933366" id="_Toc284933366"><strong>Technique 9. Make  Content Easier to See</strong></a> </h2>
+<h3><strong>9.1 Format of Text</strong></h3>
+<p>When  formatting text, especially when the text is likely to printed, try to:</p>
+<ul type="disc">
+<li>Use font sizes between 12 and 18 points for       cell contents.</li>
+<li>Use fonts of normal weight, rather than       bold or light weight fonts.&nbsp; If you       do choose to use bold fonts for emphasis, use them sparingly. </li>
+<li>Use standard fonts with clear spacing       and easily recognized upper and lower case characters. Sans serif fonts (e.g.,       Arial, Verdana) may sometimes be easier to read than serif fonts (e.g.,       Times New Roman, Garamond).</li>
+<li>Avoid large amounts of text set all in       caps, italic or underlined.</li>
+<li>Use normal or expanded character       spacing, rather than condensed spacing.</li>
+<li>Avoid animated or scrolling text.</li>
+</ul>
+<p><strong><strong>But can&rsquo;t users just  zoom in?</strong></strong>Office applications do typically include  accessibility features such as the ability to magnify documents and support for  high contrast modes. However, because printing is an important aspect of many  workflows and changing font sizes directly will change documents details such  the pagination, the layout of tables, etc., it is best practice to always  format text for a reasonable degree of accessibility.
+</p>
+<h3><strong>9.2 Use Sufficient Contrast</strong></h3>
+<p>The  visual presentation of text and images of text should have a contrast ration of  at least 4.5:1. To help you determine the contrast, here are some examples on a  white background:</p>
+<ul type="disc">
+<li>Very good contrast (Foreground=black,       Background=white, Ratio=21:1)</li>
+<li>Acceptable contrast       (Foreground=#767676, Background=white, Ratio=4.54:1) </li>
+<li>Unacceptable contrast       (Foreground=#AAAAAA, Background=white, Ratio=2.32:1) </li>
+</ul>
+<p>Also,  always use a single solid color for a text background rather than a pattern.<br />
+  In  order to determine whether the colors in your document have sufficient  contrast, you can consult an online contrast checker, such as: </p>
+<ul>
+<li><a href="http://juicystudio.com/services/luminositycontrastratio.php">Juicy Studio: Luminosity Color Contrast  Ratio Analyzer</a> </li>
+<li><a href="http://www.joedolson.com/color-contrast-tester.php">Joe Dolson Color Contrast Spectrum Tester</a> </li>
+<li><a href="http://www.joedolson.com/color-contrast-compare.php">Joe Dolson Color Contrast Comparison</a> </li>
+</ul>
+<h3><a name="_Toc273692193" id="_Toc273692193"><strong>9.3 Avoid Using Color Alone</strong></a> </h3>
+<p>Color  should not be used as the only visual means of conveying information,  indicating an action, prompting a response, or distinguishing a visual  element.&nbsp; In order to spot where color  might be the only visual means of conveying information, you can create a  screenshot of the document and then view it with online gray-scale converting  tools, such as:</p>
+<ul>
+<li><a href="http://graybit.com/main.php">GrayBit  v2.0: Grayscale Conversion Contrast Accessibility Tool</a> </li>
+</ul>
+<h3><strong>9.4 Avoid Relying on Sensory Characteristics</strong></h3>
+<p>The  instructions provided for understanding and operating content should not rely  solely on sensory characteristics such as the color or shape of content  elements. Here are two examples:</p>
+<ul type="disc">
+<li>Do not track changes by simply changing the color of text you have       edited and noting the color. Instead use Excel 2003&rsquo;s &ldquo;Track Changes&rdquo;       features to track changes.</li>
+<li>Do not distinguish between images by referring to their appearance       (e.g. &ldquo;the bigger one&rdquo;). Instead, label each image with a figure number       and use that for references.</li>
+</ul>
+<h3><a name="_Toc273696202" id="_Toc273696202"></a><a name="_Toc270691604" id="_Toc270691604"><strong>9.5 Avoid Using Images of Text</strong></a></h3>
+<p>Before you  use an image to control the presentation of text (e.g., to ensure a certain  font or color combination), consider whether you can achieve the same result by  styling &ldquo;real text&rdquo;. If this is not possible, as with logos containing stylized  text, make sure to provide alternative text for the image following the  techniques noted above.</p>
+<h2><a name="_Toc273696203" id="_Toc273696203"></a><a name="_Toc270691605" id="_Toc270691605"></a><a name="_Toc284933367" id="_Toc284933367"><strong>Technique 10. Make Content Easier to Understand</strong></a> </h2>
+<h3><strong>10.1  Write Clearly</strong></h3>
+<p>By taking the time to design your content in a consistent way, it will  be easier to access, navigate and interpret for all users:</p>
+<ul type="disc">
+<li>Whenever possible, write clearly with short sentences.</li>
+<li>Introduce acronyms and spell out abbreviations.</li>
+<li>Avoid making the document too &ldquo;busy&rdquo; by using lots of whitespace       and by avoiding too many different colors, fonts and images.</li>
+<li>If content is repeated on multiple pages within a document or       within a set of documents (e.g., headings, footings, etc.), it should       occur consistently each time it is repeated.&nbsp; </li>
+</ul>
+<h3><a name="_Toc273696206" id="_Toc273696206"><strong>10.2 Navigational Instructions</strong></a></h3>
+<p>Provide a  general description of the spreadsheet contents and instructions on how to  navigate the data effectively.&nbsp; The best  way to do this is to make a cell at the beginning of the data (e.g., A1) with  this information.&nbsp; It will be the first  cell accessed by assistive technologies.&nbsp;  If you are using this cell for a label or data, you can attach a comment  note to the cell containing navigational instructions.</p>
+<h2><a name="_Toc284933368" id="_Toc284933368"><strong>Technique 11.  Check Accessibility</strong></a> </h2>
+<p>At  this time, Excel 2003 does not offer a mechanism to check for potential  accessibility errors in your document prior to publishing.&nbsp; <strong><strong>[Tested: January 17th, 2011]</strong></strong><br />
+  In  order to get some indication of the accessibility of your document or template  (see Technique 1), then you may consider saving the file into HTML or PDF in  order to perform an accessibility check in one of those formats, as described  below.</p>
+<h3><strong>To evaluate HTML  accessibility</strong></h3>
+<p>Another  option is to save the document into HTML format and use one of the web  accessibility checkers available online.&nbsp;  Such as:</p>
+<ul>
+<li><a href="http://achecker.ca/checker/index.php">AChecker</a> </li>
+<li><a href="http://wave.webaim.org/">WebAIM Wave Web Accessibility Evaluation Tool</a> </li>
+</ul>
+<h2><a name="_Toc284933369" id="_Toc284933369"><strong>Technique 12.  Use Accessibility Features when Saving/Exporting to Other Formats</strong></a> </h2>
+<p>In  some cases, additional steps must be taken in order to ensure accessibility  information is preserved when saving/exporting to formats other than the  default.</p>
+<h3><strong>HTML</strong></h3>
+<ol>
+<li>Go to menu item: <strong><strong>File &gt; Save As Page&hellip;</strong></strong> </li>
+<li>In the <strong><strong>File name</strong></strong> box, type a name for the file</li>
+<li>Select <strong><strong>Save</strong></strong> </li>
+<li>Check the HTML file for  accessibility (see Technique 11, above)</li>
+</ol>
+<h3><a name="_Toc273644400" id="_Toc273644400"><strong>To clean up your HTML file</strong></a></h3>
+<ul>
+<li>Remove  unnecessary styles, line breaks, etc.</li>
+<li>Remove  unnecessary id, class, and attributes</li>
+<li>Remove  font tags</li>
+<li>Remove  styles in the &lt;head&gt; tag</li>
+<li>Ensure  the &lt;th&gt; tags have a scope attribute</li>
+<li>Remove  &lt;p&gt; tags nested inside &lt;th&gt; and &lt;td&gt; tags</li>
+<li>Check  for accessibility (see Technique 11, above)<br />
+  <em><em>Note:</em></em> you  may wish to use HTML editors or utilities to help with this process.</li>
+</ul>
+<h2><a name="_Toc284933370" id="_Toc284933370"></a><a name="_Toc282426592" id="_Toc282426592"><strong>Technique 13. Consider  Using Accessibility Support Applications/Plugins</strong></a> </h2>
+<p><a name="OLE_LINK2" id="OLE_LINK2"></a><a name="OLE_LINK1" id="OLE_LINK1"><em><em>Disclaimer: </em></em>This list is provided for  information purposes only. It is not exhaustive and inclusion of an application  or plug-in on the list does not constitute a recommendation or guarantee of  results by the IDRC.</a></p>
+<ul>
+<li> <a href="http://www.microsoft.com/enable/training/office2003/default.aspx">Office 2003 Accessibility  Tutorials </a> </li>
+<li> <a href="http://office.microsoft.com/en-us/training/CR006183114.aspx">Excel 2003 Training </a> </li>
+<li> <a href="http://office.microsoft.com/en-us/excel-help/accessibility-features-in-excel-HP005198434.aspx">Excel 2003 Accessibility Features </a> </li>
+</ul>
+<h2><a name="_Toc284933371" id="_Toc284933371"><strong>Accessibility  Help</strong></a> </h2>
+<p>If you are  interested in what features are provided to make using Excel 2003 more  accessible to users, documentation is provided in the Help system: <strong><strong> </strong></strong></p>
+<ol>
+<li>Go to menu item: <strong><strong>Help  &gt; Microsoft Excel Help</strong></strong> </li>
+<li>Enter &ldquo;Accessibility&rdquo; as your search term in the <strong><strong>Help </strong></strong>dialog box</li>
+</ol>
+<h2><a name="_Toc284933372" id="_Toc284933372"><strong>References and  Resources</strong></a> </h2>
+<ol>
+<li>Microsoft  Excel 2003 Help</li>
+<li>GAWDS Writing Better Alt Text [<a href="http://www.gawds.org/show.php?contentid=28" target="_blank">http://www.gawds.org/show.php?contentid=28</a>]</li>
+</ol>
+<h2><a name="_Toc284933373" id="_Toc284933373"><strong>Acknowledgments</strong></a></h2>
+<p>This document was produced as part of the  Accessible Digital Office Document (ADOD) Project (<a href="http://inclusivedesign.ca/accessible-office-documents" title="http://inclusivedesign.ca/accessible-office-documents">http://inclusivedesign.ca/accessible-office-documents</a>).<br />
+  This project has been developed by the  Inclusive Design Research Centre, OCAD University as part of an EnAbling Change  Partnership project with the Government of Ontario and UNESCO (United Nations  Educational, Scientific and Cultural Organization).</p>
+<p><img src="sites/adod.idrc.ocad.ca/files/partners.png" alt="Partner logos: UNESCO-United Nations Educational, Scientific and Cultural Organization, the Government of Ontario and the Inclusive Design Research Centre (OCAD University)" width="626" height="166" /> </p>
+<p>Copyright &copy; 2011 Inclusive Design Research  Centre, OCAD University<br />
+  This material may be reproduced and distributed in print or electronic  format only as long as: </p>
+<p>(a) the reproduction is offered at no cost to the recipients; and<br />
+  (b) the reproduction must  preserve the &quot;Version&quot; section; and<br />
+  (c) the reproduction must  preserve the &quot;Acknowledgments&quot; section; and<br />
+  (d) the reproduction must  preserve this copyright notice.</p>
+<p>&nbsp;</p>
+<p><br />
+</p>
+  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+      </div>
+
+</div>
+          </div>
+                    <div id="footer">Copyright 2010, IDRC</div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+    </body>
+</html>
