@@ -75,7 +75,10 @@ jobs:
             export STATIC_SITE_PORT=$STATIC_SITE_PORT     && \
             docker-compose -p $PROJECT_ID                    \
                            -f docker-compose.prod.yml        \
-                           up --force-recreate --build -d
+                           pull static_site               && \
+            docker-compose -p $PROJECT_ID                    \
+                           -f docker-compose.prod.yml        \
+                           up --force-recreate -d
 
       - name: Wait
         run: sleep 15
