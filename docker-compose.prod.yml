@@ -1,0 +1,7 @@
+version: '3'
+services:
+  static_site:
+    image: inclusivedesign/website-adod
+    ports:
+      - "${STATIC_SITE_PORT}:80"
+    restart: always
